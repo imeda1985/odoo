@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* base_report_wkhtmltox
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.5a1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:41+0000\n"
+"PO-Revision-Date: 2026-08-28 17:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: base_report_wkhtmltox
+#: model:ir.module.module,description:base.module_base_report_wkhtmltox
+msgid ""
+"\n"
+"This module is the implementation of the wkhtmltopdf and\n"
+"wlhtmltoimage rendering engine for Odoo.\n"
+"\n"
+"learn more about it here:\n"
+"https://wkhtmltopdf.org/\n"
+msgstr ""
+"\n"
+"ეს მოდული წარმოადგენს Odoo-სთვის wkhtmltopdf და\n"
+"wlhtmltoimage რენდერინგის ძრავის რეალიზაციას.\n"
+"\n"
+"დამატებითი ინფორმაცია:\n"
+"https://wkhtmltopdf.org/\n"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "საჩვენებელი სახელი"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__report_type
+msgid "Format"
+msgstr "ფორმატი"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model.fields,field_description:base_report_wkhtmltox.field_ir_actions_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model.fields.selection,name:base_report_wkhtmltox.selection__ir_actions_report__report_type__qweb-pdf-wkhtmltopdf
+msgid "PDF (Wkhtmltopdf)"
+msgstr "PDF (Wkhtmltopdf)"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model,name:base_report_wkhtmltox.model_ir_actions_report
+msgid "Report Action"
+msgstr "ანგარიშგების მოქმედება"
+
+#. module: base_report_wkhtmltox
+#: model:ir.module.module,shortdesc:base.module_base_report_wkhtmltox
+msgid "Report Engine: wkhtmltopdf/wkhtmltoimage"
+msgstr "ანგარიშგების ძრავა: wkhtmltopdf/wkhtmltoimage"
+
+#. module: base_report_wkhtmltox
+#: model:ir.model.fields,help:base_report_wkhtmltox.field_ir_actions_report__report_type
+msgid ""
+"The type of the report that will be rendered, each one having its own "
+"rendering method. HTML means the report will be opened directly in your "
+"browser, PDF means the report will be generated and downloaded by the user."
+msgstr ""
+"ანგარიშგების ტიპი, რომლითაც ის დარენდერდება; თითოეულს საკუთარი რენდერინგის "
+"მეთოდი აქვს. HTML ნიშნავს, რომ ანგარიშგება პირდაპირ ბრაუზერში გაიხსნება, PDF "
+"კი — რომ ანგარიშგება დაგენერირდება და მომხმარებელი მას ჩამოტვირთავს."
+
+#. module: base_report_wkhtmltox
+#. odoo-python
+#: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
+msgid "Tried to convert multiple documents in wkhtmltopdf using unpatched QT"
+msgstr ""
+"მცდელობა, wkhtmltopdf-ში რამდენიმე დოკუმენტი გარდაქმნილიყო QT-ის "
+"შეუსწორებელი ვერსიით"
+
+#. module: base_report_wkhtmltox
+#. odoo-python
+#: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
+msgid ""
+"Wkhtmltoimage failed (error code: %(error_code)s). Message: "
+"%(error_message_end)s"
+msgstr ""
+"Wkhtmltoimage-მა ვერ იმუშავა (შეცდომის კოდი: %(error_code)s). შეტყობინება: "
+"%(error_message_end)s"
+
+#. module: base_report_wkhtmltox
+#. odoo-python
+#: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
+msgid ""
+"Wkhtmltopdf failed (error code: %(error_code)s). Memory limit too low or "
+"maximum file number of subprocess reached. Message : %(message)s"
+msgstr ""
+"Wkhtmltopdf-მა ვერ იმუშავა (შეცდომის კოდი: %(error_code)s). მეხსიერების "
+"ლიმიტი ძალიან დაბალია ან მიღწეულია ქვეპროცესის ფაილების მაქსიმალური "
+"რაოდენობა. შეტყობინება: %(message)s"
+
+#. module: base_report_wkhtmltox
+#. odoo-python
+#: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
+msgid "Wkhtmltopdf failed (error code: %(error_code)s). Message: %(message)s"
+msgstr ""
+"Wkhtmltopdf-მა ვერ იმუშავა (შეცდომის კოდი: %(error_code)s). შეტყობინება: "
+"%(message)s"
+
+#. module: base_report_wkhtmltox
+#. odoo-python
+#: code:addons/base_report_wkhtmltox/models/ir_actions_report.py:0
+msgid "wkhtmltoimage 0.12.0^ is required in order to render images from html"
+msgstr "html-დან სურათების დასარენდერებლად საჭიროა wkhtmltoimage 0.12.0^"
+
+#. module: base_report_wkhtmltox
+#: model:ir.module.module,summary:base.module_base_report_wkhtmltox
+msgid "wkhtmltopdf rendering engine"
+msgstr "wkhtmltopdf რენდერინგის ძრავა"
