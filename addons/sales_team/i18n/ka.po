@@ -24,18 +24,21 @@ msgid ""
 "Using this application you can manage Sales Teams with CRM and/or Sales\n"
 "=======================================================================\n"
 msgstr ""
+"\n"
+"ამ აპლიკაციით შეგიძლიათ მართოთ გაყიდვების გუნდები CRM-ით და/ან გაყიდვებით\n"
+"=======================================================================\n"
 
 #. module: sales_team
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid "%(user_name)s already in other teams (%(team_names)s)."
-msgstr ""
+msgstr "%(user_name)s უკვე სხვა გუნდებშია (%(team_names)s)."
 
 #. module: sales_team
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "%(user_names)s already in other teams (%(team_names)s)."
-msgstr ""
+msgstr "%(user_names)s უკვე სხვა გუნდებშია (%(team_names)s)."
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -43,6 +46,8 @@ msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"business\" "
 "title=\"Company\"/>"
 msgstr ""
+"<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"business\" "
+"title=\"კომპანია\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -50,6 +55,8 @@ msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"group\" "
 "title=\"Sales Team\"/>"
 msgstr ""
+"<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"group\" "
+"title=\"გაყიდვების გუნდი\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -57,6 +64,8 @@ msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"mail\" "
 "title=\"Email\"/>"
 msgstr ""
+"<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"mail\" "
+"title=\"ელფოსტა\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -64,6 +73,8 @@ msgid ""
 "<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"phone\" "
 "title=\"Phone\"/>"
 msgstr ""
+"<i class=\"d-none d-md-block oi oi-filled\" data-icon=\"phone\" "
+"title=\"ტელეფონი\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
@@ -71,6 +82,8 @@ msgid ""
 "<i class=\"oi oi-filled me-1\" data-icon=\"mail\" role=\"img\" aria-"
 "label=\"Email\" title=\"Email\"/>"
 msgstr ""
+"<i class=\"oi oi-filled me-1\" data-icon=\"mail\" role=\"img\" aria-"
+"label=\"ელფოსტა\" title=\"ელფოსტა\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
@@ -78,33 +91,35 @@ msgid ""
 "<i class=\"oi oi-fw oi-filled me-1 text-primary\" data-icon=\"group\" "
 "title=\"Sales Team\"/>"
 msgstr ""
+"<i class=\"oi oi-fw oi-filled me-1 text-primary\" data-icon=\"group\" "
+"title=\"გაყიდვების გუნდი\"/>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
 msgid "<span>New</span>"
-msgstr ""
+msgstr "<span>ახალი</span>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
 msgid "<span>Reporting</span>"
-msgstr ""
+msgstr "<span>ანგარიშგება</span>"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
 msgid "<span>View</span>"
-msgstr ""
+msgstr "<span>ნახვა</span>"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_needaction
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "საჭიროა მოქმედება"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Activate \"Multi-team\""
-msgstr ""
+msgstr "„მრავალგუნდიანი“ რეჟიმის გააქტიურება"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__active
@@ -115,28 +130,30 @@ msgstr "აქტიური"
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.mail_activity_type_action_config_sales
 msgid "Activity Types"
-msgstr ""
+msgstr "აქტივობის ტიპები"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Add a Team Member"
-msgstr ""
+msgstr "გუნდის წევრის დამატება"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__crm_team_member_ids
 msgid "Add members to automatically assign their documents to this sales team."
 msgstr ""
+"დაამატეთ წევრები, რათა მათი დოკუმენტები ავტომატურად მიენიჭოს ამ გაყიდვების "
+"გუნდს."
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_manager
 msgid "Administrator"
-msgstr ""
+msgstr "ადმინისტრატორი"
 
 #. module: sales_team
 #. odoo-javascript
 #: code:addons/sales_team/static/src/js/crm_team_form.js:0
 msgid "An error occurred while activating the Multi-Team option."
-msgstr ""
+msgstr "მრავალგუნდიანი რეჟიმის გააქტიურებისას მოხდა შეცდომა."
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
@@ -145,46 +162,46 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_search
 msgid "Archived"
-msgstr ""
+msgstr "დაარქივებული"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_attachment_count
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "დანართების რაოდენობა"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_kanban
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Avatar"
-msgstr ""
+msgstr "ავატარი"
 
 #. module: sales_team
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Big Pretty Button :)"
-msgstr ""
+msgstr "დიდი ლამაზი ღილაკი :)"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_tag
 msgid "CRM Tag"
-msgstr ""
+msgstr "CRM ტეგი"
 
 #. module: sales_team
 #. odoo-python
 #: code:addons/sales_team/models/crm_team.py:0
 msgid "Cannot delete default team \"%s\""
-msgstr ""
+msgstr "ნაგულისხმევი გუნდის „%s“ წაშლა შეუძლებელია"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__color
 msgid "Color"
-msgstr ""
+msgstr "ფერი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__color
 msgid "Color Index"
-msgstr ""
+msgstr "ფერის ინდექსი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__company_id
@@ -196,27 +213,27 @@ msgstr "კომპანია"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_kanban_dashboard
 msgid "Configuration"
-msgstr ""
+msgstr "კონფიგურაცია"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor7
 msgid "Consulting"
-msgstr ""
+msgstr "კონსალტინგი"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.sales_team_crm_tag_action
 msgid "Create CRM Tags"
-msgstr ""
+msgstr "CRM ტეგების შექმნა"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 msgid "Create a Sales Team"
-msgstr ""
+msgstr "გაყიდვების გუნდის შექმნა"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
 msgid "Create an Activity Type"
-msgstr ""
+msgstr "აქტივობის ტიპის შექმნა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__create_uid
@@ -235,22 +252,22 @@ msgstr "შექმნის თარიღი"
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__currency_id
 msgid "Currency"
-msgstr ""
+msgstr "ვალუტა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__dashboard_button_name
 msgid "Dashboard Button"
-msgstr ""
+msgstr "დაფის ღილაკი"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline
 msgid "Define a new sales team"
-msgstr ""
+msgstr "ახალი გაყიდვების გუნდის განსაზღვრა"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor5
 msgid "Design"
-msgstr ""
+msgstr "დიზაინი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__display_name
@@ -258,41 +275,42 @@ msgstr ""
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__display_name
 #: model:ir.model.fields,field_description:sales_team.field_res_users__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__email
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid "Email"
-msgstr ""
+msgstr "ელფოსტა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__favorite_user_ids
 msgid "Favorite Members"
-msgstr ""
+msgstr "რჩეული წევრები"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_favorite
 msgid "Favorite teams to display them in the dashboard and access them easily."
 msgstr ""
+"რჩეული გუნდები, რომლებიც დაფაზე გამოჩნდება და მარტივად ხელმისაწვდომი იქნება."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_follower_ids
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "გამომწერები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_partner_ids
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "გამომწერები (პარტნიორები)"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__has_message
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "აქვს შეტყობინება"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__id
@@ -300,7 +318,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__id
 #: model:ir.model.fields,field_description:sales_team.field_res_users__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__is_membership_multi
@@ -309,18 +327,20 @@ msgid ""
 "If True, users may belong to several sales teams. Otherwise membership is "
 "limited to a single sales team."
 msgstr ""
+"თუ ჩართულია, მომხმარებლები შეიძლება რამდენიმე გაყიდვების გუნდს ეკუთვნოდნენ. "
+"წინააღმდეგ შემთხვევაში წევრობა შეზღუდულია ერთი გაყიდვების გუნდით."
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_needaction
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "მონიშვნის შემთხვევაში ახალი შეტყობინებები თქვენს ყურადღებას მოითხოვს."
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_has_error
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "მონიშვნის შემთხვევაში ზოგიერთი შეტყობინების მიწოდებისას მოხდა შეცდომა."
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__active
@@ -328,27 +348,29 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Sales "
 "Team without removing it."
 msgstr ""
+"თუ აქტიური ველი გამორთულია, შეგიძლიათ დამალოთ გაყიდვების გუნდი მისი წაშლის "
+"გარეშე."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__image_1920
 msgid "Image"
-msgstr ""
+msgstr "სურათი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__image_128
 msgid "Image (128)"
-msgstr ""
+msgstr "სურათი (128)"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor4
 msgid "Information"
-msgstr ""
+msgstr "ინფორმაცია"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "გამომწერია"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__write_uid
@@ -362,7 +384,7 @@ msgstr "ბოლოს განაახლა"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__write_date
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_res_users__sale_team_id
@@ -370,127 +392,129 @@ msgid ""
 "Main user sales team. Used notably for pipeline, or to set sales team in "
 "invoicing or subscription."
 msgstr ""
+"მომხმარებლის ძირითადი გაყიდვების გუნდი. გამოიყენება განსაკუთრებით გაყიდვების "
+"არხისთვის, ან ინვოისინგსა და გამოწერებში გაყიდვების გუნდის მისათითებლად."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_company_ids
 msgid "Member Company"
-msgstr ""
+msgstr "წევრის კომპანია"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__member_warning
 msgid "Member Warning"
-msgstr ""
+msgstr "წევრის გაფრთხილება"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Members"
-msgstr ""
+msgstr "წევრები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_warning
 msgid "Membership Issue Warning"
-msgstr ""
+msgstr "გაფრთხილება წევრობის პრობლემის შესახებ"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_has_error
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "შეტყობინების მიწოდების შეცდომა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_ids
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "შეტყობინებები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_membership_multi
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__is_membership_multi
 msgid "Multiple Memberships Allowed"
-msgstr ""
+msgstr "დაშვებულია მრავალჯერადი წევრობა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__name
 msgid "Name"
-msgstr ""
+msgstr "დასახელება"
 
 #. module: sales_team
 #: model:res.groups.privilege,placeholder:sales_team.res_groups_privilege_sales
 msgid "No"
-msgstr ""
+msgstr "არა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_needaction_counter
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "მოქმედებების რაოდენობა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_has_error_counter
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "შეცდომების რაოდენობა"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_needaction_counter
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "მოქმედების მომთხოვნი შეტყობინებების რაოდენობა"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__message_has_error_counter
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "მიწოდების შეცდომის მქონე შეტყობინებების რაოდენობა"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor8
 msgid "Other"
-msgstr ""
+msgstr "სხვა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__phone
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid "Phone"
-msgstr ""
+msgstr "ტელეფონი"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.pos_sales_team
 msgid "Point of Sale"
-msgstr ""
+msgstr "გაყიდვების წერტილი"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.crm_team_1
 msgid "Pre-Sales"
-msgstr ""
+msgstr "წინასაგაყიდვო"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor1
 msgid "Product"
-msgstr ""
+msgstr "პროდუქტი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__rating_ids
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "შეფასებები"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.team_sales_department
 #: model:res.groups.privilege,name:sales_team.res_groups_privilege_sales
 msgid "Sales"
-msgstr ""
+msgstr "გაყიდვები"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_tree
 msgid "Sales Men"
-msgstr ""
+msgstr "გაყიდვების მენეჯერები"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_search
 msgid "Sales Person"
-msgstr ""
+msgstr "გაყიდვების მენეჯერი"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team
@@ -501,23 +525,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_tree
 msgid "Sales Team"
-msgstr ""
+msgstr "გაყიდვების გუნდი"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_crm_team_member
 msgid "Sales Team Member"
-msgstr ""
+msgstr "გაყიდვების გუნდის წევრი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_ids
 #: model:ir.model.fields,field_description:sales_team.field_res_users__crm_team_member_ids
 msgid "Sales Team Members"
-msgstr ""
+msgstr "გაყიდვების გუნდის წევრები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__crm_team_member_all_ids
 msgid "Sales Team Members (incl. inactive)"
-msgstr ""
+msgstr "გაყიდვების გუნდის წევრები (არააქტიურების ჩათვლით)"
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_config
@@ -525,95 +549,96 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_sales_team
 #: model:ir.module.module,summary:base.module_sales_team
 msgid "Sales Teams"
-msgstr ""
+msgstr "გაყიდვების გუნდები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_id
 msgid "Salesperson"
-msgstr ""
+msgstr "გაყიდვების მენეჯერი"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__member_ids
 msgid "Salespersons"
-msgstr ""
+msgstr "გაყიდვების მენეჯერები"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_search
 msgid "Salesteams Search"
-msgstr ""
+msgstr "გაყიდვების გუნდების ძიება"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "მიმდევრობა"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor3
 msgid "Services"
-msgstr ""
+msgstr "მომსახურება"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__is_favorite
 msgid "Show on dashboard"
-msgstr ""
+msgstr "დაფაზე ჩვენება"
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor2
 msgid "Software"
-msgstr ""
+msgstr "პროგრამული უზრუნველყოფა"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_tag__name
 msgid "Tag Name"
-msgstr ""
+msgstr "ტეგის დასახელება"
 
 #. module: sales_team
 #: model:ir.model.constraint,message:sales_team.constraint_crm_tag_name_uniq
 msgid "Tag name already exists!"
-msgstr ""
+msgstr "ასეთი ტეგი უკვე არსებობს!"
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.sales_team_crm_tag_action
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_tree
 msgid "Tags"
-msgstr ""
+msgstr "ტეგები"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Team Details"
-msgstr ""
+msgstr "გუნდის დეტალები"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__user_id
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_search
 msgid "Team Leader"
-msgstr ""
+msgstr "გუნდის ლიდერი"
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_member_action
 msgid "Team Members"
-msgstr ""
+msgstr "გუნდის წევრები"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_member_action
 msgid "Team Members are salespersons assigned to specific teams."
 msgstr ""
+"გუნდის წევრები არიან კონკრეტულ გუნდებზე მიმაგრებული გაყიდვების მენეჯერები."
 
 #. module: sales_team
 #: model:ir.actions.act_window,name:sales_team.crm_team_action_pipeline
 msgid "Teams"
-msgstr ""
+msgstr "გუნდები"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__color
 msgid "The color of the channel"
-msgstr ""
+msgstr "არხის ფერი"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__company_id
 msgid "The default company for this user."
-msgstr ""
+msgstr "ამ მომხმარებლის ნაგულისხმევი კომპანია."
 
 #. module: sales_team
 #. odoo-python
@@ -622,6 +647,8 @@ msgid ""
 "The following team members are not allowed in company '%(company)s' of the "
 "Sales Team '%(team)s': %(users)s"
 msgstr ""
+"გუნდის შემდეგი წევრები დაუშვებელია გაყიდვების გუნდის „%(team)s“ კომპანიაში "
+"„%(company)s“: %(users)s"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.mail_activity_type_action_config_sales
@@ -629,28 +656,35 @@ msgid ""
 "Those represent the different categories of things you have to do (e.g. "
 "\"Call\" or \"Prepare meeting\")."
 msgstr ""
+"ეს არის სხვადასხვა კატეგორიის საქმეები, რომლებიც უნდა შეასრულოთ (მაგ. „ზარი“ "
+"ან „შეხვედრისთვის მომზადება“)."
 
 #. module: sales_team
 #: model:crm.tag,name:sales_team.categ_oppor6
 msgid "Training"
-msgstr ""
+msgstr "ტრენინგი"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_in_teams_ids
 msgid ""
 "UX: Give users not to add in the currently chosen team to avoid duplicates"
 msgstr ""
+"UX: მიუთითეთ მომხმარებლები, რომლებიც არ უნდა დაემატოს ამჟამად არჩეულ გუნდს "
+"დუბლიკატების თავიდან ასაცილებლად"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_company_ids
 #: model:ir.model.fields,help:sales_team.field_crm_team_member__user_company_ids
 msgid "UX: Limit to team company or all if no company"
 msgstr ""
+"UX: შეზღუდვა გუნდის კომპანიით, ან ყველა, თუ კომპანია არ არის მითითებული"
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_config
 msgid "Use Sales Teams to organize your sales departments and draw up reports."
 msgstr ""
+"გამოიყენეთ გაყიდვების გუნდები გაყიდვების განყოფილებების ორგანიზებისა და "
+"ანგარიშგებების მოსამზადებლად."
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.crm_team_action_pipeline
@@ -658,6 +692,8 @@ msgid ""
 "Use Sales Teams to organize your sales departments.\n"
 "                Each team will work with a separate pipeline."
 msgstr ""
+"გამოიყენეთ გაყიდვების გუნდები გაყიდვების განყოფილებების ორგანიზებისთვის.\n"
+"                თითოეული გუნდი იმუშავებს ცალკე გაყიდვების არხით."
 
 #. module: sales_team
 #: model_terms:ir.actions.act_window,help:sales_team.sales_team_crm_tag_action
@@ -665,11 +701,13 @@ msgid ""
 "Use Tags to manage and track your Opportunities (product structure, sales "
 "type, ...)"
 msgstr ""
+"გამოიყენეთ ტეგები თქვენი შესაძლებლობების სამართავად და აღსარიცხად (პროდუქტის "
+"სტრუქტურა, გაყიდვის ტიპი, ...)"
 
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
 msgid "User"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #. module: sales_team
 #. odoo-python
@@ -678,75 +716,79 @@ msgid ""
 "User '%(user)s' is not allowed in the company '%(company)s' of the Sales "
 "Team '%(team)s'."
 msgstr ""
+"მომხმარებელი „%(user)s“ დაუშვებელია გაყიდვების გუნდის „%(team)s“ კომპანიაში "
+"„%(company)s“."
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_company_ids
 msgid "User Company"
-msgstr ""
+msgstr "მომხმარებლის კომპანია"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team_member__user_in_teams_ids
 msgid "User In Teams"
-msgstr ""
+msgstr "მომხმარებელი გუნდებში"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_res_users__sale_team_id
 msgid "User Sales Team"
-msgstr ""
+msgstr "მომხმარებლის გაყიდვების გუნდი"
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman_all_leads
 msgid "User: All Documents"
-msgstr ""
+msgstr "მომხმარებელი: ყველა დოკუმენტი"
 
 #. module: sales_team
 #: model:res.groups,name:sales_team.group_sale_salesman
 msgid "User: Own Documents Only"
-msgstr ""
+msgstr "მომხმარებელი: მხოლოდ საკუთარი დოკუმენტები"
 
 #. module: sales_team
 #: model:ir.model.fields,help:sales_team.field_crm_team__member_ids
 msgid "Users assigned to this team."
-msgstr ""
+msgstr "ამ გუნდზე მიმაგრებული მომხმარებლები."
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Visible to all"
-msgstr ""
+msgstr "ყველასთვის ხილული"
 
 #. module: sales_team
 #: model:crm.team,name:sales_team.salesteam_website_sales
 msgid "Website"
-msgstr ""
+msgstr "ვებგვერდი"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Working in multiple teams?"
-msgstr ""
+msgstr "მუშაობთ რამდენიმე გუნდში?"
 
 #. module: sales_team
 #. odoo-python
 #: code:addons/sales_team/models/crm_team_member.py:0
 msgid ""
-"You are trying to create duplicate membership(s). We found that %"
-"(duplicates)s already exist(s)."
+"You are trying to create duplicate membership(s). We found that "
+"%(duplicates)s already exist(s)."
 msgstr ""
+"თქვენ ცდილობთ დუბლირებული წევრობის შექმნას. აღმოჩნდა, რომ %(duplicates)s "
+"უკვე არსებობს."
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_member_view_form
 msgid "e.g. John Doe"
-msgstr ""
+msgstr "მაგ. გიორგი ბერიძე"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "e.g. North America"
-msgstr ""
+msgstr "მაგ. ჩრდილოეთ ამერიკა"
 
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.sales_team_crm_tag_view_form
 msgid "e.g. Services"
-msgstr ""
+msgstr "მაგ. მომსახურება"
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman_all_leads
@@ -754,11 +796,12 @@ msgid ""
 "the user will have access to all records of everyone in the sales "
 "application."
 msgstr ""
+"მომხმარებელს ექნება წვდომა გაყიდვების აპლიკაციაში ყველას ყველა ჩანაწერზე."
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_salesman
 msgid "the user will have access to his own data in the sales application."
-msgstr ""
+msgstr "მომხმარებელს ექნება წვდომა საკუთარ მონაცემებზე გაყიდვების აპლიკაციაში."
 
 #. module: sales_team
 #: model:res.groups,comment:sales_team.group_sale_manager
@@ -766,3 +809,5 @@ msgid ""
 "the user will have an access to the sales configuration as well as statistic "
 "reports."
 msgstr ""
+"მომხმარებელს ექნება წვდომა გაყიდვების კონფიგურაციასა და სტატისტიკურ "
+"ანგარიშგებებზე."
