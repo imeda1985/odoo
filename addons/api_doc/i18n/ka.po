@@ -1,0 +1,237 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* api_doc
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-09-11 13:54+0000\n"
+"PO-Revision-Date: 2025-09-11 13:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_api_key.xml:0
+msgid "API key"
+msgstr "API გასაღები"
+
+#. module: api_doc
+#: model:ir.model,name:api_doc.model_ir_attachment
+msgid "Attachment"
+msgstr "დანართი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_api_key.xml:0
+msgid "Cancel"
+msgstr "გაუქმება"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Copied!"
+msgstr "დაკოპირდა!"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_method.xml:0
+msgid "Description"
+msgstr "აღწერა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Deselect all"
+msgstr "მონიშვნის მოხსნა"
+
+#. module: api_doc
+#: model:ir.model.fields,field_description:api_doc.field_ir_attachment__display_name
+msgid "Display Name"
+msgstr "საჩვენებელი სახელი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Error"
+msgstr "შეცდომა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Error while loading model"
+msgstr "შეცდომა მოდელის ჩატვირთვისას"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/doc_client.xml:0
+msgid "Error while loading models"
+msgstr "შეცდომა მოდელების ჩატვირთვისას"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Failed"
+msgstr "წარუმატებელი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Fields"
+msgstr "ველები"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_search.xml:0
+#: code:addons/api_doc/static/src/doc_client.xml:0
+msgid "Find anything..."
+msgstr "მოძებნეთ ნებისმიერი..."
+
+#. module: api_doc
+#: model:ir.model.fields,field_description:api_doc.field_ir_attachment__id
+msgid "ID"
+msgstr "ID"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/doc_client.xml:0
+msgid "Loading Models"
+msgstr "მოდელები იტვირთება"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Methods"
+msgstr "მეთოდები"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Modules"
+msgstr "მოდულები"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_table.xml:0
+msgid "No Data"
+msgstr "მონაცემები არ არის"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/doc_client.xml:0
+#: model_terms:ir.ui.view,arch_db:api_doc.docclient
+msgid "Odoo Runtime Doc"
+msgstr "Odoo-ს Runtime დოკუმენტაცია"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "On This Page"
+msgstr "ამ გვერდზე"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_method.xml:0
+msgid "Parameters"
+msgstr "პარამეტრები"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Request"
+msgstr "მოთხოვნა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Response"
+msgstr "პასუხი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_method.xml:0
+msgid "Return"
+msgstr "დასაბრუნებელი მნიშვნელობა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_method.xml:0
+msgid "Route"
+msgstr "მარშრუტი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Run"
+msgstr "გაშვება"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Run to get a response"
+msgstr "გაუშვით პასუხის მისაღებად"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_api_key.xml:0
+msgid "Save"
+msgstr "შენახვა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_sidebar.xml:0
+msgid "Search for models..."
+msgstr "მოდელების ძიება..."
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_model.xml:0
+msgid "Select all"
+msgstr "ყველას მონიშვნა"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "Success"
+msgstr "წარმატებული"
+
+#. module: api_doc
+#: model:res.groups,name:api_doc.group_allow_doc
+msgid "Technical Documentation"
+msgstr "ტექნიკური დოკუმენტაცია"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_method.xml:0
+msgid "There's no parameters for this method"
+msgstr "ამ მეთოდს პარამეტრები არ აქვს"
+
+#. module: api_doc
+#. odoo-python
+#: code:addons/api_doc/controllers/api_doc.py:0
+msgid "This page is only accessible to %s users."
+msgstr "ეს გვერდი ხელმისაწვდომია მხოლოდ %s მომხმარებლებისთვის."
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_api_key.xml:0
+msgid "To try the API, please insert your API key here"
+msgstr "API-ის გამოსაცდელად, გთხოვთ, აქ ჩასვათ თქვენი API გასაღები"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_modal_search.xml:0
+msgid "results"
+msgstr "შედეგი"
+
+#. module: api_doc
+#. odoo-javascript
+#: code:addons/api_doc/static/src/components/doc_request.xml:0
+msgid "while executing request"
+msgstr "მოთხოვნის შესრულებისას"
