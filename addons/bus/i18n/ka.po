@@ -21,12 +21,12 @@ msgstr ""
 #. module: bus
 #: model:ir.model,name:bus.model_res_groups
 msgid "Access Groups"
-msgstr ""
+msgstr "წვდომის ჯგუფები"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_attachment
 msgid "Attachment"
-msgstr ""
+msgstr "დანართი"
 
 #. module: bus
 #. odoo-javascript
@@ -35,36 +35,38 @@ msgid ""
 "Bus logs contain confidential information and must only be shared with "
 "trusted recipients."
 msgstr ""
+"ბასის ჟურნალები შეიცავს კონფიდენციალურ ინფორმაციას და მხოლოდ სანდო მიმღებებს "
+"უნდა გაუზიაროთ."
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_listener_mixin
 msgid "Can send messages via bus.bus"
-msgstr ""
+msgstr "შეუძლია შეტყობინებების გაგზავნა bus.bus-ით"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__channel
 msgid "Channel"
-msgstr ""
+msgstr "არხი"
 
 #. module: bus
 #: model:ir.model,name:bus.model_bus_bus
 msgid "Communication Bus"
-msgstr ""
+msgstr "საკომუნიკაციო ბასი"
 
 #. module: bus
 #: model:ir.model,name:bus.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "კონტაქტი"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__create_date
 msgid "Create Date"
-msgstr ""
+msgstr "შექმნის თარიღი"
 
 #. module: bus
 #: model:ir.model,website_form_label:bus.model_res_partner
 msgid "Create a Customer"
-msgstr ""
+msgstr "კლიენტის შექმნა"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__create_uid
@@ -90,24 +92,24 @@ msgstr "სახელი"
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.js:0
 msgid "Download"
-msgstr ""
+msgstr "ჩამოტვირთვა"
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.xml:0
 msgid "Download logs"
-msgstr ""
+msgstr "ჟურნალების ჩამოტვირთვა"
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.xml:0
 msgid "Enable Bus Logging"
-msgstr ""
+msgstr "ბასის ჟურნალის ჩართვა"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_http
 msgid "HTTP Routing"
-msgstr ""
+msgstr "HTTP მარშრუტიზაცია"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__id
@@ -127,12 +129,14 @@ msgstr "იდენტიფიკატორი"
 #. module: bus
 #: model:ir.module.module,shortdesc:base.module_bus
 msgid "IM Bus"
-msgstr ""
+msgstr "IM ბასი"
 
 #. module: bus
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
 msgstr ""
+"მყისიერი შეტყობინებების ბასი საშუალებას გაძლევთ, მომხმარებლებს რეალურ დროში "
+"გაუგზავნოთ შეტყობინებები."
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__write_uid
@@ -147,45 +151,45 @@ msgstr "ბოლოს განახლებულია"
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__message
 msgid "Message"
-msgstr ""
+msgstr "შეტყობინება"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_model
 msgid "Model"
-msgstr ""
+msgstr "მოდელი"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_qweb
 msgid "Qweb"
-msgstr ""
+msgstr "Qweb"
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/services/assets_watchdog_plugin.js:0
 msgid "Refresh"
-msgstr ""
+msgstr "განახლება"
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/services/assets_watchdog_plugin.js:0
 msgid "The page appears to be out of date."
-msgstr ""
+msgstr "როგორც ჩანს, გვერდი მოძველებულია."
 
 #. module: bus
 #: model:ir.model,name:bus.model_res_users
 msgid "User"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #. module: bus
 #: model:ir.model,name:bus.model_res_users_settings
 msgid "User Settings"
-msgstr ""
+msgstr "მომხმარებლის პარამეტრები"
 
 #. module: bus
 #. odoo-javascript
 #: code:addons/bus/static/src/debug/bus_logs_menu_item.js:0
 msgid "You're about to download the bus logs"
-msgstr ""
+msgstr "თქვენ აპირებთ ბასის ჟურნალების ჩამოტვირთვას"
 
 #. module: bus
 #. odoo-python
@@ -195,8 +199,11 @@ msgid ""
 "users it is important to change it immediately for security reasons. I will "
 "keep nagging you about it!"
 msgstr ""
+"თქვენი პაროლი ნაგულისხმევია (admin)! თუ ეს სისტემა არასანდო "
+"მომხმარებლებისთვის ხელმისაწვდომია, უსაფრთხოების მიზნით აუცილებელია მისი "
+"დაუყოვნებლივ შეცვლა. ამის შესახებ შეხსენებას განვაგრძობ!"
 
 #. module: bus
 #: model:ir.model,name:bus.model_ir_websocket
 msgid "websocket message handling"
-msgstr ""
+msgstr "websocket შეტყობინებების დამუშავება"
