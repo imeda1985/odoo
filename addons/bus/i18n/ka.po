@@ -86,7 +86,7 @@ msgstr "შემქმნელი"
 #: model:ir.model.fields,field_description:bus.field_res_users__display_name
 #: model:ir.model.fields,field_description:bus.field_res_users_settings__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: bus
 #. odoo-javascript
@@ -124,7 +124,7 @@ msgstr "HTTP მარშრუტიზაცია"
 #: model:ir.model.fields,field_description:bus.field_res_users__id
 #: model:ir.model.fields,field_description:bus.field_res_users_settings__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: bus
 #: model:ir.module.module,shortdesc:base.module_bus
@@ -146,7 +146,7 @@ msgstr "ბოლოს განაახლა"
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus__message

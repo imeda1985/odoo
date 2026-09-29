@@ -3092,7 +3092,7 @@ msgstr "აქტივობების დაგეგმვა შეუძ�
 #: code:addons/mail/static/src/discuss/voice_message/common/voice_recorder.js:0
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_form
 msgid "Cancel"
-msgstr "შეწყვეტა"
+msgstr "გაუქმება"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_tree
@@ -4814,7 +4814,7 @@ msgstr "აღწერეთ, როდის უნდა იქნას გ�
 #: model:ir.model.fields,field_description:mail.field_mail_message_subtype__description
 #: model_terms:ir.ui.view,arch_db:mail.view_mail_message_subtype_form
 msgid "Description"
-msgstr "აღწერილობა"
+msgstr "აღწერა"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype__description
@@ -5051,7 +5051,7 @@ msgstr "გაფრთხილების დამალვა"
 #: model:ir.model.fields,field_description:mail.field_res_users_settings_volumes__display_name
 #: model:ir.model.fields,field_description:mail.field_template_reset_mixin__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.email_template_form
@@ -6884,7 +6884,7 @@ msgstr "ICE:"
 #: model:ir.model.fields,field_description:mail.field_res_users_settings_volumes__id
 #: model:ir.model.fields,field_description:mail.field_template_reset_mixin__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_parent_thread_id
@@ -8078,7 +8078,7 @@ msgstr "ბოლოს განაახლა"
 #: model:ir.model.fields,field_description:mail.field_res_role__write_date
 #: model:ir.model.fields,field_description:mail.field_res_users_settings_volumes__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_canned_response__last_used

@@ -620,7 +620,7 @@ msgstr "Ace რედაქტორი"
 #. odoo-javascript
 #: code:addons/web/static/src/webclient/actions/debug_items.js:0
 msgid "Action"
-msgstr "ქმედება"
+msgstr "მოქმედება"
 
 #. module: web
 #. odoo-javascript
@@ -948,7 +948,7 @@ msgstr "აპლიკაციის დასახელება"
 #. odoo-javascript
 #: code:addons/web/static/src/core/datetime/datetime_picker_popover.xml:0
 msgid "Apply"
-msgstr "გააქტიურება"
+msgstr "გამოყენება"
 
 #. module: web
 #. odoo-javascript
@@ -1317,7 +1317,7 @@ msgstr "ღილაკი"
 #. odoo-javascript
 #: code:addons/web/static/src/views/view_button/view_button.xml:0
 msgid "Button Type:"
-msgstr "ღილაკის სახეობა:"
+msgstr "ღილაკის ტიპი:"
 
 #. module: web
 #. odoo-javascript
@@ -1459,7 +1459,7 @@ msgstr "ბარათი: ტიპისთვის მოქმედებ
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/field_tooltip.xml:0
 msgid "Change default:"
-msgstr "შეცვალე ნაგულისხმები:"
+msgstr "ნაგულისხმევის შეცვლა:"
 
 #. module: web
 #. odoo-javascript
@@ -2371,7 +2371,7 @@ msgstr "გადიდებული სურათის გამოჩე�
 #: code:addons/web/static/src/views/view_dialogs/export_data_dialog.xml:0
 #: code:addons/web/static/src/views/view_hook.js:0
 msgid "Delete"
-msgstr "წაშალე"
+msgstr "წაშლა"
 
 #. module: web
 #. odoo-javascript
@@ -2761,7 +2761,7 @@ msgstr "ჩამოსაშლელი მენიუ"
 #: code:addons/web/static/src/views/kanban/kanban_controller.js:0
 #: code:addons/web/static/src/views/list/list_controller.js:0
 msgid "Duplicate"
-msgstr "გააკეთე დუბლირება."
+msgstr "დუბლირება"
 
 #. module: web
 #. odoo-javascript
@@ -2816,7 +2816,7 @@ msgstr "ყველაზე ადრეული დასაშვები 
 #: code:addons/web/static/src/views/kanban/kanban_record_quick_create.xml:0
 #: code:addons/web/static/src/views/view_components/group_config_menu.js:0
 msgid "Edit"
-msgstr "შეცვლა"
+msgstr "რედაქტირება"
 
 #. module: web
 #. odoo-javascript
@@ -2879,7 +2879,7 @@ msgstr "რედაქტირებული"
 #: model:ir.model.fields,field_description:web.field_base_document_layout__email
 #: model_terms:ir.ui.view,arch_db:web.login
 msgid "Email"
-msgstr "ელ.ფოსტა"
+msgstr "ელფოსტა"
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_res_users_settings__embedded_actions_config_ids
@@ -3124,7 +3124,7 @@ msgstr "რჩეული"
 #. odoo-javascript
 #: code:addons/web/static/src/search/search_bar_menu/search_bar_menu.xml:0
 msgid "Favorites"
-msgstr "ფავორიტები"
+msgstr "რჩეულები"
 
 #. module: web
 #. odoo-javascript
@@ -3770,7 +3770,7 @@ msgstr "თუ ჭეშმარიტია, არალიტერალე
 #: code:addons/web/static/src/views/fields/image_url/image_url_field.js:0
 #: code:addons/web/static/src/views/fields/image_url/image_url_field.xml:0
 msgid "Image"
-msgstr "გამოსახულება"
+msgstr "სურათი"
 
 #. module: web
 #. odoo-javascript
@@ -4315,13 +4315,13 @@ msgstr "გასული თვე"
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "Latest Modification Date:"
-msgstr "განახლების თარიღი:"
+msgstr "ბოლო განახლების თარიღი:"
 
 #. module: web
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "Latest Modification by:"
-msgstr "ბოლოს განახლდა:"
+msgstr "ბოლოს განაახლა:"
 
 #. module: web
 #. odoo-javascript
@@ -4435,7 +4435,7 @@ msgstr "იტვირთება"
 #: code:addons/web/static/src/views/calendar/calendar_filter_section/calendar_filter_section.js:0
 #: code:addons/web/static/src/views/fields/relational_utils.js:0
 msgid "Loading..."
-msgstr "იტვირთება...."
+msgstr "იტვირთება..."
 
 #. module: web
 #. odoo-javascript
@@ -5502,7 +5502,7 @@ msgstr "ვაი!"
 #: code:addons/web/static/src/views/calendar/calendar_year/calendar_year_popover.xml:0
 #: code:addons/web/static/src/views/view_dialogs/form_view_dialog.xml:0
 msgid "Ok"
-msgstr "ოკ"
+msgstr "კარგი"
 
 #. module: web
 #. odoo-javascript
@@ -6330,7 +6330,7 @@ msgstr "დარჩენილი დღეები"
 #: code:addons/web/static/src/views/form/form_controller.xml:0
 #: code:addons/web/static/src/views/list/list_confirmation_dialog.xml:0
 msgid "Remove"
-msgstr "მოცილება"
+msgstr "ამოღება"
 
 #. module: web
 #. odoo-javascript
@@ -6558,7 +6558,7 @@ msgstr "შენახვა და დახურვა"
 #: code:addons/web/static/src/views/fields/relational_utils.xml:0
 #: code:addons/web/static/src/views/view_dialogs/form_view_dialog.xml:0
 msgid "Save & New"
-msgstr "შეინახე და ახალი"
+msgstr "შენახვა და ახალი"
 
 #. module: web
 #. odoo-javascript
@@ -6582,7 +6582,7 @@ msgstr "ექსპორტის შაბლონად შენახვ�
 #. odoo-javascript
 #: code:addons/web/static/src/core/debug/debug_menu_items.xml:0
 msgid "Save default"
-msgstr "ნაგულისხმებად შენახვა"
+msgstr "ნაგულისხმევად შენახვა"
 
 #. module: web
 #. odoo-javascript
@@ -6874,7 +6874,7 @@ msgstr "არჩევანი"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/field_tooltip.xml:0
 msgid "Selection:"
-msgstr "არჩეული:"
+msgstr "არჩევანი:"
 
 #. module: web
 #. odoo-javascript
@@ -7949,7 +7949,7 @@ msgstr "ხელმოსაწერად აკრიფეთ თქვე�
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/field_tooltip.xml:0
 msgid "Type:"
-msgstr "სახეობა:"
+msgstr "ტიპი:"
 
 #. module: web
 #. odoo-javascript
@@ -8171,7 +8171,7 @@ msgstr "ატვირთვის შეცდომა"
 #. odoo-javascript
 #: code:addons/web/static/src/views/fields/file_handler.xml:0
 msgid "Uploading..."
-msgstr "მიმდინარეობს ატვირთვა ..."
+msgstr "მიმდინარეობს ატვირთვა..."
 
 #. module: web
 #. odoo-javascript

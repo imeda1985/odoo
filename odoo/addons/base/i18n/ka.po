@@ -5164,7 +5164,7 @@ msgstr "კანადა"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_upgrade
 msgid "Cancel"
-msgstr "შეწყვეტა"
+msgstr "გაუქმება"
 
 #. module: base
 #. odoo-python
@@ -7546,7 +7546,7 @@ msgstr "დამოკიდებულება"
 #: model:ir.model.fields,field_description:base.field_res_users_apikeys_description__name
 #: model_terms:ir.ui.view,arch_db:base.view_attachment_form
 msgid "Description"
-msgstr "აღწერილობა"
+msgstr "აღწერა"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__description_html
@@ -7806,7 +7806,7 @@ msgstr "ურთიერთგამომრიცხავი ჯგუფ�
 #: model:ir.model.fields,field_description:base.field_website__display_name
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_report_paperformat__header_line
@@ -10749,7 +10749,7 @@ msgstr "ICE"
 #: model:ir.model.fields,field_description:base.field_website__id
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: base
 #: model_terms:res.company,invoice_terms_html:base.demo_company_id
@@ -12482,7 +12482,7 @@ msgstr "ბოლოს განაახლა"
 #: model:ir.model.fields,field_description:base.field_website__write_date
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_currency_kanban
@@ -16510,7 +16510,7 @@ msgstr "ანგარიშგების XML"
 #: model_terms:res.partner,website_description:base.res_partner_2
 #: model_terms:res.partner,website_description:base.res_partner_4
 msgid "Reporting"
-msgstr "რეპორტინგი"
+msgstr "ანგარიშგება"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.reports_action
