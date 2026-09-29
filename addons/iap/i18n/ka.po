@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-28 17:42+0000\n"
+"POT-Creation-Date: 2026-09-25 17:38+0000\n"
 "PO-Revision-Date: 2017-10-10 11:35+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
@@ -26,27 +26,33 @@ msgid ""
 "helpers)\n"
 "to support In-App Purchase inside Odoo. "
 msgstr ""
+"\n"
+"ეს მოდული უზრუნველყოფს სტანდარტულ ინსტრუმენტებს (ანგარიშის მოდელი, "
+"კონტექსტის მენეჯერი და დამხმარე ფუნქციები)\n"
+"Odoo-ში აპლიკაციაშიდა შესყიდვების მხარდასაჭერად. "
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Account Information"
-msgstr ""
+msgstr "ანგარიშის ინფორმაცია"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Account Name"
-msgstr ""
+msgstr "ანგარიშის დასახელება"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__account_token
 msgid "Account Token"
-msgstr ""
+msgstr "ანგარიშის ტოკენი"
 
 #. module: iap
 #: model:ir.model.fields,help:iap.field_iap_account__account_token
 msgid ""
 "Account token is your authentication key for this service. Do not share it."
 msgstr ""
+"ანგარიშის ტოკენი ამ სერვისისთვის თქვენი ავთენტიფიკაციის გასაღებია. არავის "
+"გაუზიაროთ."
 
 #. module: iap
 #. odoo-python
@@ -55,32 +61,36 @@ msgid ""
 "An error occurred while reaching %s. Please contact Odoo support if this "
 "error persists."
 msgstr ""
+"%s-თან დაკავშირებისას მოხდა შეცდომა. თუ შეცდომა განმეორდება, დაუკავშირდით "
+"Odoo-ს მხარდაჭერას."
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance
 msgid "Balance"
-msgstr ""
+msgstr "ნაშთი"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__balance_amount
 msgid "Balance Amount"
-msgstr ""
+msgstr "ნაშთის თანხა"
 
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__banned
 msgid "Banned"
-msgstr ""
+msgstr "დაბლოკილი"
 
 #. module: iap
 #: model:ir.module.module,summary:base.module_iap
 msgid "Basic models and helpers to support In-App Purchase."
 msgstr ""
+"აპლიკაციაშიდა შესყიდვების მხარდასაჭერი საბაზისო მოდელები და დამხმარე "
+"ფუნქციები."
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_tree
 msgid "Buy Credits"
-msgstr ""
+msgstr "კრედიტების ყიდვა"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__company_ids
@@ -104,18 +114,18 @@ msgstr "შექმნის თარიღი"
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__credit
 msgid "Credit"
-msgstr ""
+msgstr "კრედიტი"
 
 #. module: iap
 #: model:iap.service,unit_name:iap.iap_service_reveal
 msgid "Credits"
-msgstr ""
+msgstr "კრედიტები"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__description
 #: model:ir.model.fields,field_description:iap.field_iap_service__description
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__display_name
@@ -123,22 +133,22 @@ msgstr ""
 #: model:ir.model.fields,field_description:iap.field_iap_service__display_name
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "Email Alert"
-msgstr ""
+msgstr "ელფოსტით შეტყობინება"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_user_ids
 msgid "Email Alert Recipients"
-msgstr ""
+msgstr "ელფოსტით შეტყობინების მიმღებები"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__warning_threshold
 msgid "Email Alert Threshold"
-msgstr ""
+msgstr "ელფოსტით შეტყობინების ზღვარი"
 
 #. module: iap
 #: model:iap.service,description:iap.iap_service_reveal
@@ -147,31 +157,34 @@ msgid ""
 "leads, generate leads based on a set of criteria and enrich the company data "
 "of your opportunities."
 msgstr ""
+"მიიღეთ ხარისხიანი ლიდები და შესაძლებლობები: გარდაქმენით თქვენი ვებგვერდის "
+"ვიზიტორები ლიდებად, შექმენით ლიდები კრიტერიუმების მიხედვით და გაამდიდრეთ "
+"თქვენი შესაძლებლობების კომპანიის მონაცემები."
 
 #. module: iap
 #: model:ir.ui.menu,name:iap.iap_root_menu
 msgid "IAP"
-msgstr ""
+msgstr "IAP"
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_account
 msgid "IAP Account"
-msgstr ""
+msgstr "IAP ანგარიში"
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_enrich_api
 msgid "IAP Lead Enrichment API"
-msgstr ""
+msgstr "IAP ლიდების გამდიდრების API"
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_service
 msgid "IAP Service"
-msgstr ""
+msgstr "IAP სერვისი"
 
 #. module: iap
 #: model:ir.model,name:iap.model_iap_service_pack
 msgid "IAP Service Pack"
-msgstr ""
+msgstr "IAP სერვისის პაკეტი"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__id
@@ -179,44 +192,44 @@ msgstr ""
 #: model:ir.model.fields,field_description:iap.field_iap_service__id
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__iap_service_pack_identifier
 msgid "Iap Service Pack Identifier"
-msgstr ""
+msgstr "IAP სერვისის პაკეტის იდენტიფიკატორი"
 
 #. module: iap
 #: model:ir.module.module,shortdesc:base.module_iap
 msgid "In-App Purchase"
-msgstr ""
+msgstr "აპლიკაციაშიდა შესყიდვა"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_form
 msgid "In-App Purchase Account"
-msgstr ""
+msgstr "აპლიკაციაშიდა შესყიდვის ანგარიში"
 
 #. module: iap
 #: model:ir.actions.act_window,name:iap.iap_account_action
 #: model:ir.ui.menu,name:iap.iap_account_menu
 #: model_terms:ir.ui.view,arch_db:iap.iap_account_view_tree
 msgid "In-App Purchase Accounts"
-msgstr ""
+msgstr "აპლიკაციაშიდა შესყიდვის ანგარიშები"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.iap_service_pack_view_tree
 msgid "In-App Purchase Service Packs"
-msgstr ""
+msgstr "აპლიკაციაშიდა შესყიდვის სერვისის პაკეტები"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service__integer_balance
 msgid "Integer Balance"
-msgstr ""
+msgstr "ნაშთი (მთელი რიცხვი)"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__is_balance_below_warning_threshold
 msgid "Is Balance Below Warning Threshold"
-msgstr ""
+msgstr "ნაშთი გაფრთხილების ზღვარზე დაბალია"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__write_uid
@@ -230,36 +243,36 @@ msgstr "ბოლოს განაახლა"
 #: model:ir.model.fields,field_description:iap.field_iap_service__write_date
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: iap
 #: model:iap.service,name:iap.iap_service_reveal
 msgid "Lead Generation"
-msgstr ""
+msgstr "ლიდების გენერირება"
 
 #. module: iap
 #. odoo-javascript
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 msgid "Manage Service & Buy Credits"
-msgstr ""
+msgstr "სერვისის მართვა და კრედიტების ყიდვა"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__name
 #: model:ir.model.fields,field_description:iap.field_iap_service__name
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__name
 msgid "Name"
-msgstr ""
+msgstr "დასახელება"
 
 #. module: iap
 #. odoo-python
 #: code:addons/iap/models/iap_account.py:0
 msgid "No service exists with the provided technical name"
-msgstr ""
+msgstr "მითითებული ტექნიკური სახელით სერვისი არ არსებობს"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "Odoo In-App Purchase"
-msgstr ""
+msgstr "Odoo-ს აპლიკაციაშიდა შესყიდვა"
 
 #. module: iap
 #: model:ir.model.fields,help:iap.field_iap_account__warning_threshold
@@ -267,6 +280,9 @@ msgid ""
 "Once you have this many credits or less, the system will automatically "
 "notify the following recipients by email. Set to 0 to disable email warnings."
 msgstr ""
+"როცა კრედიტების რაოდენობა ამ მნიშვნელობას მიაღწევს ან ნაკლები გახდება, "
+"სისტემა ავტომატურად აცნობებს შემდეგ მიმღებებს ელფოსტით. ელფოსტით "
+"გაფრთხილებების გასათიშად მიუთითეთ 0."
 
 #. module: iap
 #. odoo-python
@@ -275,104 +291,110 @@ msgid ""
 "One of the email alert recipients doesn't have an email address set. Users: "
 "%s"
 msgstr ""
+"ელფოსტით შეტყობინების ერთ-ერთ მიმღებს ელფოსტის მისამართი არ აქვს მითითებული. "
+"მომხმარებლები: %s"
 
 #. module: iap
 #: model:ir.model.constraint,message:iap.constraint_iap_service_unique_technical_name
 msgid "Only one service can exist with a specific technical_name"
-msgstr ""
+msgstr "კონკრეტული technical_name-ით მხოლოდ ერთი სერვისი შეიძლება არსებობდეს"
 
 #. module: iap
 #: model:ir.model.constraint,message:iap.constraint_iap_service_pack_unique_iap_service_pack_identifier
 msgid ""
 "Only one service pack can exist with a specific iap_service_pack_identifier"
 msgstr ""
+"კონკრეტული iap_service_pack_identifier-ით მხოლოდ ერთი სერვისის პაკეტი "
+"შეიძლება არსებობდეს"
 
 #. module: iap
 #. odoo-python
 #: code:addons/iap/models/iap_account.py:0
 msgid "Please set a positive email alert threshold."
-msgstr ""
+msgstr "მიუთითეთ ელფოსტით შეტყობინების დადებითი ზღვარი."
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_price_description
 #: model:ir.model.fields,field_description:iap.field_iap_service__price_description
 msgid "Price Description"
-msgstr ""
+msgstr "ფასის აღწერა"
 
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__registered
 msgid "Registered"
-msgstr ""
+msgstr "რეგისტრირებული"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__price
 msgid "Sales Price (EUR)"
-msgstr ""
+msgstr "გასაყიდი ფასი (EUR)"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_id
 #: model:ir.model.fields,field_description:iap.field_iap_service_pack__service_id
 msgid "Service"
-msgstr ""
+msgstr "სერვისი"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_locked
 msgid "Service Locked"
-msgstr ""
+msgstr "სერვისი დაბლოკილია"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service__pack_ids
 msgid "Service Packs"
-msgstr ""
+msgstr "სერვისის პაკეტები"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__state
 msgid "State"
-msgstr ""
+msgstr "მდგომარეობა"
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__service_name
 #: model:ir.model.fields,field_description:iap.field_iap_service__technical_name
 msgid "Technical Name"
-msgstr ""
+msgstr "ტექნიკური სახელი"
 
 #. module: iap
 #. odoo-python
 #: code:addons/iap/models/iap_account.py:0
 msgid ""
-"The IAP server is unreachable and the information may not be up to date.\n"
+"The IAP server is unreachable and the information may not be up to date. "
 "Please try again later."
 msgstr ""
+"IAP სერვერი მიუწვდომელია და ინფორმაცია შესაძლოა მოძველებული იყოს. სცადეთ "
+"მოგვიანებით."
 
 #. module: iap
 #. odoo-python
 #: code:addons/iap/models/iap_account.py:0
 msgid "The IAP token provided is invalid or empty."
-msgstr ""
+msgstr "მითითებული IAP ტოკენი არასწორია ან ცარიელია."
 
 #. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_service__unit_name
 msgid "Unit Name"
-msgstr ""
+msgstr "ერთეულის დასახელება"
 
 #. module: iap
 #: model:ir.model.fields.selection,name:iap.selection__iap_account__state__unregistered
 msgid "Unregistered"
-msgstr ""
+msgstr "დაურეგისტრირებელი"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.view_iap_users_tree
 msgid "Users"
-msgstr ""
+msgstr "მომხმარებლები"
 
 #. module: iap
 #. odoo-javascript
 #: code:addons/iap/static/src/action_buttons_widget/action_buttons_widget.xml:0
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View My Services"
-msgstr ""
+msgstr "ჩემი სერვისების ნახვა"
 
 #. module: iap
 #: model_terms:ir.ui.view,arch_db:iap.res_config_settings_view_form
 msgid "View your IAP Services and recharge your credits"
-msgstr ""
+msgstr "იხილეთ თქვენი IAP სერვისები და შეავსეთ კრედიტები"
