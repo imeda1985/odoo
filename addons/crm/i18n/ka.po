@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-04 17:44+0000\n"
+"POT-Creation-Date: 2026-09-18 17:38+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
@@ -21,47 +21,47 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_count
 msgid "# Leads/Opps assigned this month"
-msgstr ""
+msgstr "ამ თვეში მინიჭებული ლიდები/შესაძლებლობები (#)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__number_of_months
 msgid "# Months"
-msgstr ""
+msgstr "თვეების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_unassigned_count
 msgid "# Unassigned Leads"
-msgstr ""
+msgstr "მიუნიჭებელი ლიდები (#)"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated among %(team_count)s teams."
-msgstr ""
+msgstr "%(assigned)s ლიდი განაწილდა %(team_count)s გუნდს შორის."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(assigned)s leads allocated to %(team_name)s team."
-msgstr ""
+msgstr "%(assigned)s ლიდი განაწილდა გუნდზე %(team_name)s."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%(attach_name)s (from %(lead_name)s)"
-msgstr ""
+msgstr "%(attach_name)s (%(lead_name)s-დან)"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_lead_to_opportunity_mass.py:0
 msgid "%(converted_count)s leads have been converted"
-msgstr ""
+msgstr "%(converted_count)s ლიდი გარდაიქმნა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "%(duplicates)s duplicates leads have been merged."
-msgstr ""
+msgstr "%(duplicates)s დუბლიკატი ლიდი გაერთიანდა."
 
 #. module: crm
 #. odoo-python
@@ -69,36 +69,37 @@ msgstr ""
 msgid ""
 "%(members_assigned)s leads assigned among %(member_count)s salespersons."
 msgstr ""
+"%(members_assigned)s ლიდი მიენიჭა %(member_count)s გაყიდვების მენეჯერს."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "%s's opportunity"
-msgstr ""
+msgstr "%s-ის შესაძლებლობა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/res_users.py:0
 msgid "(Team Leader)"
-msgstr ""
+msgstr "(გუნდის ლიდერი)"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "(sample data)"
-msgstr ""
+msgstr "(სანიმუშო მონაცემები)"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_lead_to_opportunity_mass.py:0
 msgid "1 lead has been converted"
-msgstr ""
+msgstr "1 ლიდი გარდაიქმნა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Create your first opportunity.</b>"
-msgstr ""
+msgstr "<b>შექმენით თქვენი პირველი შესაძლებლობა.</b>"
 
 #. module: crm
 #. odoo-javascript
@@ -107,38 +108,44 @@ msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your "
 "sales cycle."
 msgstr ""
+"<b>გადაათრიეთ &amp; ჩააგდეთ შესაძლებლობები</b> სვეტებს შორის გაყიდვების "
+"ციკლში წინსვლისას."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "<b>Write a few letters</b> to look for a company, or create a new one."
-msgstr ""
+msgstr "<b>აკრიფეთ რამდენიმე ასო</b> კომპანიის მოსაძებნად, ან შექმენით ახალი."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "<i class=\"oi oi-filled\" data-icon=\"mail\" title=\"Contact Email\"/>"
 msgstr ""
+"<i class=\"oi oi-filled\" data-icon=\"mail\" title=\"კონტაქტის ელფოსტა\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "<i class=\"oi oi-filled\" data-icon=\"person\" title=\"Contact\"/>"
-msgstr ""
+msgstr "<i class=\"oi oi-filled\" data-icon=\"person\" title=\"კონტაქტი\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid ""
 "<i class=\"oi oi-lg\" data-icon=\"smartphone\" title=\"Contact Phone\"/>"
 msgstr ""
+"<i class=\"oi oi-lg\" data-icon=\"smartphone\" title=\"კონტაქტის ტელეფონი\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "<i class=\"oi\" data-icon=\"payments\" title=\"Expected Revenue\"/>"
 msgstr ""
+"<i class=\"oi\" data-icon=\"payments\" title=\"მოსალოდნელი შემოსავალი\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "<i class=\"oi\" data-icon=\"refresh\" title=\"Recurring Revenue\"/>"
 msgstr ""
+"<i class=\"oi\" data-icon=\"refresh\" title=\"განმეორებადი შემოსავალი\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
@@ -146,11 +153,14 @@ msgid ""
 "<i class=\"oi\" data-icon=\"warning\" title=\"Exceeded\" invisible=\"not "
 "lead_all_assigned_month_exceeded\"/>"
 msgstr ""
+"<i class=\"oi\" data-icon=\"warning\" title=\"გადაჭარბებულია\" "
+"invisible=\"not lead_all_assigned_month_exceeded\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "<i class=\"oi\" data-icon=\"work\" title=\"Opportunity Name\"/>"
 msgstr ""
+"<i class=\"oi\" data-icon=\"work\" title=\"შესაძლებლობის დასახელება\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -158,16 +168,18 @@ msgid ""
 "<i title=\"Update now\" role=\"img\" aria-label=\"Update now\" class=\"oi oi-"
 "fw\" data-icon=\"refresh\"/>"
 msgstr ""
+"<i title=\"ახლავე განახლება\" role=\"img\" aria-label=\"ახლავე განახლება\" "
+"class=\"oi oi-fw\" data-icon=\"refresh\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "<span class=\"me-1\"> of </span>"
-msgstr ""
+msgstr "<span class=\"me-1\"> / </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span class=\"mx-3 mb-1\" invisible=\"type == 'lead'\"> at</span>"
-msgstr ""
+msgstr "<span class=\"mx-3 mb-1\" invisible=\"type == 'lead'\"> -ში</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -177,6 +189,10 @@ msgid ""
 "                                    <span class=\"o_stat_text\" "
 "invisible=\"duplicate_lead_count &gt; 1\">Similar Lead</span>"
 msgstr ""
+"<span class=\"o_stat_text\" invisible=\"duplicate_lead_count &lt; "
+"2\">მსგავსი ლიდები</span>\n"
+"                                    <span class=\"o_stat_text\" "
+"invisible=\"duplicate_lead_count &gt; 1\">მსგავსი ლიდი</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_form
@@ -185,16 +201,19 @@ msgid ""
 "                        <span class=\"o_stat_text\" "
 "invisible=\"use_leads\">Opportunities</span>"
 msgstr ""
+"<span class=\"o_stat_text\" invisible=\"not use_leads\">ლიდები</span>\n"
+"                        <span class=\"o_stat_text\" "
+"invisible=\"use_leads\">შესაძლებლობები</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
 msgid "<span class=\"o_stat_text\"> Leads</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\"> ლიდი</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<span class=\"o_stat_text\">Opportunities</span>"
-msgstr ""
+msgstr "<span class=\"o_stat_text\">შესაძლებლობები</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -203,6 +222,9 @@ msgid ""
 "title=\"By saving this change, the customer email will also be updated.\" "
 "invisible=\"not partner_email_update\"/>"
 msgstr ""
+"<span class=\"oi text-warning oe_edit_only\" data-icon=\"warning\" "
+"title=\"ამ ცვლილების შენახვით კლიენტის ელფოსტაც განახლდება.\" "
+"invisible=\"not partner_email_update\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -211,6 +233,9 @@ msgid ""
 "title=\"By saving this change, the customer phone number will also be "
 "updated.\" invisible=\"not partner_phone_update\"/>"
 msgstr ""
+"<span class=\"oi text-warning oe_edit_only\" data-icon=\"warning\" "
+"title=\"ამ ცვლილების შენახვით კლიენტის ტელეფონის ნომერიც განახლდება.\" "
+"invisible=\"not partner_phone_update\"/>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
@@ -224,36 +249,45 @@ msgid ""
 "merge all duplicates listed below.\n"
 "                    </span>"
 msgstr ""
+"<span invisible=\"name != 'convert'\">\n"
+"                        ნაპოვნია შესაძლო დუბლიკატები. გარდაქმნამდე "
+"მონაცემების გასასუფთავებლად გამოიყენეთ „გარდაქმნა &amp; დუბლიკატებთან "
+"გაერთიანება“.\n"
+"                    </span>\n"
+"                    <span invisible=\"name != 'convert_and_merge'\">\n"
+"                        მონიშნული ლიდების შესაძლებლობებად გარდაქმნა და "
+"ქვემოთ ჩამოთვლილი ყველა დუბლიკატის გაერთიანება.\n"
+"                    </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span> %</span>"
-msgstr ""
+msgstr "<span> %</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "<span> leads per 30 days </span>"
-msgstr ""
+msgstr "<span> ლიდი 30 დღეში </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span>%</span>"
-msgstr ""
+msgstr "<span>%</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "<span>@</span>"
-msgstr ""
+msgstr "<span>@</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>Expected Revenues:</span>"
-msgstr ""
+msgstr "<span>მოსალოდნელი შემოსავალი:</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>Merged the Lead/Opportunity</span>"
-msgstr ""
+msgstr "<span>ლიდი/შესაძლებლობა გაერთიანდა</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -266,21 +300,28 @@ msgid ""
 "default.\n"
 "                                </span>"
 msgstr ""
+"<span>ლიდების პერიოდული მინიჭება პრიორიტეტებისა და ფილტრების მიხედვით.</"
+"span><br/>\n"
+"                                <span invisible=\"not "
+"crm_use_auto_assignment\">\n"
+"                                    ამ პარამეტრს ნაგულისხმევად ყველა "
+"გაყიდვების გუნდი გამოიყენებს.\n"
+"                                </span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "<span>days</span>"
-msgstr ""
+msgstr "<span>დღე</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "<span>into this one.</span>"
-msgstr ""
+msgstr "<span>ამ ჩანაწერში.</span>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "<span>~ </span>"
-msgstr ""
+msgstr "<span>~ </span>"
 
 #. module: crm
 #: model:mail.template,body_html:crm.mail_template_demo_crm_lead
@@ -299,8 +340,8 @@ msgid ""
 "Best,<br/>\n"
 "<t t-if=\"object.user_id\">\n"
 "    <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
-"    <br/>Email: <t t-out=\"object.user_id.email or "
-"''\">mark.brown23@example.com</t>\n"
+"    <br/>Email: <t t-out=\"object.user_id.email or ''\">mark.brown23@example."
+"com</t>\n"
 "    <br/>Phone: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</t>\n"
 "</t>\n"
 "<t t-else=\"\">\n"
@@ -309,6 +350,30 @@ msgid ""
 "</t>\n"
 "        </t>"
 msgstr ""
+"<t>\n"
+"გამარჯობა, <t t-out=\"object.partner_id and object.partner_id.name or "
+"''\">Acme Corporation</t>,<br/><br/>\n"
+"გთხოვთ, მიიღოთ მისალმება <t t-out=\"object.company_id.name or ''\">My "
+"Company (San Francisco)</t>-სგან.\n"
+"მოხარული ვართ თქვენი გაცნობით! ახლა, როცა ჩვენთან ხართ, გაიგებთ, რას "
+"გთავაზობთ <t t-out=\"object.company_id.name or ''\">My Company (San "
+"Francisco)</t>. მე ვარ <t t-out=\"object.user_id.name or ''\">Marc Demo</t> "
+"და დაგეხმარებით Odoo-ს მაქსიმალურად გამოყენებაში. შეგვიძლია მალე მოკლე "
+"დემონსტრაცია დავგეგმოთ?<br/>\n"
+"ნებისმიერ დროს შეგიძლიათ დამიკავშირდეთ!<br/><br/>\n"
+"პატივისცემით,<br/>\n"
+"<t t-if=\"object.user_id\">\n"
+"    <b><t t-out=\"object.user_id.name or ''\">Marc Demo</t></b>\n"
+"    <br/>ელფოსტა: <t t-out=\"object.user_id.email or ''\">mark."
+"brown23@example.com</t>\n"
+"    <br/>ტელეფონი: <t t-out=\"object.user_id.phone or ''\">+1 650-123-4567</"
+"t>\n"
+"</t>\n"
+"<t t-else=\"\">\n"
+"    <t t-out=\"object.company_id.name or ''\">My Company (San Francisco)</"
+"t>\n"
+"</t>\n"
+"        </t>"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_defaults
@@ -316,6 +381,8 @@ msgid ""
 "A Python dictionary that will be evaluated to provide default values when "
 "creating new records for this alias."
 msgstr ""
+"Python ლექსიკონი, რომელიც შეფასდება ამ ფსევდონიმისთვის ახალი ჩანაწერების "
+"შექმნისას ნაგულისხმევი მნიშვნელობების მისაწოდებლად."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
@@ -326,47 +393,59 @@ msgid ""
 "Click on the grey area of the progress bar to see all opportunities that "
 "have no next activity."
 msgstr ""
+"გაყიდვების ეფექტიანობის გასაზრდელად კარგი რჩევაა, ყოველთვის განსაზღვროთ "
+"შემდეგი ნაბიჯი ყველა შესაძლებლობისთვის. მიმდინარე აქტივობების სამართავად "
+"დააწკაპუნეთ პროგრესის ზოლის ნებისმიერ სტატუსზე, რათა შესაძლებლობები შემდეგი "
+"აქტივობების სტატუსის მიხედვით გაფილტროთ. დააწკაპუნეთ პროგრესის ზოლის "
+"ნაცრისფერ არეზე, რათა ნახოთ ყველა შესაძლებლობა, რომელსაც შემდეგი აქტივობა არ "
+"აქვს."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "A lead in a Won stage cannot be lost. Move it to another stage first."
 msgstr ""
+"მოგებულ ეტაპზე მყოფი ლიდი ვერ იქნება წაგებული. ჯერ გადაიტანეთ ის სხვა ეტაპზე."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "AI"
-msgstr ""
+msgstr "AI"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning"
-msgstr ""
+msgstr "მოგების შანსი, გამოთვლილი AI-ით"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "AI-computed chances of winning for"
-msgstr ""
+msgstr "AI-ით გამოთვლილი მოგების შანსი:"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Accept Emails From"
-msgstr ""
+msgstr "ელფოსტის მიღება ვისგან"
+
+#. module: crm
+#: model:ir.model,name:crm.model_res_groups
+msgid "Access Groups"
+msgstr "წვდომის ჯგუფები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Access request for \"%s\""
-msgstr ""
+msgstr "წვდომის მოთხოვნა: „%s“"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "საჭიროა მოქმედება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__active
@@ -376,12 +455,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Active"
-msgstr ""
+msgstr "აქტიური"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__lead_tomerge_ids
 msgid "Active Leads"
-msgstr ""
+msgstr "აქტიური ლიდები"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_activity_report_action
@@ -390,14 +469,14 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activities
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Activities"
-msgstr ""
+msgstr "აქტივობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_graph
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_pivot
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activities Analysis"
-msgstr ""
+msgstr "აქტივობების ანალიზი"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_activity_report_action
@@ -406,54 +485,56 @@ msgid ""
 "Activities marked as Done on Leads will appear here, providing an overview "
 "of lead interactions."
 msgstr ""
+"ლიდებზე შესრულებულად მონიშნული აქტივობები აქ გამოჩნდება და ლიდებთან "
+"ურთიერთობის მიმოხილვას მოგცემთ."
 
 #. module: crm
 #: model:ir.model,name:crm.model_mail_activity
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity"
-msgstr ""
+msgstr "აქტივობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__body
 msgid "Activity Description"
-msgstr ""
+msgstr "აქტივობის აღწერა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr ""
+msgstr "აქტივობის გამონაკლისის აღნიშვნა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_plans_ids
 #: model:ir.ui.menu,name:crm.mail_activity_plan_menu_config_lead
 msgid "Activity Plans"
-msgstr ""
+msgstr "აქტივობის გეგმები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_state
 msgid "Activity State"
-msgstr ""
+msgstr "აქტივობის მდგომარეობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__mail_activity_type_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Activity Type"
-msgstr ""
+msgstr "აქტივობის ტიპი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_icon
 msgid "Activity Type Icon"
-msgstr ""
+msgstr "აქტივობის ტიპის ხატულა"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_menu_config_activity_types
 msgid "Activity Types"
-msgstr ""
+msgstr "აქტივობის ტიპები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Activity by"
-msgstr ""
+msgstr "აქტივობის შემსრულებელი"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
@@ -462,21 +543,25 @@ msgid ""
 "                    (e.g. \"Demo Preparation Process\", "
 "\"Qualification\", ...)"
 msgstr ""
+"აქტივობის გეგმები გამოიყენება აქტივობების სიის რამდენიმე დაწკაპუნებით "
+"მისანიჭებლად\n"
+"                    (მაგ. „დემონსტრაციის მომზადების პროცესი“, "
+"„კვალიფიკაცია“, ...)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Add a description..."
-msgstr ""
+msgstr "დაამატეთ აღწერა..."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Add a qualification step before the creation of an opportunity"
-msgstr ""
+msgstr "კვალიფიკაციის ეტაპის დამატება შესაძლებლობის შექმნამდე"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.mail_followers_edit_action_from_lead
 msgid "Add/Remove Followers"
-msgstr ""
+msgstr "გამომწერების დამატება/ამოღება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__assignment_domain
@@ -484,79 +569,81 @@ msgid ""
 "Additional filter domain when fetching unassigned leads to allocate to the "
 "team."
 msgstr ""
+"დამატებითი ფილტრის დომენი გუნდზე გასანაწილებელი მიუნიჭებელი ლიდების "
+"მოძიებისას."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Address"
-msgstr ""
+msgstr "მისამართი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Address:"
-msgstr ""
+msgstr "მისამართი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_tree
 msgid "Alias"
-msgstr ""
+msgstr "ფსევდონიმი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_contact
 msgid "Alias Contact Security"
-msgstr ""
+msgstr "ფსევდონიმის კონტაქტის უსაფრთხოება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain_id
 msgid "Alias Domain"
-msgstr ""
+msgstr "ფსევდონიმის დომენი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_domain
 msgid "Alias Domain Name"
-msgstr ""
+msgstr "ფსევდონიმის დომენის სახელი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_full_name
 msgid "Alias Email"
-msgstr ""
+msgstr "ფსევდონიმის ელფოსტა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_name
 msgid "Alias Name"
-msgstr ""
+msgstr "ფსევდონიმის სახელი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_status
 msgid "Alias Status"
-msgstr ""
+msgstr "ფსევდონიმის სტატუსი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_status
 msgid "Alias status assessed on the last message received."
-msgstr ""
+msgstr "ფსევდონიმის სტატუსი, შეფასებული ბოლო მიღებული შეტყობინების მიხედვით."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_model_id
 msgid "Aliased Model"
-msgstr ""
+msgstr "ფსევდონიმის მოდელი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/team_switcher/team_switcher.js:0
-msgid "All Sales Teams"
-msgstr ""
+msgid "All Teams"
+msgstr "ყველა გუნდი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "All set. Let’s <b>Schedule</b> it."
-msgstr ""
+msgstr "ყველაფერი მზადაა. <b>დაგეგმეთ</b> ის."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__unlimited
 msgid "Always in rotation"
-msgstr ""
+msgstr "ყოველთვის როტაციაში"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -567,137 +654,139 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_recurring_plan_view_search
 msgid "Archived"
-msgstr ""
+msgstr "დაარქივებული"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid ""
-"As you are a member of no Sales Team, you are showed the Pipeline of <b>all "
-"teams by default.</b>"
+"As you are a member of no Sales Team, you are showed the entire Pipeline.<br/"
+">"
 msgstr ""
+"რადგან არცერთი გაყიდვების გუნდის წევრი არ ხართ, გაჩვენებთ მთლიან ვორონკას."
+"<br/>"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.xml:0
 msgid "Ask your Team Leader to get access"
-msgstr ""
+msgstr "წვდომის მისაღებად მიმართეთ გუნდის ლიდერს"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Assign Leads"
-msgstr ""
+msgstr "ლიდების მინიჭება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Assign salespersons into multiple Sales Teams."
-msgstr ""
+msgstr "გაყიდვების მენეჯერების მრავალ გაყიდვების გუნდში მინიჭება."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Assign these opportunities to"
-msgstr ""
+msgstr "ამ შესაძლებლობების მინიჭება:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__author_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Assigned To"
-msgstr ""
+msgstr "შემსრულებელი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_open
 msgid "Assignment Date"
-msgstr ""
+msgstr "მინიჭების თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_domain
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_domain
 msgid "Assignment Domain"
-msgstr ""
+msgstr "მინიჭების დომენი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Assignment Rules"
-msgstr ""
+msgstr "მინიჭების წესები"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Assignment domain for team %(team)s is incorrectly formatted"
-msgstr ""
+msgstr "გუნდის %(team)s მინიჭების დომენი არასწორადაა ფორმატირებული"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "დანართების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_auto_enabled
 msgid "Auto Assignment"
-msgstr ""
+msgstr "ავტომატური მინიჭება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_action
 msgid "Auto Assignment Action"
-msgstr ""
+msgstr "ავტომატური მინიჭების მოქმედება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_interval_type
 msgid "Auto Assignment Interval Unit"
-msgstr ""
+msgstr "ავტომატური მინიჭების ინტერვალის ერთეული"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_run_datetime
 msgid "Auto Assignment Next Execution Date"
-msgstr ""
+msgstr "ავტომატური მინიჭების შემდეგი შესრულების თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_rules
 msgid "Auto-Assignment Rules"
-msgstr ""
+msgstr "ავტომატური მინიჭების წესები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__automated_probability
 msgid "Automated Probability"
-msgstr ""
+msgstr "ავტომატური ალბათობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_max
 msgid "Average Leads Capacity (on 30 days)"
-msgstr ""
+msgstr "ლიდების საშუალო მოცულობა (30 დღეში)"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Belgium"
-msgstr ""
+msgstr "ბელგია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_blacklisted
 msgid "Blacklist"
-msgstr ""
+msgstr "შავი სია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_blacklisted
 msgid "Blacklisted Phone is Phone"
-msgstr ""
+msgstr "შავ სიაში მყოფი ნომერი ტელეფონია"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Boom! Team record for the past 30 days."
-msgstr ""
+msgstr "ბუმ! გუნდის რეკორდი ბოლო 30 დღეში."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_bounce
 msgid "Bounce"
-msgstr ""
+msgstr "დაბრუნებული წერილი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Bring Odoo into your inbox:"
-msgstr ""
+msgstr "Odoo თქვენს საფოსტო ყუთში:"
 
 #. module: crm
 #: model:ir.module.module,shortdesc:base.module_crm
@@ -705,32 +794,32 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.digest_digest_view_form
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "CRM"
-msgstr ""
+msgstr "CRM"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_activity_report
 msgid "CRM Activity Analysis"
-msgstr ""
+msgstr "CRM აქტივობების ანალიზი"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_recurring_plan
 msgid "CRM Recurring Revenue Plan"
-msgstr ""
+msgstr "CRM განმეორებადი შემოსავლის გეგმა"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_stage
 msgid "CRM Stage"
-msgstr ""
+msgstr "CRM ეტაპი"
 
 #. module: crm
 #: model:ir.actions.server,name:crm.ir_cron_crm_lead_assign_ir_actions_server
 msgid "CRM: Lead Assignment"
-msgstr ""
+msgstr "CRM: ლიდების მინიჭება"
 
 #. module: crm
 #: model:ir.model,name:crm.model_calendar_event
 msgid "Calendar Event"
-msgstr ""
+msgstr "კალენდრის ღონისძიება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__campaign_id
@@ -738,12 +827,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Campaign"
-msgstr ""
+msgstr "კამპანია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Campaign:"
-msgstr ""
+msgstr "კამპანია:"
 
 #. module: crm
 #. odoo-python
@@ -753,11 +842,14 @@ msgid ""
 "operations, as the probabilities of opportunities in this stage will be "
 "recomputed on saving."
 msgstr ""
+"„მოგებული ეტაპია?“ მნიშვნელობის შეცვლამ შეიძლება ბევრი ოპერაცია გამოიწვიოს, "
+"რადგან შენახვისას ამ ეტაპზე მყოფი შესაძლებლობების ალბათობები ხელახლა "
+"გამოითვლება."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_tree
 msgid "Channel"
-msgstr ""
+msgstr "არხი"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_6
@@ -765,6 +857,8 @@ msgid ""
 "Check the Stage Tracker of Leads to identify bottlenecks in your Sales "
 "process."
 msgstr ""
+"გაყიდვების პროცესში შეფერხებების გამოსავლენად შეამოწმეთ ლიდების ეტაპების "
+"ტრეკერი."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_leads
@@ -772,11 +866,14 @@ msgid ""
 "Check this box to filter and qualify incoming requests as leads before "
 "converting them into opportunities and assigning them to a salesperson."
 msgstr ""
+"მონიშნეთ ეს ველი, რათა შემოსული მოთხოვნები ლიდებად გაფილტროთ და შეაფასოთ, "
+"სანამ შესაძლებლობებად გარდაქმნით და გაყიდვების მენეჯერს მიანიჭებთ."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__use_opportunities
 msgid "Check this box to manage a presales process with opportunities."
 msgstr ""
+"მონიშნეთ ეს ველი შესაძლებლობებით წინასწარი გაყიდვების პროცესის სამართავად."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__city
@@ -785,7 +882,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "City"
-msgstr ""
+msgstr "ქალაქი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_report__tag_ids
@@ -793,6 +890,8 @@ msgstr ""
 msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, Service"
 msgstr ""
+"ლიდების/შესაძლებლობების კატეგორიების კლასიფიკაცია და ანალიზი, მაგ.: "
+"ტრენინგი, მომსახურება"
 
 #. module: crm
 #. odoo-javascript
@@ -801,12 +900,14 @@ msgid ""
 "Click on the breadcrumbs to go back to your Pipeline. Odoo will save all "
 "your changes as you navigate."
 msgstr ""
+"ვორონკაში დასაბრუნებლად დააწკაპუნეთ ნავიგაციის ზოლზე. ნავიგაციისას Odoo "
+"ყველა ცვლილებას შეინახავს."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Close opportunities to get insights."
-msgstr ""
+msgstr "დახურეთ შესაძლებლობები ანალიტიკის მისაღებად."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_closed
@@ -816,23 +917,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Closed Date"
-msgstr ""
+msgstr "დახურვის თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_lost__lost_feedback
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Closing Note"
-msgstr ""
+msgstr "დახურვის შენიშვნა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__color
 msgid "Color"
-msgstr ""
+msgstr "ფერი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__color
 msgid "Color Index"
-msgstr ""
+msgstr "ფერის ინდექსი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__company_id
@@ -847,108 +948,108 @@ msgstr "კომპანია"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Company Information"
-msgstr ""
+msgstr "კომპანიის ინფორმაცია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_name
 msgid "Company Name"
-msgstr ""
+msgstr "კომპანიის დასახელება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Company Name:"
-msgstr ""
+msgstr "კომპანიის დასახელება:"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Company:"
-msgstr ""
+msgstr "კომპანია:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Completion Date"
-msgstr ""
+msgstr "დასრულების თარიღი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Computed by Odoo AI using your data."
-msgstr ""
+msgstr "გამოთვლილია Odoo AI-ის მიერ თქვენი მონაცემებით."
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "კონფიგურაციის პარამეტრები"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_config
 msgid "Configuration"
-msgstr ""
+msgstr "კონფიგურაცია"
 
 #. module: crm
 #: model_terms:web_tour.tour,rainbow_man_message:crm.crm_tour
 msgid "Congrats, best of luck catching such big fish! :)"
-msgstr ""
+msgstr "გილოცავთ, წარმატებებს ასეთი დიდი თევზის დაჭერაში! :)"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Connect to Gmail or Outlook accounts."
-msgstr ""
+msgstr "Gmail-ის ან Outlook-ის ანგარიშებთან დაკავშირება."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid "Consider leads created as of the:"
-msgstr ""
+msgstr "გათვალისწინებული იქნება ლიდები, შექმნილი თარიღიდან:"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Consulting"
-msgstr ""
+msgstr "კონსულტაცია"
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_partner
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_id
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Contact"
-msgstr ""
+msgstr "კონტაქტი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Contact Details:"
-msgstr ""
+msgstr "საკონტაქტო დეტალები:"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Contact Email"
-msgstr ""
+msgstr "კონტაქტის ელფოსტა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Contact Information"
-msgstr ""
+msgstr "საკონტაქტო ინფორმაცია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__contact_name
 msgid "Contact Name"
-msgstr ""
+msgstr "კონტაქტის სახელი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Contact Phone"
-msgstr ""
+msgstr "კონტაქტის ტელეფონი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Contact:"
-msgstr ""
+msgstr "კონტაქტი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__name
 msgid "Conversion Action"
-msgstr ""
+msgstr "გარდაქმნის მოქმედება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_conversion
@@ -956,32 +1057,32 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Conversion Date"
-msgstr ""
+msgstr "გარდაქმნის თარიღი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Conversion Date from Lead to Opportunity"
-msgstr ""
+msgstr "ლიდიდან შესაძლებლობად გარდაქმნის თარიღი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert"
-msgstr ""
+msgstr "გარდაქმნა"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__name__convert_and_merge
 msgid "Convert & Merge with Opportunities"
-msgstr ""
+msgstr "გარდაქმნა და შესაძლებლობებთან გაერთიანება"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Convert Lead to Opportunity (in mass)"
-msgstr ""
+msgstr "ლიდების შესაძლებლობებად გარდაქმნა (მასობრივად)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Convert into an Opportunity to see it in your Pipeline"
-msgstr ""
+msgstr "გარდაქმენით შესაძლებლობად, რომ ის ვორონკაში დაინახოთ"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_crm_send_mass_convert
@@ -989,12 +1090,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert to Opportunities"
-msgstr ""
+msgstr "შესაძლებლობებად გარდაქმნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Convert to Opportunity"
-msgstr ""
+msgstr "შესაძლებლობად გარდაქმნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -1002,17 +1103,19 @@ msgid ""
 "Convert visitors of your website into leads and perform data enrichment "
 "based on their IP address"
 msgstr ""
+"ვებგვერდის ვიზიტორების ლიდებად გარდაქმნა და მონაცემების გამდიდრება მათი IP "
+"მისამართის მიხედვით"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__email_state__correct
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__phone_state__correct
 msgid "Correct"
-msgstr ""
+msgstr "სწორი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_bounce
 msgid "Counter of the number of bounced emails for this contact"
-msgstr ""
+msgstr "ამ კონტაქტისთვის დაბრუნებული წერილების რაოდენობის მრიცხველი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__country_id
@@ -1022,48 +1125,48 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Country"
-msgstr ""
+msgstr "ქვეყანა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Create Contacts, Leads, Tickets, Projects and Tasks."
-msgstr ""
+msgstr "კონტაქტების, ლიდების, ბილეთების, პროექტებისა და ამოცანების შექმნა."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_crm_iap_reveal
 msgid "Create Leads/Opportunities from your website's traffic"
-msgstr ""
+msgstr "ლიდების/შესაძლებლობების შექმნა ვებგვერდის ტრაფიკიდან"
 
 #. module: crm
 #: model:ir.model,website_form_label:crm.model_res_partner
 msgid "Create a Customer"
-msgstr ""
+msgstr "კლიენტის შექმნა"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_all_leads
 msgid "Create a Lead"
-msgstr ""
+msgstr "ლიდის შექმნა"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.mail_activity_plan_action_lead
 msgid "Create a Lead Activity Plan"
-msgstr ""
+msgstr "ლიდის აქტივობის გეგმის შექმნა"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lost_reason_action
 msgid "Create a Lost Reason"
-msgstr ""
+msgstr "წაგების მიზეზის შექმნა"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_recurring_plan_action
 msgid "Create a Recurring Plan"
-msgstr ""
+msgstr "განმეორებადი გეგმის შექმნა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_mining_in_pipeline
 msgid "Create a lead mining request directly from the opportunity pipeline."
-msgstr ""
+msgstr "ლიდების მოძიების მოთხოვნის შექმნა პირდაპირ შესაძლებლობების ვორონკიდან."
 
 #. module: crm
 #. odoo-python
@@ -1071,25 +1174,25 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid "Create a new lead"
-msgstr ""
+msgstr "ახალი ლიდის შექმნა"
 
 #. module: crm
 #: model:ir.model,website_form_label:crm.model_crm_lead
 msgid "Create an Opportunity"
-msgstr ""
+msgstr "შესაძლებლობის შექმნა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Create an opportunity to start playing with your pipeline."
-msgstr ""
+msgstr "შექმენით შესაძლებლობა, რომ ვორონკასთან მუშაობა დაიწყოთ."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Create your new contact."
-msgstr ""
+msgstr "შექმენით თქვენი ახალი კონტაქტი."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__create_uid
@@ -1122,7 +1225,7 @@ msgstr "შექმნის თარიღი"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Created on:"
-msgstr ""
+msgstr "შექმნის თარიღი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__lead_create_date
@@ -1141,7 +1244,7 @@ msgstr "ვალუტა"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_bounced_content
 msgid "Custom Bounced Message"
-msgstr ""
+msgstr "მორგებული დაბრუნების შეტყობინება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__partner_id
@@ -1153,73 +1256,73 @@ msgstr "კლიენტი"
 #: model:ir.ui.menu,name:crm.res_partner_menu_customer
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Customers"
-msgstr ""
+msgstr "კლიენტები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Date Closed"
-msgstr ""
+msgstr "დახურვის თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__rotting_days
 msgid "Day count since this resource was last updated"
-msgstr ""
+msgstr "დღეების რაოდენობა ამ რესურსის ბოლო განახლებიდან"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__days
 msgid "Days"
-msgstr ""
+msgstr "დღე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__rotting_days
 msgid "Days Rotting"
-msgstr ""
+msgstr "გაჩერებული დღეები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_open
 msgid "Days to Assign"
-msgstr ""
+msgstr "დღეები მინიჭებამდე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_close
 msgid "Days to Close"
-msgstr ""
+msgstr "დღეები დახურვამდე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__rotting_threshold_days
 msgid "Days to rot"
-msgstr ""
+msgstr "დღეები გაჩერებამდე"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Deadline: %s"
-msgstr ""
+msgstr "ვადა: %s"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_defaults
 msgid "Default Values"
-msgstr ""
+msgstr "ნაგულისხმევი მნიშვნელობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Define recurring plans and revenues on Opportunities"
-msgstr ""
+msgstr "შესაძლებლობებზე განმეორებადი გეგმებისა და შემოსავლების განსაზღვრა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Delete"
-msgstr ""
+msgstr "წაშლა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__name
 msgid "Description"
-msgstr ""
+msgstr "აღწერა"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Did you know emails sent to"
-msgstr ""
+msgstr "იცით, რომ წერილები, რომლებიც იგზავნება"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
@@ -1227,6 +1330,8 @@ msgid ""
 "Did you know emails sent to a Sales Team alias generate opportunities in "
 "your pipeline?"
 msgstr ""
+"იცით, რომ გაყიდვების გუნდის ფსევდონიმზე გაგზავნილი წერილები თქვენს ვორონკაში "
+"შესაძლებლობებს ქმნის?"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
@@ -1235,6 +1340,10 @@ msgid ""
 "fill in all its data? Odoo autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
+"იცით, რომ კომპანიის ძიება შეგიძლიათ დასახელებით ან საიდენტიფიკაციო კოდით და "
+"მისი ყველა მონაცემი მყისიერად შეივსება? Odoo ყველაფერს ავტომატურად შეავსებს: "
+"ლოგოს, მისამართს, კომპანიის ზომას, ბიზნეს ინფორმაციას, სოციალური ქსელების "
+"ანგარიშებს და ა.შ."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
@@ -1243,16 +1352,19 @@ msgid ""
 "top-right map icon? A lot of screens in Odoo can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
+"იცით, რომ შესაძლებლობების სია შეგიძლიათ რუკის ხედად აქციოთ ზედა მარჯვენა "
+"კუთხეში რუკის ხატულით? Odoo-ში ბევრი ეკრანის რუკად ჩვენებაა შესაძლებელი: "
+"ამოცანები, კონტაქტები, მიწოდების შეკვეთები და ა.შ."
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
 msgid "Digest"
-msgstr ""
+msgstr "დაიჯესტი"
 
 #. module: crm
 #: model:ir.model,name:crm.model_discuss_channel
 msgid "Discussion Channel"
-msgstr ""
+msgstr "დისკუსიის არხი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_calendar_event__display_name
@@ -1274,131 +1386,135 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_ir_config_parameter__display_name
 #: model:ir.model.fields,field_description:crm.field_mail_activity__display_name
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:crm.field_res_groups__display_name
 #: model:ir.model.fields,field_description:crm.field_res_partner__display_name
 #: model:ir.model.fields,field_description:crm.field_res_users__display_name
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__display_name
 msgid "Display Name"
-msgstr "სახელი"
+msgstr "საჩვენებელი სახელი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Display your partners on a dedicated website page."
-msgstr ""
+msgstr "თქვენი პარტნიორების ჩვენება ვებგვერდის სპეციალურ გვერდზე."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_stage.py:0
 msgid "Do you really want to update this stage?"
-msgstr ""
+msgstr "ნამდვილად გსურთ ამ ეტაპის განახლება?"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Do you want to install the \"%(module_name)s\" App?"
-msgstr ""
+msgstr "გსურთ „%(module_name)s“ აპლიკაციის დაყენება?"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have a"
-msgstr ""
+msgstr "არ აქვს"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Does not have an"
-msgstr ""
+msgstr "არ აქვს"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Domain"
-msgstr ""
+msgstr "დომენი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Drag your opportunity to <b>Won</b> when you get the deal. Congrats!"
 msgstr ""
+"გარიგების დადებისას გადაიტანეთ შესაძლებლობა <b>მოგებულში</b>. გილოცავთ!"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__duplicated_lead_ids
 msgid "Duplicated Lead"
-msgstr ""
+msgstr "დუბლირებული ლიდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__duplicated_lead_ids_domain
 msgid "Duplicated Lead Ids Domain"
-msgstr ""
+msgstr "დუბლირებული ლიდების ID-ების დომენი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Duration: %s"
-msgstr ""
+msgstr "ხანგრძლივობა: %s"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_forecast
 msgid "Easily set expected closing dates and overview your revenue streams."
 msgstr ""
+"მარტივად განსაზღვრეთ მოსალოდნელი დახურვის თარიღები და მიმოიხილეთ შემოსავლის "
+"ნაკადები."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Edit"
-msgstr ""
+msgstr "რედაქტირება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_from
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Email"
-msgstr ""
+msgstr "ელფოსტა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_email
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "Email Alias"
-msgstr ""
+msgstr "ელფოსტის ფსევდონიმი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_domain_criterion
 msgid "Email Domain Criterion"
-msgstr ""
+msgstr "ელფოსტის დომენის კრიტერიუმი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Email Marketing"
-msgstr ""
+msgstr "ელფოსტით მარკეტინგი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_state
 msgid "Email Quality"
-msgstr ""
+msgstr "ელფოსტის ხარისხი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_domain
 msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
-msgstr ""
+msgstr "ელფოსტის დომენი, მაგ. 'example.com' მისამართში 'odoo@example.com'"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Email:"
-msgstr ""
+msgstr "ელფოსტა:"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__auto
 msgid "Enrich all leads automatically"
-msgstr ""
+msgstr "ყველა ლიდის ავტომატური გამდიდრება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__lead_enrich_auto
 msgid "Enrich lead automatically"
-msgstr ""
+msgstr "ლიდის ავტომატური გამდიდრება"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__lead_enrich_auto__manual
 msgid "Enrich leads on demand only"
-msgstr ""
+msgstr "ლიდების გამდიდრება მხოლოდ მოთხოვნისას"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_enrich
@@ -1406,11 +1522,14 @@ msgid ""
 "Enrich your leads automatically with company data based on their email "
 "address."
 msgstr ""
+"ლიდების ავტომატური გამდიდრება კომპანიის მონაცემებით მათი ელფოსტის მისამართის "
+"მიხედვით."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Enrich your leads with company data based on their email addresses"
 msgstr ""
+"ლიდების გამდიდრება კომპანიის მონაცემებით მათი ელფოსტის მისამართების მიხედვით"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__requirements
@@ -1418,21 +1537,23 @@ msgid ""
 "Enter here the internal requirements for this stage (ex: Offer sent to "
 "customer). It will appear as a tooltip over the stage's name."
 msgstr ""
+"მიუთითეთ ამ ეტაპის შიდა მოთხოვნები (მაგ.: კლიენტს გაეგზავნა შეთავაზება). "
+"ისინი ეტაპის დასახელებაზე მინიშნებად გამოჩნდება."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__date_deadline
 msgid "Estimate of the date on which the opportunity will be won."
-msgstr ""
+msgstr "სავარაუდო თარიღი, როდესაც შესაძლებლობა მოგებული იქნება."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__force_assignment
 msgid "Even if assigned"
-msgstr ""
+msgstr "მინიჭების შემთხვევაშიც"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Every"
-msgstr ""
+msgstr "ყოველ"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__date_deadline
@@ -1443,62 +1564,62 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Expected Closing"
-msgstr ""
+msgstr "მოსალოდნელი დახურვა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Expected Closing:"
-msgstr ""
+msgstr "მოსალოდნელი დახურვა:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_monthly
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Expected MRR"
-msgstr ""
+msgstr "მოსალოდნელი MRR"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__expected_revenue
 msgid "Expected Revenue"
-msgstr ""
+msgstr "მოსალოდნელი შემოსავალი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Expected Revenues"
-msgstr ""
+msgstr "მოსალოდნელი შემოსავალი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Exploration"
-msgstr ""
+msgstr "კვლევა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Extra Info"
-msgstr ""
+msgstr "დამატებითი ინფორმაცია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid "Extra fields..."
-msgstr ""
+msgstr "დამატებითი ველები..."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Failed to install \"%(module_name)s\""
-msgstr ""
+msgstr "„%(module_name)s“-ის დაყენება ვერ მოხერხდა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__field_id
 msgid "Field"
-msgstr ""
+msgstr "ველი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency_field__name
 msgid "Field Label"
-msgstr ""
+msgstr "ველის წარწერა"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_sanitized
@@ -1506,37 +1627,40 @@ msgid ""
 "Field used to store sanitized phone number. Helps speeding up searches and "
 "comparisons."
 msgstr ""
+"ველი გასუფთავებული ტელეფონის ნომრის შესანახად. აჩქარებს ძიებასა და შედარებას."
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency_field
 msgid "Fields that can be used for predictive lead scoring computation"
 msgstr ""
+"ველები, რომლებიც შეიძლება გამოყენებულ იქნას ლიდების პროგნოზული შეფასების "
+"გამოსათვლელად"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Find any Odoo record without leaving your inbox."
-msgstr ""
+msgstr "იპოვეთ ნებისმიერი Odoo ჩანაწერი საფოსტო ყუთიდან გაუსვლელად."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Fold by Default"
-msgstr ""
+msgstr "ნაგულისხმევად ჩაკეცილი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__fold
 msgid "Folded in Pipeline"
-msgstr ""
+msgstr "ჩაკეცილი ვორონკაში"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "გამომწერები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "გამომწერები (პარტნიორები)"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
@@ -1546,113 +1670,119 @@ msgid ""
 "targeted to your needs: company size, industry, etc. To help you test the "
 "feature, we offer you 20 credits for free."
 msgstr ""
+"გაყიდვების გუნდისთვის ლიდების ნაკლებობაზე უარესი არაფერია. საბედნიეროდ, სულ "
+"რამდენიმე დაწკაპუნებით შეგიძლიათ შექმნათ ლიდები, რომლებიც ზუსტად თქვენს "
+"საჭიროებებს შეესაბამება: კომპანიის ზომა, ინდუსტრია და ა.შ. ფუნქციის "
+"გამოსაცდელად გთავაზობთ 20 უფასო კრედიტს."
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_forecast
 #: model:ir.ui.menu,name:crm.crm_menu_forecast
 msgid "Forecast"
-msgstr ""
+msgstr "პროგნოზი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_pivot_forecast
 msgid "Forecast Analysis"
-msgstr ""
+msgstr "პროგნოზის ანალიზი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s"
-msgstr ""
+msgstr "%(source_name)s-დან"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "From %(source_name)s: %(source_subject)s"
-msgstr ""
+msgstr "%(source_name)s-დან: %(source_subject)s"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Future Activities"
-msgstr ""
+msgstr "მომავალი აქტივობები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.xml:0
 msgid "Generate"
-msgstr ""
+msgstr "გენერირება"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Generate leads from Outlook & Gmail"
-msgstr ""
+msgstr "ლიდების გენერირება Outlook-იდან და Gmail-იდან"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_crm_iap_mine
 msgid "Generate new leads based on their country, industries, size, etc."
 msgstr ""
+"ახალი ლიდების გენერირება მათი ქვეყნის, ინდუსტრიების, ზომის და ა.შ. მიხედვით."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Generate new leads based on their country, industry, size, etc."
 msgstr ""
+"ახალი ლიდების გენერირება მათი ქვეყნის, ინდუსტრიის, ზომის და ა.შ. მიხედვით."
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_lost
 msgid "Get Lost Reason"
-msgstr ""
+msgstr "წაგების მიზეზის მითითება"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Get it for Gmail"
-msgstr ""
+msgstr "მიიღეთ Gmail-ისთვის"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Get it for Outlook"
-msgstr ""
+msgstr "მიიღეთ Outlook-ისთვის"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Get our Mail Plugins!"
-msgstr ""
+msgstr "მიიღეთ ჩვენი საფოსტო დანამატები!"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "Give priority if"
-msgstr ""
+msgstr "პრიორიტეტის მინიჭება, თუ"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Gmail"
-msgstr ""
+msgstr "Gmail"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Go, go, go! Congrats for your first deal."
-msgstr ""
+msgstr "წინ, წინ, წინ! გილოცავთ პირველ გარიგებას."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__has_message
 msgid "Has Message"
-msgstr ""
+msgstr "აქვს შეტყობინება"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Has a"
-msgstr ""
+msgstr "აქვს"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__2
 msgid "High"
-msgstr ""
+msgstr "მაღალი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__rotting_threshold_days
@@ -1661,17 +1791,20 @@ msgid ""
 "days.         Set to 0 to disable. Changing this parameter will not affect "
 "the rotting status/date of resources last updated before this change."
 msgstr ""
+"შესაძლებლობების გამოკვეთა, რომლებიც ამდენი დღის განმავლობაში არ განახლებულა. "
+"გასათიშად მიუთითეთ 0. ამ პარამეტრის შეცვლა არ იმოქმედებს იმ რესურსების "
+"გაჩერების სტატუსზე/თარიღზე, რომლებიც ამ ცვლილებამდე განახლდა."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Historic win rate"
-msgstr ""
+msgstr "მოგების ისტორიული მაჩვენებელი"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__hours
 msgid "Hours"
-msgstr ""
+msgstr "საათი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_calendar_event__id
@@ -1693,11 +1826,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm.field_ir_config_parameter__id
 #: model:ir.model.fields,field_description:crm.field_mail_activity__id
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__id
+#: model:ir.model.fields,field_description:crm.field_res_groups__id
 #: model:ir.model.fields,field_description:crm.field_res_partner__id
 #: model:ir.model.fields,field_description:crm.field_res_users__id
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__id
 msgid "ID"
-msgstr "იდენტიფიკატორი"
+msgstr "ID"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_thread_id
@@ -1705,27 +1839,29 @@ msgid ""
 "ID of the parent record holding the alias (example: project holding the task "
 "creation alias)"
 msgstr ""
+"ფსევდონიმის მფლობელი მშობელი ჩანაწერის ID (მაგალითად: პროექტი, რომელსაც "
+"ამოცანების შექმნის ფსევდონიმი აქვს)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_exception_icon
 msgid "Icon"
-msgstr ""
+msgstr "ხატულა"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr ""
+msgstr "გამონაკლისი აქტივობის აღმნიშვნელი ხატულა."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "თუ მონიშნულია, ახალი შეტყობინებები თქვენს ყურადღებას საჭიროებს."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_has_error
 #: model:ir.model.fields,help:crm.field_crm_lead__message_has_sms_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "თუ მონიშნულია, ზოგიერთ შეტყობინებას მიწოდების შეცდომა აქვს."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_bounced_content
@@ -1733,6 +1869,8 @@ msgid ""
 "If set, this content will automatically be sent out to unauthorized users "
 "instead of the default message."
 msgstr ""
+"თუ მითითებულია, ეს შინაარსი ნაგულისხმევი შეტყობინების ნაცვლად ავტომატურად "
+"გაეგზავნება არაავტორიზებულ მომხმარებლებს."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__is_blacklisted
@@ -1741,6 +1879,8 @@ msgid ""
 "If the email address is on the blacklist, the contact won't receive mass "
 "mailing anymore, from any list"
 msgstr ""
+"თუ ელფოსტის მისამართი შავ სიაშია, კონტაქტი აღარ მიიღებს მასობრივ დაგზავნას "
+"არცერთი სიიდან"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_sanitized_blacklisted
@@ -1748,45 +1888,47 @@ msgid ""
 "If the sanitized phone number is on the blacklist, the contact won't receive "
 "mass mailing sms anymore, from any list"
 msgstr ""
+"თუ გასუფთავებული ტელეფონის ნომერი შავ სიაშია, კონტაქტი აღარ მიიღებს მასობრივ "
+"SMS დაგზავნას არცერთი სიიდან"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_import_crm
 msgid "Import & Synchronize"
-msgstr ""
+msgstr "იმპორტი და სინქრონიზაცია"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Import leads from CSV"
-msgstr ""
+msgstr "ლიდების იმპორტი CSV-დან"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Import leads from a CSV or Excel file"
-msgstr ""
+msgstr "ლიდების იმპორტი CSV ან Excel ფაილიდან"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__limited
 msgid "In rotation, with a limit"
-msgstr ""
+msgstr "როტაციაში, ლიმიტით"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/webclient/share_target/crm_share_target_item.xml:0
 msgid "In sales team"
-msgstr ""
+msgstr "გაყიდვების გუნდში"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Inactive"
-msgstr ""
+msgstr "არააქტიური"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__email_state__incorrect
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__phone_state__incorrect
 msgid "Incorrect"
-msgstr ""
+msgstr "არასწორი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__phone_blacklisted
@@ -1795,23 +1937,28 @@ msgid ""
 "distinguish which number is blacklisted             when there is both a "
 "mobile and phone field in a model."
 msgstr ""
+"მიუთითებს, არის თუ არა შავ სიაში მყოფი გასუფთავებული ტელეფონის ნომერი "
+"ტელეფონის ნომერი. გვეხმარება გავარჩიოთ, რომელი ნომერია შავ სიაში, როცა "
+"მოდელში მობილურისა და ტელეფონის ველები ერთდროულადაა."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Install request for \"%s\""
-msgstr ""
+msgstr "დაყენების მოთხოვნა: „%s“"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Installing \"%(module_name)s\""
-msgstr ""
+msgstr "„%(module_name)s“-ის დაყენება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_interval_type
 msgid "Interval type between each cron run (e.g. each 2 days or each 2 hours)"
 msgstr ""
+"ინტერვალის ტიპი cron-ის გაშვებებს შორის (მაგ. ყოველ 2 დღეში ან ყოველ 2 "
+"საათში)"
 
 #. module: crm
 #. odoo-python
@@ -1820,113 +1967,115 @@ msgid ""
 "Invalid repeat frequency. Consider changing frequency type instead of using "
 "large numbers."
 msgstr ""
+"გამეორების არასწორი სიხშირე. დიდი რიცხვების ნაცვლად სჯობს სიხშირის ტიპი "
+"შეცვალოთ."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "არის გამომწერი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__won_status
 msgid "Is Won"
-msgstr ""
+msgstr "მოგებულია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__is_won
 msgid "Is Won Stage?"
-msgstr ""
+msgstr "მოგებული ეტაპია?"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_automated_probability
 msgid "Is automated probability?"
-msgstr ""
+msgstr "ალბათობა ავტომატურია?"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__duration_tracking
 msgid "JSON that maps ids from a many2one field to seconds spent"
-msgstr ""
+msgstr "JSON, რომელიც many2one ველის ID-ებს დახარჯულ წამებთან აკავშირებს"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__function
 msgid "Job Position"
-msgstr ""
+msgstr "თანამდებობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Job Position:"
-msgstr ""
+msgstr "თანამდებობა:"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Keep current team"
-msgstr ""
+msgstr "მიმდინარე გუნდის შენარჩუნება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Keep current teams"
-msgstr ""
+msgstr "მიმდინარე გუნდების შენარჩუნება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Keep current user"
-msgstr ""
+msgstr "მიმდინარე მომხმარებლის შენარჩუნება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Keep current users"
-msgstr ""
+msgstr "მიმდინარე მომხმარებლების შენარჩუნება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created_value
 msgid "Kpi Crm Lead Created Value"
-msgstr ""
+msgstr "KPI CRM შექმნილი ლიდების მნიშვნელობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won_value
 msgid "Kpi Crm Opportunities Won Value"
-msgstr ""
+msgstr "KPI CRM მოგებული შესაძლებლობების მნიშვნელობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_active_count
 msgid "Lang Active Count"
-msgstr ""
+msgstr "აქტიური ენების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_id
 msgid "Language"
-msgstr ""
+msgstr "ენა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Language is"
-msgstr ""
+msgstr "ენა არის"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Language:"
-msgstr ""
+msgstr "ენა:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_automation_last
 msgid "Last Action"
-msgstr ""
+msgstr "ბოლო მოქმედება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Last Automation:"
-msgstr ""
+msgstr "ბოლო ავტომატიზაცია:"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Last Meeting"
-msgstr ""
+msgstr "ბოლო შეხვედრა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__date_last_stage_update
 msgid "Last Stage Update"
-msgstr ""
+msgstr "ეტაპის ბოლო განახლება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__write_uid
@@ -1954,13 +2103,13 @@ msgstr "ბოლოს განაახლა"
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__write_date
 #: model:ir.model.fields,field_description:crm.field_crm_stage__write_date
 msgid "Last Updated on"
-msgstr "ბოლოს განახლებულია"
+msgstr "ბოლო განახლების თარიღი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Late Activities"
-msgstr ""
+msgstr "დაგვიანებული აქტივობები"
 
 #. module: crm
 #. odoo-javascript
@@ -1971,97 +2120,97 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Lead"
-msgstr ""
+msgstr "ლიდი"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.mail_activity_plan_action_lead
 msgid "Lead Activity Plans"
-msgstr ""
+msgstr "ლიდის აქტივობის გეგმები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_enabled
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_enabled
 msgid "Lead Assign"
-msgstr ""
+msgstr "ლიდის მინიჭება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "Lead Assignment"
-msgstr ""
+msgstr "ლიდების მინიჭება"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Lead Assignment requested by %(user_name)s"
-msgstr ""
+msgstr "ლიდების მინიჭება მოითხოვა %(user_name)s-მა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_max
 msgid "Lead Average Capacity"
-msgstr ""
+msgstr "ლიდების საშუალო მოცულობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Enrichment"
-msgstr ""
+msgstr "ლიდების გამდიდრება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Generation"
-msgstr ""
+msgstr "ლიდების გენერირება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Lead Mining"
-msgstr ""
+msgstr "ლიდების მოძიება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_properties_definition
 msgid "Lead Properties"
-msgstr ""
+msgstr "ლიდის თვისებები"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_scoring_frequency
 msgid "Lead Scoring Frequency"
-msgstr ""
+msgstr "ლიდების შეფასების სიხშირე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields
 msgid "Lead Scoring Frequency Fields"
-msgstr ""
+msgstr "ლიდების შეფასების სიხშირის ველები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_fields_str
 msgid "Lead Scoring Frequency Fields in String"
-msgstr ""
+msgstr "ლიდების შეფასების სიხშირის ველები სტრიქონად"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date
 msgid "Lead Scoring Starting Date"
-msgstr ""
+msgstr "ლიდების შეფასების საწყისი თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_start_date_str
 msgid "Lead Scoring Starting Date in String"
-msgstr ""
+msgstr "ლიდების შეფასების საწყისი თარიღი სტრიქონად"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Lead Sourcing"
-msgstr ""
+msgstr "ლიდების მოძიება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_tree
 msgid "Lead Tags"
-msgstr ""
+msgstr "ლიდის ტეგები"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Lead or Opportunity"
-msgstr ""
+msgstr "ლიდი ან შესაძლებლობა"
 
 #. module: crm
 #. odoo-python
@@ -2070,16 +2219,18 @@ msgid ""
 "Lead/Opportunities automatic assignment is limited to managers or "
 "administrators"
 msgstr ""
+"ლიდების/შესაძლებლობების ავტომატური მინიჭება მხოლოდ მენეჯერებსა და "
+"ადმინისტრატორებს შეუძლიათ"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
 msgid "Lead/Opportunity created"
-msgstr ""
+msgstr "ლიდი/შესაძლებლობა შეიქმნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_creation_message
 msgid "Lead/Opportunity created<br/>"
-msgstr ""
+msgstr "ლიდი/შესაძლებლობა შეიქმნა<br/>"
 
 #. module: crm
 #. odoo-python
@@ -2098,17 +2249,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_kanban
 msgid "Leads"
-msgstr ""
+msgstr "ლიდები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__lead_month_count
 msgid "Leads (30 days)"
-msgstr ""
+msgstr "ლიდები (30 დღე)"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__lead_day_count
 msgid "Leads (last 24h)"
-msgstr ""
+msgstr "ლიდები (ბოლო 24 სთ)"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_report_crm_lead_salesteam
@@ -2116,7 +2267,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_graph_lead
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot_lead
 msgid "Leads Analysis"
-msgstr ""
+msgstr "ლიდების ანალიზი"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.action_report_crm_lead_salesteam
@@ -2125,88 +2276,92 @@ msgid ""
 "the treatment delays or number of leads per state. You can sort out your "
 "leads analysis by different groups to get accurate grained analysis."
 msgstr ""
+"ლიდების ანალიზი საშუალებას გაძლევთ შეამოწმოთ CRM-თან დაკავშირებული "
+"სხვადასხვა ინფორმაცია, მაგალითად, დამუშავების დაყოვნებები ან ლიდების "
+"რაოდენობა მდგომარეობის მიხედვით. ზუსტი და დეტალური ანალიზისთვის ლიდების "
+"ანალიზი შეგიძლიათ სხვადასხვა ჯგუფად დაალაგოთ."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "Leads Assigned"
-msgstr ""
+msgstr "მინიჭებული ლიდები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lost_reason__leads_count
 msgid "Leads Count"
-msgstr ""
+msgstr "ლიდების რაოდენობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_calendar_view_leads
 msgid "Leads Generation"
-msgstr ""
+msgstr "ლიდების გენერირება"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_all_leads
 msgid "Leads are the qualification step before the creation of an opportunity."
-msgstr ""
+msgstr "ლიდები კვალიფიკაციის ეტაპია შესაძლებლობის შექმნამდე."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_merge_opportunities.py:0
 msgid "Leads merged"
-msgstr ""
+msgstr "ლიდები გაერთიანდა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_activity
 msgid "Leads or Opportunities"
-msgstr ""
+msgstr "ლიდები ან შესაძლებლობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are assigned to me"
-msgstr ""
+msgstr "ჩემზე მინიჭებული ლიდები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Leads that are not assigned"
-msgstr ""
+msgstr "მიუნიჭებელი ლიდები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_merge_opportunity__opportunity_ids
 msgid "Leads/Opportunities"
-msgstr ""
+msgstr "ლიდები/შესაძლებლობები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__crm_lead_count
 msgid "Leads/Opportunities count"
-msgstr ""
+msgstr "ლიდების/შესაძლებლობების რაოდენობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Leads/Opportunities to merge"
-msgstr ""
+msgstr "გასაერთიანებელი ლიდები/შესაძლებლობები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Learn More"
-msgstr ""
+msgstr "გაიგეთ მეტი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let's <b>Schedule an Activity.</b>"
-msgstr ""
+msgstr "მოდით, <b>დავგეგმოთ აქტივობა.</b>"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_activity_report_action
 #: model_terms:ir.actions.act_window,help:crm.crm_activity_report_action_team
 msgid "Let's get to work!"
-msgstr ""
+msgstr "შევუდგეთ საქმეს!"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Let’s have a look at an Opportunity."
-msgstr ""
+msgstr "მოდით, შესაძლებლობას გადავხედოთ."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead2opportunity_partner_mass__link_to_matching_customer
@@ -2214,11 +2369,13 @@ msgid ""
 "Link these opportunities to customers by either finding a match or creating "
 "a new one."
 msgstr ""
+"დაუკავშირეთ ეს შესაძლებლობები კლიენტებს შესაბამისის მოძებნით ან ახლის "
+"შექმნით."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__link_to_matching_customer
 msgid "Link to matching customers"
-msgstr ""
+msgstr "შესაბამის კლიენტებთან დაკავშირება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_id
@@ -2226,27 +2383,30 @@ msgid ""
 "Linked partner (optional). Usually created when converting the lead. You can "
 "find a partner by its Name, TIN, Email or Internal Reference."
 msgstr ""
+"დაკავშირებული პარტნიორი (არასავალდებულო). ჩვეულებრივ იქმნება ლიდის "
+"გარდაქმნისას. პარტნიორის მოძებნა შეგიძლიათ სახელით, საიდენტიფიკაციო კოდით, "
+"ელფოსტით ან შიდა კოდით."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_incoming_local
 msgid "Local-part based incoming detection"
-msgstr ""
+msgstr "შემომავალის ამოცნობა მისამართის ლოკალური ნაწილით"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lang_code
 msgid "Locale Code"
-msgstr ""
+msgstr "ლოკალის კოდი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Located in"
-msgstr ""
+msgstr "მდებარეობს"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Looks like nothing is planned."
-msgstr ""
+msgstr "როგორც ჩანს, არაფერია დაგეგმილი."
 
 #. module: crm
 #. odoo-javascript
@@ -2255,6 +2415,8 @@ msgid ""
 "Looks like nothing is planned. :(<br><br><i>Tip: Schedule activities to keep "
 "track of everything you have to do!</i>"
 msgstr ""
+"როგორც ჩანს, არაფერია დაგეგმილი. :(<br><br><i>რჩევა: დაგეგმეთ აქტივობები, "
+"რომ ყველა საქმეს თვალი ადევნოთ!</i>"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_activity_report__won_status__lost
@@ -2266,23 +2428,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost"
-msgstr ""
+msgstr "წაგებული"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_lead_lost.py:0
 msgid "Lost Comment"
-msgstr ""
+msgstr "წაგების კომენტარი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__lost_count
 msgid "Lost Count"
-msgstr ""
+msgstr "წაგებულების რაოდენობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Lost Lead"
-msgstr ""
+msgstr "წაგებული ლიდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lost_reason_id
@@ -2291,46 +2453,46 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Lost Reason"
-msgstr ""
+msgstr "წაგების მიზეზი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Lost Reason:"
-msgstr ""
+msgstr "წაგების მიზეზი:"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lost_reason_action
 #: model:ir.ui.menu,name:crm.menu_crm_lost_reason
 msgid "Lost Reasons"
-msgstr ""
+msgstr "წაგების მიზეზები"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__0
 msgid "Low"
-msgstr ""
+msgstr "დაბალი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_kanban/crm_column_progress.xml:0
 msgid "MRR"
-msgstr ""
+msgstr "MRR"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Mail plugins"
-msgstr ""
+msgstr "საფოსტო დანამატები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Manage Recurring Plans"
-msgstr ""
+msgstr "განმეორებადი გეგმების მართვა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/team_switcher/team_switcher.xml:0
 msgid "Manage Teams"
-msgstr ""
+msgstr "გუნდების მართვა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -2338,6 +2500,8 @@ msgid ""
 "Manage members or partners. Members get levels and pricelists, partners "
 "allow lead assignment and commission plans."
 msgstr ""
+"წევრების ან პარტნიორების მართვა. წევრები იღებენ დონეებსა და ფასების სიებს, "
+"პარტნიორები კი ლიდების მინიჭებისა და საკომისიო გეგმების საშუალებას იძლევა."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_action
@@ -2346,43 +2510,46 @@ msgid ""
 "action button. Automatic configures a cron running repeatedly assignment in "
 "all teams."
 msgstr ""
+"ხელით მინიჭება საშუალებას გაძლევთ მინიჭება გუნდის ფორმის ხედიდან ღილაკით "
+"გაუშვათ. ავტომატური რეჟიმი აწყობს cron-ს, რომელიც ყველა გუნდში მინიჭებას "
+"პერიოდულად ასრულებს."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__manual
 msgid "Manually"
-msgstr ""
+msgstr "ხელით"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_lost_action
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Mark Lost"
-msgstr ""
+msgstr "წაგებულად მონიშვნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Mark as Lost"
-msgstr ""
+msgstr "წაგებულად მონიშვნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Marketing"
-msgstr ""
+msgstr "მარკეტინგი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Marketing:"
-msgstr ""
+msgstr "მარკეტინგი:"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_type_icon
 msgid "Material Symbols icon e.g. checklist"
-msgstr ""
+msgstr "Material Symbols ხატულა, მაგ. checklist"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__lead_all_assigned_month_exceeded
 msgid "Maximum Leads To Assign"
-msgstr ""
+msgstr "მისანიჭებელი ლიდების მაქსიმუმი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__medium_id
@@ -2391,34 +2558,34 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr ""
+msgstr "არხი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Medium:"
-msgstr ""
+msgstr "არხი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_date
 msgid "Meeting Display Date"
-msgstr ""
+msgstr "შეხვედრის საჩვენებელი თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__meeting_display_label
 msgid "Meeting Display Label"
-msgstr ""
+msgstr "შეხვედრის საჩვენებელი წარწერა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Meeting scheduled at %s"
-msgstr ""
+msgstr "შეხვედრა დაგეგმილია: %s"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.act_crm_opportunity_calendar_event_new
 #: model:ir.model.fields,field_description:crm.field_crm_lead__calendar_event_ids
 msgid "Meetings"
-msgstr ""
+msgstr "შეხვედრები"
 
 #. module: crm
 #. odoo-python
@@ -2427,6 +2594,8 @@ msgid ""
 "Member assignment domain for user %(user)s and team %(team)s is incorrectly "
 "formatted"
 msgstr ""
+"მომხმარებლის %(user)s და გუნდის %(team)s წევრის მინიჭების დომენი არასწორადაა "
+"ფორმატირებული"
 
 #. module: crm
 #. odoo-python
@@ -2435,57 +2604,59 @@ msgid ""
 "Member preferred assignment domain for user %(user)s and team %(team)s is "
 "incorrectly formatted"
 msgstr ""
+"მომხმარებლის %(user)s და გუნდის %(team)s წევრის სასურველი მინიჭების დომენი "
+"არასწორადაა ფორმატირებული"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_partnership
 msgid "Membership / Partnership"
-msgstr ""
+msgstr "წევრობა / პარტნიორობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge"
-msgstr ""
+msgstr "გაერთიანება"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_merge_opportunities
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Merge Leads/Opportunities"
-msgstr ""
+msgstr "ლიდების/შესაძლებლობების გაერთიანება"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_merge_opportunity
 msgid "Merge Opportunities"
-msgstr ""
+msgstr "შესაძლებლობების გაერთიანება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "შეტყობინების მიწოდების შეცდომა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "შეტყობინებები"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__minutes
 msgid "Minutes"
-msgstr ""
+msgstr "წუთი"
 
 #. module: crm
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_monthly
 msgid "Monthly"
-msgstr ""
+msgstr "ყოველთვიური"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__assignment_max
 msgid "Monthly average leads capacity for all salesmen belonging to the team"
-msgstr ""
+msgstr "გუნდის ყველა გაყიდვების მენეჯერის ლიდების საშუალო თვიური მოცულობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__is_membership_multi
 msgid "Multi Teams"
-msgstr ""
+msgstr "მრავალი გუნდი"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_my_activities
@@ -2493,103 +2664,103 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_my_activities_filter
 msgid "My Activities"
-msgstr ""
+msgstr "ჩემი აქტივობები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr ""
+msgstr "ჩემი აქტივობის ვადა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "My Deadline"
-msgstr ""
+msgstr "ჩემი ვადა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "My Leads"
-msgstr ""
+msgstr "ჩემი ლიდები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "My Opportunities"
-msgstr ""
+msgstr "ჩემი შესაძლებლობები"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_crm_opportunities
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "My Pipeline"
-msgstr ""
+msgstr "ჩემი ვორონკა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0 model:crm.stage,name:crm.stage_lead1
 msgid "New"
-msgstr ""
+msgstr "ახალი"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_open_lead_form
 msgid "New Lead"
-msgstr ""
+msgstr "ახალი ლიდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created
 msgid "New Leads"
-msgstr ""
+msgstr "ახალი ლიდები"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_opportunity_form
 msgid "New Opportunity"
-msgstr ""
+msgstr "ახალი შესაძლებლობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_calendar_event_id
 msgid "Next Activity Calendar Event"
-msgstr ""
+msgstr "შემდეგი აქტივობის კალენდრის ღონისძიება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr ""
+msgstr "შემდეგი აქტივობის ვადა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_summary
 msgid "Next Activity Summary"
-msgstr ""
+msgstr "შემდეგი აქტივობის შეჯამება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_id
 msgid "Next Activity Type"
-msgstr ""
+msgstr "შემდეგი აქტივობის ტიპი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Next Meeting"
-msgstr ""
+msgstr "შემდეგი შეხვედრა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Next Run"
-msgstr ""
+msgstr "შემდეგი გაშვება"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No"
-msgstr ""
+msgstr "არა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Meeting"
-msgstr ""
+msgstr "შეხვედრის გარეშე"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No Subject"
-msgstr ""
+msgstr "თემის გარეშე"
 
 #. module: crm
 #. odoo-python
@@ -2598,6 +2769,8 @@ msgid ""
 "No allocated leads to %(team_name)s team and its salespersons because no "
 "unassigned lead matches its domain."
 msgstr ""
+"გუნდს %(team_name)s და მის გაყიდვების მენეჯერებს ლიდები არ განაწილდა, რადგან "
+"არცერთი მიუნიჭებელი ლიდი არ შეესაბამება მის დომენს."
 
 #. module: crm
 #. odoo-python
@@ -2606,6 +2779,8 @@ msgid ""
 "No allocated leads to %(team_name)s team because it has no capacity. Add "
 "capacity to its salespersons."
 msgstr ""
+"გუნდს %(team_name)s ლიდები არ განაწილდა, რადგან მას მოცულობა არ აქვს. "
+"დაამატეთ მოცულობა მის გაყიდვების მენეჯერებს."
 
 #. module: crm
 #. odoo-python
@@ -2614,23 +2789,28 @@ msgid ""
 "No allocated leads to any team or salesperson. Check your Sales Teams and "
 "Salespersons configuration as well as unassigned leads."
 msgstr ""
+"ლიდები არცერთ გუნდს ან გაყიდვების მენეჯერს არ განაწილდა. შეამოწმეთ "
+"გაყიდვების გუნდებისა და გაყიდვების მენეჯერების კონფიგურაცია, ასევე "
+"მიუნიჭებელი ლიდები."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "No closing estimate"
-msgstr ""
+msgstr "დახურვის შეფასება არ არის"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
 msgid "No data found!"
-msgstr ""
+msgstr "მონაცემები ვერ მოიძებნა!"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "No detours, no delays - from %(stage_name)s straight to the win! 🚀"
 msgstr ""
+"შემოვლითი გზებისა და დაყოვნების გარეშე - %(stage_name)s-დან პირდაპირ "
+"მოგებამდე! 🚀"
 
 #. module: crm
 #. odoo-python
@@ -2639,6 +2819,8 @@ msgid ""
 "No lead assigned to salespersons because no unassigned lead matches their "
 "domains."
 msgstr ""
+"გაყიდვების მენეჯერებს ლიდი არ მიენიჭათ, რადგან არცერთი მიუნიჭებელი ლიდი არ "
+"შეესაბამება მათ დომენებს."
 
 #. module: crm
 #. odoo-python
@@ -2647,69 +2829,73 @@ msgid ""
 "No new lead allocated to %(team_name)s team because no unassigned lead "
 "matches its domain."
 msgstr ""
+"გუნდს %(team_name)s ახალი ლიდი არ განაწილდა, რადგან არცერთი მიუნიჭებელი ლიდი "
+"არ შეესაბამება მის დომენს."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_team.py:0
 msgid "No new lead allocated to the teams because no lead match their domains."
 msgstr ""
+"გუნდებს ახალი ლიდი არ განაწილდა, რადგან არცერთი ლიდი არ შეესაბამება მათ "
+"დომენებს."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_forecast
 msgid "No opportunity to display!"
-msgstr ""
+msgstr "საჩვენებელი შესაძლებლობა არ არის!"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "No salesperson"
-msgstr ""
+msgstr "გაყიდვების მენეჯერის გარეშე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__email_normalized
 msgid "Normalized Email"
-msgstr ""
+msgstr "ნორმალიზებული ელფოსტა"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_3
 msgid "Not enough stock"
-msgstr ""
+msgstr "მარაგი არასაკმარისია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Not specified"
-msgstr ""
+msgstr "მითითებული არ არის"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__description
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Notes"
-msgstr ""
+msgstr "შენიშვნები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Notes:"
-msgstr ""
+msgstr "შენიშვნები:"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Now, <b>add your Opportunity</b> to your Pipeline."
-msgstr ""
+msgstr "ახლა კი <b>დაამატეთ შესაძლებლობა</b> ვორონკაში."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "მოქმედებების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__opportunity_count
 msgid "Number of assigned opportunities"
-msgstr ""
+msgstr "მინიჭებული შესაძლებლობების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_has_error_counter
 msgid "Number of errors"
-msgstr ""
+msgstr "შეცდომების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_config_settings__crm_auto_assignment_interval_number
@@ -2717,11 +2903,13 @@ msgid ""
 "Number of interval type between each cron run (e.g. each 2 days or each 4 "
 "days)"
 msgstr ""
+"ინტერვალის ტიპის რაოდენობა cron-ის გაშვებებს შორის (მაგ. ყოველ 2 დღეში ან "
+"ყოველ 4 დღეში)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__lead_all_assigned_month_count
 msgid "Number of leads and opportunities assigned this last month."
-msgstr ""
+msgstr "ბოლო თვეში მინიჭებული ლიდებისა და შესაძლებლობების რაოდენობა."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_day_count
@@ -2729,21 +2917,23 @@ msgid ""
 "Number of leads assigned to this member in the last 24 hours (lost leads "
 "excluded)"
 msgstr ""
+"ამ წევრზე ბოლო 24 საათში მინიჭებული ლიდების რაოდენობა (წაგებული ლიდების "
+"გარეშე)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_member__lead_month_count
 msgid "Number of leads assigned to this member in the last 30 days"
-msgstr ""
+msgstr "ამ წევრზე ბოლო 30 დღეში მინიჭებული ლიდების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr ""
+msgstr "მოქმედების მომთხოვნი შეტყობინებების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "მიწოდების შეცდომის მქონე შეტყობინებების რაოდენობა"
 
 #. module: crm
 #: model:ir.module.module,description:base.module_crm
@@ -2817,8 +3007,8 @@ msgid ""
 "Lead Automation and Marketing Campaigns\n"
 "---------------------------------------\n"
 "\n"
-"Drive performance by automating tasks with Odoo <a href=\"https://"
-"www.odoo.com/app/crm\">CRM</a>.\n"
+"Drive performance by automating tasks with Odoo <a href=\"https://www.odoo."
+"com/app/crm\">CRM</a>.\n"
 "\n"
 "Use our marketing campaigns to automate lead acquisition, follow ups and\n"
 "promotions. Define automation rules (e.g. ask a salesperson to call, send "
@@ -2866,6 +3056,128 @@ msgid ""
 "Compare revenues with forecasts and budgets in real time.\n"
 "\n"
 msgstr ""
+"Odoo CRM\n"
+"--------\n"
+"\n"
+"გაზარდეთ გაყიდვების პროდუქტიულობა, მოგების მაჩვენებელი და შემოსავალი Odoo-ს\n"
+"<a href=\"https://www.odoo.com/app/crm\">ღია კოდის CRM-ით</a>.\n"
+"\n"
+"მართეთ გაყიდვების ვორონკა ყოველგვარი ძალისხმევის გარეშე. მოიზიდეთ ლიდები, "
+"ადევნეთ თვალი\n"
+"ზარებსა და შეხვედრებს. გააანალიზეთ ლიდების ხარისხი ინფორმირებული "
+"გადაწყვეტილებების\n"
+"მისაღებად და დაზოგეთ დრო ელფოსტის პირდაპირ აპლიკაციაში ინტეგრირებით.\n"
+"\n"
+"გაყიდვების ვორონკა, როგორც თქვენ გსურთ\n"
+"--------------------------------------\n"
+"\n"
+"ადევნეთ თვალი შესაძლებლობების ვორონკას რევოლუციური კანბან ხედით. იმუშავეთ\n"
+"გაყიდვების ვორონკაში და მიიღეთ მყისიერი ვიზუალური ინფორმაცია შემდეგი "
+"მოქმედებების,\n"
+"ახალი შეტყობინებების, საუკეთესო შესაძლებლობებისა და მოსალოდნელი შემოსავლის "
+"შესახებ.\n"
+"\n"
+"ლიდების მარტივი მართვა\n"
+"-------------------------\n"
+"\n"
+"შექმენით ლიდები ავტომატურად შემოსული წერილებიდან. გააანალიზეთ ლიდების "
+"ეფექტიანობა და\n"
+"შეადარეთ შედეგები კამპანიების, არხების ან გაყიდვების გუნდების მიხედვით.\n"
+"\n"
+"მოძებნეთ დუბლიკატები, გააერთიანეთ ლიდები და მიანიჭეთ ისინი სწორ გაყიდვების "
+"მენეჯერს ერთი\n"
+"ოპერაციით. ნაკლები დრო დახარჯეთ ადმინისტრირებაზე და მეტი — ლიდების "
+"კვალიფიკაციაზე.\n"
+"\n"
+"მოაწესრიგეთ შესაძლებლობები\n"
+"---------------------------\n"
+"\n"
+"მოაწესრიგეთ შესაძლებლობები, რომ საუკეთესო გარიგებებზე იყოთ ფოკუსირებული. "
+"მართეთ\n"
+"კლიენტთან ყველა ურთიერთობა შესაძლებლობიდან: წერილები, ზარები,\n"
+"შიდა შენიშვნები, შეხვედრები და შეთავაზებები.\n"
+"\n"
+"გამოიწერეთ თქვენთვის საინტერესო შესაძლებლობები, რომ მიიღოთ შეტყობინებები "
+"კონკრეტულ მოვლენებზე:\n"
+"მოგებული ან წაგებული გარიგება, ეტაპის ცვლილება, კლიენტის ახალი მოთხოვნა და ა."
+"შ.\n"
+"\n"
+"ელფოსტის ინტეგრაცია და ავტომატიზაცია\n"
+"--------------------------------\n"
+"\n"
+"იმუშავეთ ელფოსტის იმ აპლიკაციებით, რომლებსაც ყოველდღიურად იყენებთ. იქნება "
+"ეს\n"
+"Microsoft Outlook თუ Gmail, არავის მოუწევს სამუშაო მეთოდის შეცვლა,\n"
+"ასე რომ, ყველა პროდუქტიული რჩება.\n"
+"\n"
+"შემოსული წერილების ავტომატური მარშრუტიზაცია, დახარისხება და ფილტრაცია. Odoo "
+"CRM ამუშავებს შემოსულ\n"
+"წერილებს და მიმართავს მათ შესაბამის შესაძლებლობებზე ან გაყიდვების გუნდზე. "
+"ახალი ლიდები\n"
+"იქმნება ავტომატურად, დაინტერესებული გაყიდვების მენეჯერები კი შეტყობინებას "
+"მაშინვე იღებენ.\n"
+"\n"
+"ერთობლივი დღის წესრიგი\n"
+"--------------------\n"
+"\n"
+"დაგეგმეთ შეხვედრები და ზარები ინტეგრირებული კალენდრით. თქვენი და კოლეგების\n"
+"დღის წესრიგის ნახვა ერთ ხედში შეგიძლიათ. მენეჯერისთვის მარტივია\n"
+"დაინახოს, რით არის დაკავებული გუნდი.\n"
+"\n"
+"ლიდების ავტომატიზაცია და მარკეტინგული კამპანიები\n"
+"---------------------------------------\n"
+"\n"
+"გაზარდეთ ეფექტიანობა ამოცანების ავტომატიზაციით Odoo <a href=\"https://www."
+"odoo.com/app/crm\">CRM-ით</a>.\n"
+"\n"
+"გამოიყენეთ მარკეტინგული კამპანიები ლიდების მოზიდვის, შემდგომი კომუნიკაციისა "
+"და\n"
+"აქციების ავტომატიზაციისთვის. განსაზღვრეთ ავტომატიზაციის წესები (მაგ. "
+"გაყიდვების მენეჯერს დავალება დარეკვაზე,\n"
+"წერილის გაგზავნა, ...) ტრიგერების მიხედვით (20 დღის განმავლობაში აქტივობის "
+"არარსებობა,\n"
+"სარეკლამო წერილზე პასუხი და ა.შ.)\n"
+"\n"
+"გააუმჯობესეთ კამპანიები ლიდიდან დახურვამდე, ყველა არხზე. მიიღეთ უფრო "
+"გონივრული გადაწყვეტილებები\n"
+"ინვესტიციების შესახებ და აჩვენეთ მარკეტინგული აქტივობების გავლენა\n"
+"კომპანიის საბოლოო შედეგზე.\n"
+"\n"
+"მოარგეთ გაყიდვების ციკლი\n"
+"--------------------------\n"
+"\n"
+"მოარგეთ გაყიდვების ციკლი ისეთი ეტაპების კონფიგურაციით, რომლებიც იდეალურად "
+"შეესაბამება თქვენს\n"
+"გაყიდვების მიდგომას. აკონტროლეთ სტატისტიკა ზუსტი პროგნოზებისთვის, რათა "
+"გააუმჯობესოთ\n"
+"გაყიდვების შედეგები კლიენტთან ურთიერთობის ყველა ეტაპზე.\n"
+"\n"
+"ჩართულობის ზრდა გეიმიფიკაციით\n"
+"----------------------------------\n"
+"\n"
+"### გამოიყენეთ გუნდის ბუნებრივი კონკურენტული სწრაფვა\n"
+"\n"
+"განამტკიცეთ კარგი ჩვევები და გაზარდეთ მოგების მაჩვენებელი რეალურ დროში "
+"აღიარებითა და\n"
+"ჯილდოებით, რომლებიც [თამაშის მექანიკითაა](http://en.wikipedia.org/wiki/"
+"Gamification) შთაგონებული.\n"
+"შეუთანხმეთ გაყიდვების გუნდები მკაფიო ბიზნეს მიზნებს გამოწვევებით, პირადი\n"
+"მიზნებითა და გუნდის ლიდერბორდებით.\n"
+"\n"
+"### ლიდერბორდები\n"
+"\n"
+"წაახალისეთ ლიდერები და კონკურენცია გაყიდვების გუნდში შედეგების "
+"კოეფიციენტებით.\n"
+"\n"
+"### პირადი მიზნები\n"
+"\n"
+"მიანიჭეთ მომხმარებლებს მკაფიო მიზნები, რომ ისინი კომპანიის მიზნებს "
+"შეუსაბამოთ.\n"
+"\n"
+"### გუნდის სამიზნეები\n"
+"\n"
+"შეადარეთ შემოსავალი პროგნოზებსა და ბიუჯეტებს რეალურ დროში.\n"
+"\n"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -2874,6 +3186,9 @@ msgid ""
 "                    up potential sales and better forecast your future "
 "revenues."
 msgstr ""
+"Odoo გეხმარებათ, თვალი ადევნოთ გაყიდვების ვორონკას, რომ\n"
+"                    პოტენციური გაყიდვები აკონტროლოთ და მომავალი შემოსავალი "
+"უკეთ იწინასწარმეტყველოთ."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
@@ -2883,26 +3198,30 @@ msgid ""
 "manually, but if you let Odoo do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
+"Odoo-ს ხელოვნური ინტელექტის ძრავა თითოეული შესაძლებლობის წარმატების "
+"მაჩვენებელს თქვენი ისტორიის მიხედვით პროგნოზირებს. წარმატების მაჩვენებლის "
+"ხელით განახლება ყოველთვის შეგიძლიათ, მაგრამ თუ ამას Odoo-ს მიანდობთ, ქულა "
+"განახლდება, როცა შესაძლებლობა გაყიდვების ციკლში წინ მიიწევს."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Ongoing"
-msgstr ""
+msgstr "მიმდინარე"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "Only assign if"
-msgstr ""
+msgstr "მინიჭება მხოლოდ, თუ"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Open Opportunities"
-msgstr ""
+msgstr "ღია შესაძლებლობები"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lost_reason
 msgid "Opp. Lost Reason"
-msgstr ""
+msgstr "შესაძლ. წაგების მიზეზი"
 
 #. module: crm
 #. odoo-python
@@ -2920,12 +3239,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.utm_campaign_view_kanban
 #: model_terms:ir.ui.view,arch_db:crm.view_partners_form_crm1
 msgid "Opportunities"
-msgstr ""
+msgstr "შესაძლებლობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Opportunities Analysis"
-msgstr ""
+msgstr "შესაძლებლობების ანალიზი"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.action_report_crm_opportunity_salesteam
@@ -2936,22 +3255,27 @@ msgid ""
 "mainly used by the sales manager in order to do the periodic review with the "
 "channels of the sales pipeline."
 msgstr ""
+"შესაძლებლობების ანალიზი მყისიერ წვდომას გაძლევთ თქვენს შესაძლებლობებზე ისეთი "
+"ინფორმაციით, როგორიცაა მოსალოდნელი შემოსავალი, დაგეგმილი ხარჯი, გაცდენილი "
+"ვადები ან ურთიერთქმედებების რაოდენობა თითოეულ შესაძლებლობაზე. ამ "
+"ანგარიშგებას ძირითადად გაყიდვების ხელმძღვანელი იყენებს გაყიდვების ვორონკის "
+"არხების პერიოდული მიმოხილვისთვის."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_graph_forecast
 msgid "Opportunities Forecast"
-msgstr ""
+msgstr "შესაძლებლობების პროგნოზი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_opportunities_won
 msgid "Opportunities Won"
-msgstr ""
+msgstr "მოგებული შესაძლებლობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_my_activities_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Opportunities that are assigned to me"
-msgstr ""
+msgstr "ჩემზე მინიჭებული შესაძლებლობები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_calendar_event__opportunity_id
@@ -2961,65 +3285,66 @@ msgstr ""
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__type__opportunity
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
+#: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Opportunity"
-msgstr ""
+msgstr "შესაძლებლობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_partner__opportunity_count
 #: model:ir.model.fields,field_description:crm.field_res_users__opportunity_count
 msgid "Opportunity Count"
-msgstr ""
+msgstr "შესაძლებლობების რაოდენობა"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_create
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead
 msgid "Opportunity Created"
-msgstr ""
+msgstr "შესაძლებლობა შეიქმნა"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_lost
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_lost
 msgid "Opportunity Lost"
-msgstr ""
+msgstr "შესაძლებლობა წაგებულია"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_restored
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_restored
 msgid "Opportunity Restored"
-msgstr ""
+msgstr "შესაძლებლობა აღდგენილია"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_stage
 msgid "Opportunity Stage Changed"
-msgstr ""
+msgstr "შესაძლებლობის ეტაპი შეიცვალა"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_won
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_won
 msgid "Opportunity Won"
-msgstr ""
+msgstr "შესაძლებლობა მოგებულია"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_lost
 msgid "Opportunity lost"
-msgstr ""
+msgstr "შესაძლებლობა წაგებულია"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_restored
 msgid "Opportunity restored"
-msgstr ""
+msgstr "შესაძლებლობა აღდგენილია"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_won
 msgid "Opportunity won"
-msgstr ""
+msgstr "შესაძლებლობა მოგებულია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "Opportunity's Name"
-msgstr ""
+msgstr "შესაძლებლობის დასახელება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_force_thread_id
@@ -3028,48 +3353,51 @@ msgid ""
 "attached, even if they did not reply to it. If set, this will disable the "
 "creation of new records completely."
 msgstr ""
+"თემის (ჩანაწერის) არასავალდებულო ID, რომელსაც მიემაგრება ყველა შემომავალი "
+"შეტყობინება, მაშინაც კი, თუ ისინი მასზე პასუხს არ წარმოადგენს. თუ "
+"მითითებულია, ახალი ჩანაწერების შექმნა სრულად გაითიშება."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_team_member__assignment_rules__opt-out
 msgid "Out of rotation"
-msgstr ""
+msgstr "როტაციის გარეთ"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Outlook"
-msgstr ""
+msgstr "Outlook"
 
 #. module: crm
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_3_years
 msgid "Over 3 years"
-msgstr ""
+msgstr "3 წელზე მეტი"
 
 #. module: crm
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_over_5_years
 msgid "Over 5 years "
-msgstr ""
+msgstr "5 წელზე მეტი "
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_team_overdue_opportunity
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Overdue Opportunities"
-msgstr ""
+msgstr "ვადაგადაცილებული შესაძლებლობები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Ownership"
-msgstr ""
+msgstr "საკუთრება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_model_id
 msgid "Parent Model"
-msgstr ""
+msgstr "მშობელი მოდელი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_parent_thread_id
 msgid "Parent Record Thread ID"
-msgstr ""
+msgstr "მშობელი ჩანაწერის თემის ID"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_parent_model_id
@@ -3078,68 +3406,72 @@ msgid ""
 "necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+"მშობელი მოდელი, რომელიც ფსევდონიმს ფლობს. მოდელი, რომელიც ფსევდონიმის "
+"მითითებას შეიცავს, აუცილებლად არ არის alias_model_id-ით მითითებული მოდელი "
+"(მაგალითად: project (parent_model) და task (model))"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_email_update
 msgid "Partner Email will Update"
-msgstr ""
+msgstr "პარტნიორის ელფოსტა განახლდება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_phone_update
 msgid "Partner Phone will Update"
-msgstr ""
+msgstr "პარტნიორის ტელეფონი განახლდება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__partner_is_blacklisted
 msgid "Partner is blacklisted"
-msgstr ""
+msgstr "პარტნიორი შავ სიაშია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__module_website_partnership
 msgid "Partners Website Page"
-msgstr ""
+msgstr "პარტნიორების ვებგვერდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__assignment_optout
 msgid "Pause auto assignment"
-msgstr ""
+msgstr "ავტომატური მინიჭების შეჩერება"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_activity_report__won_status__pending
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__won_status__pending
 msgid "Pending"
-msgstr ""
+msgstr "მოლოდინში"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Phew, that took some effort — but you nailed it. Good job!"
 msgstr ""
+"უფ, ამას ძალისხმევა დასჭირდა — მაგრამ თქვენ შეძელით. კარგი ნამუშევარია!"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone
 msgid "Phone"
-msgstr ""
+msgstr "ტელეფონი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_sanitized_blacklisted
 msgid "Phone Blacklisted"
-msgstr ""
+msgstr "ტელეფონი შავ სიაშია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_mobile_search
 msgid "Phone Number"
-msgstr ""
+msgstr "ტელეფონის ნომერი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_state
 msgid "Phone Quality"
-msgstr ""
+msgstr "ტელეფონის ხარისხი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Phone:"
-msgstr ""
+msgstr "ტელეფონი:"
 
 #. module: crm
 #. odoo-python
@@ -3149,12 +3481,12 @@ msgstr ""
 #: model:ir.ui.menu,name:crm.crm_opportunity_report_menu
 #: model:ir.ui.menu,name:crm.menu_crm_config_lead
 msgid "Pipeline"
-msgstr ""
+msgstr "ვორონკა"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_activity_report_action_team
 msgid "Pipeline Activities"
-msgstr ""
+msgstr "ვორონკის აქტივობები"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_report_crm_opportunity_salesteam
@@ -3163,22 +3495,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_graph
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_pivot
 msgid "Pipeline Analysis"
-msgstr ""
+msgstr "ვორონკის ანალიზი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__name
 msgid "Plan Name"
-msgstr ""
+msgstr "გეგმის დასახელება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_fields
 msgid "Pls Fields"
-msgstr ""
+msgstr "PLS ველები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_pls_update__pls_start_date
 msgid "Pls Start Date"
-msgstr ""
+msgstr "PLS საწყისი თარიღი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_contact
@@ -3189,68 +3521,73 @@ msgid ""
 "- followers: only followers of the related document or members of following "
 "channels\n"
 msgstr ""
+"ფოსტის შლუზის მეშვეობით დოკუმენტზე შეტყობინების გამოქვეყნების წესი.\n"
+"- everyone: ყველას შეუძლია გამოქვეყნება\n"
+"- partners: მხოლოდ ავთენტიფიცირებულ პარტნიორებს\n"
+"- followers: მხოლოდ შესაბამისი დოკუმენტის გამომწერებს ან გამომწერი არხების "
+"წევრებს\n"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_ids
 msgid "Potential Duplicate Lead"
-msgstr ""
+msgstr "შესაძლო დუბლიკატი ლიდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duplicate_lead_count
 msgid "Potential Duplicate Lead Count"
-msgstr ""
+msgstr "შესაძლო დუბლიკატი ლიდების რაოდენობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Predictive Lead Scoring"
-msgstr ""
+msgstr "ლიდების პროგნოზული შეფასება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__predictive_lead_scoring_field_labels
 msgid "Predictive Lead Scoring Field Labels"
-msgstr ""
+msgstr "ლიდების პროგნოზული შეფასების ველების დასახელებები"
 
 #. module: crm
 #: model:ir.actions.server,name:crm.website_crm_score_cron_ir_actions_server
 msgid "Predictive Lead Scoring: Recompute Automated Probabilities"
-msgstr ""
+msgstr "ლიდების პროგნოზული შეფასება: ავტომატური ალბათობების ხელახალი გამოთვლა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team_member__assignment_domain_preferred
 msgid "Preference assignment Domain"
-msgstr ""
+msgstr "უპირატესი მინიჭების დომენი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Preview records and open their forms in one click."
-msgstr ""
+msgstr "ჩანაწერების წინასწარი ნახვა და მათი ფორმების გახსნა ერთი დაწკაპუნებით."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__priority
 msgid "Priority"
-msgstr ""
+msgstr "პრიორიტეტი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Priority:"
-msgstr ""
+msgstr "პრიორიტეტი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__probability
 msgid "Probability"
-msgstr ""
+msgstr "ალბათობა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_leads
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Probability (%)"
-msgstr ""
+msgstr "ალბათობა (%)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Probability:"
-msgstr ""
+msgstr "ალბათობა:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__lead_properties
@@ -3258,169 +3595,170 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Properties"
-msgstr ""
+msgstr "თვისებები"
 
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead3
 msgid "Proposition"
-msgstr ""
+msgstr "წინადადება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_monthly_prorated
 msgid "Prorated MRR"
-msgstr ""
+msgstr "პროპორციული MRR"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue_prorated
 msgid "Prorated Recurring Revenues"
-msgstr ""
+msgstr "პროპორციული განმეორებადი შემოსავალი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__prorated_revenue
 msgid "Prorated Revenue"
-msgstr ""
+msgstr "პროპორციული შემოსავალი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_tree_forecast
 msgid "Prorated Revenues"
-msgstr ""
+msgstr "პროპორციული შემოსავალი"
 
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead2
 msgid "Qualified"
-msgstr ""
+msgstr "კვალიფიცირებული"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Qualify leads with a Survey"
-msgstr ""
+msgstr "ლიდების კვალიფიკაცია გამოკითხვით"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__rating_ids
 msgid "Ratings"
-msgstr ""
+msgstr "შეფასებები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/js/tours/crm.js:0
 msgid "Ready to boost your sales? Let's have a look at your <b>Pipeline</b>."
 msgstr ""
+"მზად ხართ გაყიდვების გასაზრდელად? მოდით, გადავხედოთ თქვენს <b>ვორონკას</b>."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 msgid "Reassign To"
-msgstr ""
+msgstr "ხელახლა მინიჭება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__alias_force_thread_id
 msgid "Record Thread ID"
-msgstr ""
+msgstr "ჩანაწერის თემის ID"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_plan
 msgid "Recurring Plan"
-msgstr ""
+msgstr "განმეორებადი გეგმა"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_recurring_plan_action
 #: model:ir.ui.menu,name:crm.crm_recurring_plan_menu_config
 msgid "Recurring Plans"
-msgstr ""
+msgstr "განმეორებადი გეგმები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_tree_view_oppor
 msgid "Recurring Revenue"
-msgstr ""
+msgstr "განმეორებადი შემოსავალი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__recurring_revenue
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__group_use_recurring_revenues
 msgid "Recurring Revenues"
-msgstr ""
+msgstr "განმეორებადი შემოსავალი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Reference"
-msgstr ""
+msgstr "მითითება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__referred
 msgid "Referred By"
-msgstr ""
+msgstr "რეკომენდატორი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Referred By:"
-msgstr ""
+msgstr "რეკომენდატორი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_auto_assignment_interval_number
 msgid "Repeat every"
-msgstr ""
+msgstr "გამეორება ყოველ"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/res_config_settings.py:0
 msgid "Repeat frequency should be positive."
-msgstr ""
+msgstr "გამეორების სიხშირე დადებითი უნდა იყოს."
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_action__auto
 msgid "Repeatedly"
-msgstr ""
+msgstr "განმეორებით"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_report
 msgid "Reporting"
-msgstr "რეპორტინგი"
+msgstr "ანგარიშგება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__requirements
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Requirements"
-msgstr ""
+msgstr "მოთხოვნები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_user_id
 msgid "Responsible User"
-msgstr ""
+msgstr "პასუხისმგებელი მომხმარებელი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Restore"
-msgstr ""
+msgstr "აღდგენა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__is_rotting
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Rotting"
-msgstr ""
+msgstr "დაძველებული"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Rotting in"
-msgstr ""
+msgstr "დაძველება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_use_auto_assignment
 msgid "Rule-Based Assignment"
-msgstr ""
+msgstr "წესებზე დაფუძნებული მინიჭება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Running"
-msgstr ""
+msgstr "მიმდინარე"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__message_has_sms_error
 msgid "SMS Delivery error"
-msgstr ""
+msgstr "SMS-ის მიწოდების შეცდომა"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_menu_sales
 msgid "Sales"
-msgstr ""
+msgstr "გაყიდვები"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_team
@@ -3434,23 +3772,23 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Sales Team"
-msgstr ""
+msgstr "გაყიდვების გუნდი"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_team_member
 msgid "Sales Team Member"
-msgstr ""
+msgstr "გაყიდვების გუნდის წევრი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Sales Team:"
-msgstr ""
+msgstr "გაყიდვების გუნდი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_ids
 #: model:ir.ui.menu,name:crm.crm_team_config
 msgid "Sales Teams"
-msgstr ""
+msgstr "გაყიდვების გუნდები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__user_id
@@ -3461,84 +3799,85 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Salesperson"
-msgstr ""
+msgstr "გაყიდვების მენეჯერი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Salesperson:"
-msgstr ""
+msgstr "გაყიდვების მენეჯერი:"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass__user_ids
 msgid "Salespersons"
-msgstr ""
+msgstr "გაყიდვების მენეჯერები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__phone_sanitized
 msgid "Sanitized Number"
-msgstr ""
+msgstr "სტანდარტიზებული ნომერი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Save emails and attachments directly to Odoo."
-msgstr ""
+msgstr "ელფოსტისა და დანართების პირდაპირ Odoo-ში შენახვა."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lead_action_my_activities
 msgid "Schedule activities to keep track of everything you have to do."
 msgstr ""
+"დაგეგმეთ აქტივობები, რათა თვალყური ადევნოთ ყველაფერს, რაც გასაკეთებელი გაქვთ."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 msgid "Search Leads"
-msgstr ""
+msgstr "ლიდების ძიება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Search Opportunities"
-msgstr ""
+msgstr "შესაძლებლობების ძიება"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Search in our directory of 580M+ entities"
-msgstr ""
+msgstr "ძიება ჩვენს 580M+ ორგანიზაციის ცნობარში"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "See AI-computed chances details"
-msgstr ""
+msgstr "AI-ით გამოთვლილი შანსების დეტალების ნახვა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "Select a Lost Reason..."
-msgstr ""
+msgstr "აირჩიეთ წაგების მიზეზი..."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Select at least two Leads/Opportunities from the list to merge them."
-msgstr ""
+msgstr "გაერთიანებისთვის სიიდან აირჩიეთ მინიმუმ ორი ლიდი/შესაძლებლობა."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Select or create a contact..."
-msgstr ""
+msgstr "აირჩიეთ ან შექმენით კონტაქტი..."
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Send an email and get leads from replies"
-msgstr ""
+msgstr "გააგზავნეთ წერილი და მიიღეთ ლიდები პასუხებიდან"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.action_lead_mail_compose
 #: model:ir.actions.act_window,name:crm.action_lead_mass_mail
 msgid "Send email"
-msgstr ""
+msgstr "ელფოსტის გაგზავნა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_recurring_plan__sequence
@@ -3552,69 +3891,73 @@ msgid ""
 "Set Recurring Plans on Opportunities to display the contracts' renewal "
 "periodicity<br>(e.g: Monthly, Yearly)."
 msgstr ""
+"მიუთითეთ განმეორებადი გეგმები შესაძლებლობებზე, რათა გამოჩნდეს "
+"ხელშეკრულებების განახლების პერიოდულობა<br>(მაგ.: ყოველთვიური, ყოველწლიური)."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
 msgid "Set a new stage in your opportunity pipeline"
-msgstr ""
+msgstr "შესაძლებლობების ვორონკაში ახალი ეტაპის დამატება"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_config_settings_action
 #: model:ir.ui.menu,name:crm.crm_config_settings_menu
 msgid "Settings"
-msgstr ""
+msgstr "პარამეტრები"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_team__show_assignment_max
 msgid "Show Assignment Max"
-msgstr ""
+msgstr "მაქსიმალური მინიჭების ჩვენება"
 
 #. module: crm
 #: model:res.groups,name:crm.group_use_lead
 msgid "Show Lead Menu"
-msgstr ""
+msgstr "ლიდების მენიუს ჩვენება"
 
 #. module: crm
 #: model:res.groups,name:crm.group_use_recurring_revenues
 msgid "Show Recurring Revenues Menu"
-msgstr ""
+msgstr "განმეორებადი შემოსავლის მენიუს ჩვენება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Show all opportunities for which the next action date is before today"
 msgstr ""
+"ყველა შესაძლებლობის ჩვენება, რომელთა შემდეგი მოქმედების თარიღი დღევანდელზე "
+"ადრეა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only lead"
-msgstr ""
+msgstr "მხოლოდ ლიდის ჩვენება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only leads"
-msgstr ""
+msgstr "მხოლოდ ლიდების ჩვენება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 msgid "Show only opportunities"
-msgstr ""
+msgstr "მხოლოდ შესაძლებლობების ჩვენება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Show only opportunity"
-msgstr ""
+msgstr "მხოლოდ შესაძლებლობის ჩვენება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "Show to all teams"
-msgstr ""
+msgstr "ყველა გუნდისთვის ჩვენება"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/wizard/crm_merge_opportunities.py:0
 msgid "Something went wrong, please try again later"
-msgstr ""
+msgstr "რაღაც შეცდომა მოხდა, გთხოვთ, მოგვიანებით სცადოთ"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__source_id
@@ -3622,18 +3965,18 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Source"
-msgstr ""
+msgstr "წყარო"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Source is"
-msgstr ""
+msgstr "წყაროა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Source:"
-msgstr ""
+msgstr "წყარო:"
 
 #. module: crm
 #. odoo-python
@@ -3645,39 +3988,39 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Stage"
-msgstr ""
+msgstr "ეტაპი"
 
 #. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_stage
 msgid "Stage Changed"
-msgstr ""
+msgstr "ეტაპი შეიცვალა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__name
 msgid "Stage Name"
-msgstr ""
+msgstr "ეტაპის დასახელება"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_stage_search
 msgid "Stage Search"
-msgstr ""
+msgstr "ეტაპების ძიება"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_stage
 msgid "Stage changed"
-msgstr ""
+msgstr "ეტაპი შეიცვალა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Stage:"
-msgstr ""
+msgstr "ეტაპი:"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_stage_action
 #: model:ir.ui.menu,name:crm.menu_crm_lead_stage_act
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_tree
 msgid "Stages"
-msgstr ""
+msgstr "ეტაპები"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_stage_action
@@ -3685,12 +4028,14 @@ msgid ""
 "Stages allow salespersons to easily track how a specific opportunity\n"
 "            is positioned in the sales cycle."
 msgstr ""
+"ეტაპები გაყიდვების მენეჯერებს საშუალებას აძლევს, მარტივად ადევნონ თვალი,\n"
+"            სად იმყოფება კონკრეტული შესაძლებლობა გაყიდვების ციკლში."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__state_id
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "State"
-msgstr ""
+msgstr "რეგიონი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_state
@@ -3700,104 +4045,108 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
+"სტატუსი აქტივობების მიხედვით\n"
+"ვადაგადაცილებული: შესრულების ვადა უკვე გავიდა\n"
+"დღეს: აქტივობის თარიღი დღესაა\n"
+"დაგეგმილი: მომავალი აქტივობები."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__duration_tracking
 msgid "Status time"
-msgstr ""
+msgstr "დრო სტატუსში"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street
 msgid "Street"
-msgstr ""
+msgstr "ქუჩა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Street 2..."
-msgstr ""
+msgstr "ქუჩა 2..."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Street..."
-msgstr ""
+msgstr "ქუჩა..."
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__street2
 msgid "Street2"
-msgstr ""
+msgstr "ქუჩა 2"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Subject: "
-msgstr ""
+msgstr "თემა: "
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__subtype_id
 msgid "Subtype"
-msgstr ""
+msgstr "ქვეტიპი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Survey"
-msgstr ""
+msgstr "გამოკითხვა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Switch to AI-computed probabilities"
-msgstr ""
+msgstr "AI-ით გამოთვლილ ალბათობებზე გადართვა"
 
 #. module: crm
 #: model:ir.model,name:crm.model_ir_config_parameter
 msgid "System Parameter"
-msgstr ""
+msgstr "სისტემური პარამეტრი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Tag"
-msgstr ""
+msgstr "ტეგი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Tagged as"
-msgstr ""
+msgstr "ტეგით"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__tag_ids
 #: model:ir.model.fields,field_description:crm.field_crm_lead__tag_ids
 #: model:ir.ui.menu,name:crm.menu_crm_lead_categ
 msgid "Tags"
-msgstr ""
+msgstr "ტეგები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Tags:"
-msgstr ""
+msgstr "ტეგები:"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_search_model.js:0
 msgid "Team"
-msgstr ""
+msgstr "გუნდი"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.sales_team_menu_team_pipeline
 msgid "Teams"
-msgstr ""
+msgstr "გუნდები"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.crm_team_member_config
 msgid "Teams Members"
-msgstr ""
+msgstr "გუნდების წევრები"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Template for Leads & Opportunities"
-msgstr ""
+msgstr "შაბლონი ლიდებისა და შესაძლებლობებისთვის"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
@@ -3806,6 +4155,8 @@ msgid ""
 "                        because they have been contacted less than 30 days "
 "ago on"
 msgstr ""
+"ქვემოთ მოცემული კონტაქტები დაემატა ამ ლიდის გამომწერებად,\n"
+"                        რადგან მათთან კონტაქტი 30 დღეზე ნაკლები ხნის წინ იყო"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_id
@@ -3813,12 +4164,14 @@ msgid ""
 "The email address associated with this channel. New emails received will "
 "automatically create new leads assigned to the channel."
 msgstr ""
+"ამ არხთან დაკავშირებული ელფოსტის მისამართი. მიღებული ახალი წერილები "
+"ავტომატურად შექმნის ამ არხზე მინიჭებულ ახალ ლიდებს."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "The lead %s cannot be won and lost at the same time."
-msgstr ""
+msgstr "ლიდი %s ერთდროულად ვერ იქნება მოგებულიც და წაგებულიც."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
@@ -3827,6 +4180,9 @@ msgid ""
 "email that does not reply to an existing record will cause the creation of a "
 "new record of this model (e.g. a Project Task)"
 msgstr ""
+"მოდელი (Odoo-ს დოკუმენტის სახეობა), რომელსაც ეს ფსევდონიმი შეესაბამება. "
+"ნებისმიერი შემომავალი წერილი, რომელიც არსებულ ჩანაწერზე პასუხი არ არის, ამ "
+"მოდელის ახალ ჩანაწერს შექმნის (მაგ. პროექტის ამოცანას)"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_name
@@ -3834,6 +4190,8 @@ msgid ""
 "The name of the email alias, e.g. 'jobs' if you want to catch emails for "
 "<jobs@example.odoo.com>"
 msgstr ""
+"ელფოსტის ფსევდონიმის სახელი, მაგ. „jobs“, თუ გსურთ <jobs@example.odoo.com>-"
+"ზე მოსული წერილების მიღება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_name
@@ -3841,21 +4199,23 @@ msgid ""
 "The name of the future partner company that will be created while converting "
 "the lead into opportunity"
 msgstr ""
+"მომავალი პარტნიორი კომპანიის დასახელება, რომელიც შეიქმნება ლიდის "
+"შესაძლებლობად გარდაქმნისას"
 
 #. module: crm
 #: model:ir.model.constraint,message:crm.constraint_crm_recurring_plan_check_number_of_months
 msgid "The number of month can't be negative."
-msgstr ""
+msgstr "თვეების რაოდენობა არ შეიძლება იყოს უარყოფითი."
 
 #. module: crm
 #: model:ir.model.constraint,message:crm.constraint_crm_lead_check_probability
 msgid "The probability of closing the deal should be between 0% and 100%!"
-msgstr ""
+msgstr "გარიგების დახურვის ალბათობა უნდა იყოს 0%-დან 100%-მდე!"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "The success rate is computed based on"
-msgstr ""
+msgstr "წარმატების მაჩვენებელი გამოითვლება შემდეგის საფუძველზე:"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
@@ -3863,17 +4223,21 @@ msgid ""
 "The success rate is computed based on the stage, but you can add more fields "
 "in the statistical analysis."
 msgstr ""
+"წარმატების მაჩვენებელი გამოითვლება ეტაპის საფუძველზე, თუმცა სტატისტიკურ "
+"ანალიზში შეგიძლიათ დაამატოთ სხვა ველებიც."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action_lead
 msgid "This analysis shows you how many leads have been created per month."
-msgstr ""
+msgstr "ეს ანალიზი გიჩვენებთ, რამდენი ლიდი შეიქმნა ყოველთვიურად."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid ""
 "This bar allows to filter the opportunities based on scheduled activities."
 msgstr ""
+"ეს ზოლი საშუალებას იძლევა, შესაძლებლობები გაიფილტროს დაგეგმილი აქტივობების "
+"მიხედვით."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -3881,16 +4245,22 @@ msgid ""
 "This can be used to automatically assign leads to sales persons based on "
 "rules"
 msgstr ""
+"შეიძლება გამოყენებულ იქნეს ლიდების წესების მიხედვით გაყიდვების მენეჯერებზე "
+"ავტომატურად მინიჭებისთვის"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "This can be used to compute statistical probability to close a lead"
 msgstr ""
+"შეიძლება გამოყენებულ იქნეს ლიდის დახურვის სტატისტიკური ალბათობის "
+"გამოსათვლელად"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "This email is blacklisted for mass mailings. Click to unblacklist."
 msgstr ""
+"ეს ელფოსტა მასობრივი დაგზავნისთვის შავ სიაშია. დააწკაპუნეთ შავი სიიდან "
+"ამოსაღებად."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__email_normalized
@@ -3898,11 +4268,13 @@ msgid ""
 "This field is used to search on email address as the primary email field can "
 "contain more than strictly an email address."
 msgstr ""
+"ეს ველი გამოიყენება ელფოსტის მისამართით ძიებისთვის, რადგან ძირითადი ელფოსტის "
+"ველი შეიძლება შეიცავდეს არა მხოლოდ ელფოსტის მისამართს."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__lang_code
 msgid "This field is used to set/get locales for user"
-msgstr ""
+msgstr "ეს ველი გამოიყენება მომხმარებლის ლოკალის დასაყენებლად/მისაღებად"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__campaign_id
@@ -3910,11 +4282,14 @@ msgid ""
 "This is a name that helps you keep track of your different campaign efforts, "
 "e.g. Fall_Drive, Christmas_Special"
 msgstr ""
+"ეს არის დასახელება, რომელიც გეხმარებათ სხვადასხვა კამპანიის თვალყურის "
+"დევნებაში, მაგ. Fall_Drive, Christmas_Special"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__medium_id
 msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
 msgstr ""
+"ეს არის მიწოდების მეთოდი, მაგ. საფოსტო ბარათი, ელფოსტა ან სარეკლამო ბანერი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__source_id
@@ -3922,6 +4297,8 @@ msgid ""
 "This is the source of the link, e.g. Search Engine, another domain, or name "
 "of email list"
 msgstr ""
+"ეს არის ბმულის წყარო, მაგ. საძიებო სისტემა, სხვა დომენი ან საფოსტო სიის "
+"დასახელება"
 
 #. module: crm
 #. odoo-python
@@ -3930,12 +4307,16 @@ msgid ""
 "This new lead created by %(creation_source)s was automatically assigned to "
 "team leader %(user_name)s"
 msgstr ""
+"%(creation_source)s-ის მიერ შექმნილი ეს ახალი ლიდი ავტომატურად მიენიჭა "
+"გუნდის ლიდერს: %(user_name)s"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid ""
 "This phone number is blacklisted for SMS Marketing. Click to unblacklist."
 msgstr ""
+"ეს ტელეფონის ნომერი SMS მარკეტინგისთვის შავ სიაშია. დააწკაპუნეთ შავი სიიდან "
+"ამოსაღებად."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__fold
@@ -3943,72 +4324,73 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
+"ეს ეტაპი კანბან ხედში იკეცება, როცა მასში საჩვენებელი ჩანაწერები არ არის."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "This will assign leads to all members. Do you want to proceed?"
-msgstr ""
+msgstr "ლიდები მიენიჭება ყველა წევრს. გსურთ გაგრძელება?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_0
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Tip: Convert incoming emails into opportunities"
-msgstr ""
+msgstr "რჩევა: გარდაქმენით შემომავალი წერილები შესაძლებლობებად"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
 msgid "Tip: Did you know Odoo has built-in lead mining?"
-msgstr ""
+msgstr "რჩევა: იცოდით, რომ Odoo-ს ჩაშენებული აქვს ლიდების მოძიება?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid "Tip: Do not waste time recording customers' data"
-msgstr ""
+msgstr "რჩევა: ნუ დახარჯავთ დროს კლიენტების მონაცემების ჩაწერაზე"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_6
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_6
 msgid "Tip: Identify Bottlenecks at a glance"
-msgstr ""
+msgstr "რჩევა: ამოიცანით შეფერხებები ერთი შეხედვით"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_3
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_3
 msgid "Tip: Manage your pipeline"
-msgstr ""
+msgstr "რჩევა: მართეთ თქვენი ვორონკა"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_2
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid "Tip: Opportunity win rate is predicted with AI"
-msgstr ""
+msgstr "რჩევა: შესაძლებლობის მოგების ალბათობას AI პროგნოზირებს"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_7
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_7
 msgid "Tip: Turn Sales Forecasting into Child's Play"
-msgstr ""
+msgstr "რჩევა: გაყიდვების პროგნოზირება ბავშვურ თამაშად აქციეთ"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_5
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid "Tip: Turn a selection of opportunities into a map"
-msgstr ""
+msgstr "რჩევა: აქციეთ შესაძლებლობების შერჩეული ნაკრები რუკად"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/promote_mail_plugins_dialog/promote_mail_plugins_dialog.xml:0
 msgid "Tired of copy-pasting emails?"
-msgstr ""
+msgstr "მოგბეზრდათ წერილების კოპირება-ჩასმა?"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_list_simplified
 #: model_terms:ir.ui.view,arch_db:crm.merge_opportunity_form
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Title"
-msgstr ""
+msgstr "სათაური"
 
 #. module: crm
 #. odoo-python
@@ -4017,6 +4399,8 @@ msgid ""
 "To prevent data loss, Leads and Opportunities can only be merged by groups "
 "of %(max_length)s."
 msgstr ""
+"მონაცემების დაკარგვის თავიდან ასაცილებლად, ლიდებისა და შესაძლებლობების "
+"გაერთიანება შესაძლებელია მხოლოდ %(max_length)s-იან ჯგუფებად."
 
 #. module: crm
 #. odoo-python
@@ -4025,45 +4409,47 @@ msgid ""
 "To work with the CRM, you should <a name=\"%d\" type=\"action\" "
 "tabindex=\"-1\">join a Team.</a>"
 msgstr ""
+"CRM-თან სამუშაოდ საჭიროა, <a name=\"%d\" type=\"action\" "
+"tabindex=\"-1\">შეუერთდეთ გუნდს.</a>"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "To work with the CRM, you should be added to a Team."
-msgstr ""
+msgstr "CRM-თან სამუშაოდ საჭიროა, დაგამატონ გუნდში."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Today Activities"
-msgstr ""
+msgstr "დღევანდელი აქტივობები"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_1
 msgid "Too expensive"
-msgstr ""
+msgstr "ძალიან ძვირია"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Negatives"
-msgstr ""
+msgstr "ყველაზე უარყოფითი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "Top Positives"
-msgstr ""
+msgstr "ყველაზე დადებითი"
 
 #. module: crm
 #: model:ir.module.module,summary:base.module_crm
 msgid "Track leads and close opportunities"
-msgstr ""
+msgstr "ლიდების თვალყურის დევნება და შესაძლებლობების დახურვა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Trailing 12 months"
-msgstr ""
+msgstr "ბოლო 12 თვე"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__lead_all_assigned_month_exceeded
@@ -4071,65 +4457,67 @@ msgid ""
 "True if the monthly lead assignment count is greater than the maximum "
 "assignment limit, false otherwise."
 msgstr ""
+"True, თუ ლიდების ყოველთვიური მინიჭებების რაოდენობა აღემატება მინიჭების "
+"მაქსიმალურ ლიმიტს, წინააღმდეგ შემთხვევაში false."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "Try sending an email"
-msgstr ""
+msgstr "სცადეთ წერილის გაგზავნა"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 msgid "Turn visitors into leads via a form"
-msgstr ""
+msgstr "ვიზიტორების ლიდებად გარდაქმნა ფორმის მეშვეობით"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__lead_type
 #: model:ir.model.fields,field_description:crm.field_crm_lead__type
 #: model_terms:ir.ui.view,arch_db:crm.crm_activity_report_view_search
 msgid "Type"
-msgstr ""
+msgstr "ტიპი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_activity_report__lead_type
 msgid "Type is used to separate Leads and Opportunities"
-msgstr ""
+msgstr "ტიპი გამოიყენება ლიდებისა და შესაძლებლობების გასარჩევად"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr ""
+msgstr "ჩანაწერზე გამონაკლისი აქტივობის ტიპი."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Type:"
-msgstr ""
+msgstr "ტიპი:"
 
 #. module: crm
 #: model:ir.model,name:crm.model_utm_campaign
 msgid "UTM Campaign"
-msgstr ""
+msgstr "UTM კამპანია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__utm_reference
 msgid "UTM Reference"
-msgstr ""
+msgstr "UTM მითითება"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__user_company_ids
 msgid "UX: Limit to lead company or all if no company"
-msgstr ""
+msgstr "UX: შეზღუდვა ლიდის კომპანიით, ან ყველა, თუ კომპანია არ არის"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Unassigned"
-msgstr ""
+msgstr "მიუნიჭებელი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_view_kanban_dashboard
 msgid "Unassigned Leads"
-msgstr ""
+msgstr "მიუნიჭებელი ლიდები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
@@ -4139,28 +4527,28 @@ msgstr "წაუკითხავი შეტყობინებები"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_search_forecast
 msgid "Upcoming Closings"
-msgstr ""
+msgstr "მოახლოებული დახურვები"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_pls_update_view_form
 msgid "Update"
-msgstr ""
+msgstr "განახლება"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_pls_update_action
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Update Probabilities"
-msgstr ""
+msgstr "ალბათობების განახლება"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead_pls_update
 msgid "Update the probabilities"
-msgstr ""
+msgstr "ალბათობების განახლება"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_utm_campaign__use_leads
 msgid "Use Leads"
-msgstr ""
+msgstr "ლიდების გამოყენება"
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_lost_reason_action
@@ -4168,6 +4556,8 @@ msgid ""
 "Use Lost Reasons to report on why opportunities are lost (e.g.\"Undercut by "
 "competitors\")."
 msgstr ""
+"გამოიყენეთ წაგების მიზეზები, რათა აღრიცხოთ, რატომ იკარგება შესაძლებლობები "
+"(მაგ. „კონკურენტებმა ფასი ჩამოგვიგდეს“)."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_lead
@@ -4179,6 +4569,12 @@ msgid ""
 "unqualified\n"
 "                    prospects you import, etc."
 msgstr ""
+"გამოიყენეთ ლიდები, თუ შესაძლებლობის ან კლიენტის შექმნამდე\n"
+"                    კვალიფიკაციის ეტაპი გჭირდებათ. ეს შეიძლება იყოს მიღებული "
+"სავიზიტო ბარათი,\n"
+"                    თქვენს ვებგვერდზე შევსებული საკონტაქტო ფორმა ან "
+"არაკვალიფიცირებული\n"
+"                    პოტენციური კლიენტების იმპორტირებული ფაილი და ა.შ."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
@@ -4189,11 +4585,17 @@ msgid ""
 "qualified, the lead can be converted into a business opportunity and/or a "
 "new customer in your address book."
 msgstr ""
+"გამოიყენეთ ლიდები, თუ შესაძლებლობის ან კლიენტის შექმნამდე კვალიფიკაციის "
+"ეტაპი გჭირდებათ. ეს შეიძლება იყოს მიღებული სავიზიტო ბარათი, თქვენს "
+"ვებგვერდზე შევსებული საკონტაქტო ფორმა ან არაკვალიფიცირებული პოტენციური "
+"კლიენტების იმპორტირებული ფაილი და ა.შ. კვალიფიკაციის შემდეგ ლიდი შეიძლება "
+"გარდაიქმნას ბიზნეს შესაძლებლობად და/ან ახალ კლიენტად თქვენს მისამართების "
+"წიგნში."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "Use the <i>New</i> button, or send an email to"
-msgstr ""
+msgstr "გამოიყენეთ ღილაკი <i>ახალი</i>, ან გააგზავნეთ წერილი მისამართზე"
 
 #. module: crm
 #. odoo-python
@@ -4202,6 +4604,8 @@ msgid ""
 "Use the <i>New</i> button, or send an email to %(email_link)s to test the "
 "email gateway."
 msgstr ""
+"გამოიყენეთ ღილაკი <i>ახალი</i>, ან გააგზავნეთ წერილი მისამართზე "
+"%(email_link)s ელფოსტის შლუზის შესამოწმებლად."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_7
@@ -4209,105 +4613,109 @@ msgid ""
 "Use the CRM Forecast Kanban to easily define when Opportunities are expected "
 "to be won."
 msgstr ""
+"გამოიყენეთ CRM-ის პროგნოზის კანბანი, რათა მარტივად განსაზღვროთ, როდის არის "
+"მოსალოდნელი შესაძლებლობების მოგება."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid ""
 "Use the New button, or configure an email alias to test the email gateway."
 msgstr ""
+"გამოიყენეთ ღილაკი „ახალი“, ან დააკონფიგურირეთ ელფოსტის ფსევდონიმი ელფოსტის "
+"შლუზის შესამოწმებლად."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_opportunity_report_action
 msgid "Use this menu to have an overview of your Pipeline."
-msgstr ""
+msgstr "გამოიყენეთ ეს მენიუ თქვენი ვორონკის მიმოხილვისთვის."
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_stage__sequence
 msgid "Used to order stages. Lower is better."
-msgstr ""
+msgstr "გამოიყენება ეტაპების დასალაგებლად. რაც ნაკლებია, მით უკეთესი."
 
 #. module: crm
 #: model:ir.model,name:crm.model_res_users
 msgid "User"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__user_company_ids
 msgid "User Company"
-msgstr ""
+msgstr "მომხმარებლის კომპანია"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__value
 msgid "Value"
-msgstr ""
+msgstr "მნიშვნელობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__variable
 msgid "Variable"
-msgstr ""
+msgstr "ცვლადი"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead__priority__3
 msgid "Very High"
-msgstr ""
+msgstr "ძალიან მაღალი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Visible to all"
-msgstr ""
+msgstr "ხილულია ყველასთვის"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "Visits to Leads"
-msgstr ""
+msgstr "ვიზიტები ლიდებად"
 
 #. module: crm
 #: model:crm.lost.reason,name:crm.lost_reason_2
 msgid "We don't have people/skills"
-msgstr ""
+msgstr "არ გვყავს ადამიანები/არ გვაქვს უნარები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/components/lead_generation_dropdown/lead_generation_dropdown.js:0
 #: model:ir.model.fields,field_description:crm.field_crm_lead__website
 msgid "Website"
-msgstr ""
+msgstr "ვებგვერდი"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__website
 msgid "Website of the contact"
-msgstr ""
+msgstr "კონტაქტის ვებგვერდი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_merge_summary
 msgid "Website:"
-msgstr ""
+msgstr "ვებგვერდი:"
 
 #. module: crm
 #: model:ir.model.fields.selection,name:crm.selection__res_config_settings__crm_auto_assignment_interval_type__weeks
 msgid "Weeks"
-msgstr ""
+msgstr "კვირა"
 
 #. module: crm
 #: model:mail.template,name:crm.mail_template_demo_crm_lead
 msgid "Welcome Demo"
-msgstr ""
+msgstr "მისასალმებელი დემო"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "What are the requirements to move an opportunity to this stage?"
-msgstr ""
+msgstr "რა მოთხოვნები უნდა დაკმაყოფილდეს შესაძლებლობის ამ ეტაპზე გადასატანად?"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
 msgid "What went wrong?"
-msgstr ""
+msgstr "რა მოხდა არასწორად?"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_kanban/crm_column_progress.js:0
 msgid "Without activities scheduled"
-msgstr ""
+msgstr "დაგეგმილი აქტივობების გარეშე"
 
 #. module: crm
 #: model:crm.stage,name:crm.stage_lead4
@@ -4319,46 +4727,46 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Won"
-msgstr ""
+msgstr "მოგებული"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_scoring_frequency__won_count
 msgid "Won Count"
-msgstr ""
+msgstr "მოგებულების რაოდენობა"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__won_status
 msgid "Won/Lost"
-msgstr ""
+msgstr "მოგებული/წაგებული"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Wow, that was fast. That deal didn’t stand a chance!"
-msgstr ""
+msgstr "ვაუ, ეს სწრაფი იყო. ამ გარიგებას შანსი არ ჰქონდა!"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yay, your first win from %(utm_source_name)s!"
-msgstr ""
+msgstr "ურა, თქვენი პირველი მოგება წყაროდან %(utm_source_name)s!"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yeah! Best deal out of the last 7 days for the team."
-msgstr ""
+msgstr "ჰოო! გუნდის საუკეთესო გარიგება ბოლო 7 დღეში."
 
 #. module: crm
 #: model:crm.recurring.plan,name:crm.crm_recurring_plan_yearly
 msgid "Yearly"
-msgstr ""
+msgstr "ყოველწლიური"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "Yes"
-msgstr ""
+msgstr "დიახ"
 
 #. module: crm
 #. odoo-javascript
@@ -4367,30 +4775,34 @@ msgid ""
 "You can make your opportunity advance through your pipeline by clicking on "
 "stages here. Try sending it to the next stage!"
 msgstr ""
+"შეგიძლიათ შესაძლებლობა ვორონკაში წინ წაწიოთ აქ ეტაპებზე დაწკაპუნებით. სცადეთ "
+"მისი შემდეგ ეტაპზე გადატანა!"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You don't have the access needed to run this cron."
-msgstr ""
+msgstr "ამ cron-ის გასაშვებად საჭირო წვდომა არ გაქვთ."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 30 days."
 msgstr ""
+"თქვენ ახლახან გააუმჯობესეთ თქვენი პირადი რეკორდი ბოლო 30 დღის განმავლობაში."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just beat your personal record for the past 7 days."
 msgstr ""
+"თქვენ ახლახან გააუმჯობესეთ თქვენი პირადი რეკორდი ბოლო 7 დღის განმავლობაში."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You just expanded the map! First win in %(country)s."
-msgstr ""
+msgstr "თქვენ ახლახან გააფართოვეთ რუკა! პირველი მოგება ქვეყანაში: %(country)s."
 
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
@@ -4400,190 +4812,196 @@ msgid ""
 "related\n"
 "                    documents, track all discussions, and much more."
 msgstr ""
+"შეძლებთ შესაძლებლობებიდან შეხვედრებისა და სატელეფონო ზარების დაგეგმვას,\n"
+"                    მათ შეთავაზებებად გარდაქმნას, შესაბამისი დოკუმენტების "
+"მიმაგრებას,\n"
+"                    ყველა განხილვის თვალყურის დევნებას და ბევრ სხვას."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on a winning streak. 3 deals in 3 days, congrats!"
-msgstr ""
+msgstr "წარმატებების სერია გაქვთ. 3 გარიგება 3 დღეში, გილოცავთ!"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "You're on fire! Fifth deal won today 🔥"
-msgstr ""
+msgstr "ცეცხლი ხართ! დღეს მეხუთე მოგებული გარიგებაა 🔥"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "ZIP"
-msgstr ""
+msgstr "საფოსტო ინდექსი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__zip
 msgid "Zip"
-msgstr ""
+msgstr "საფოსტო ინდექსი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "alias"
-msgstr ""
+msgstr "ფსევდონიმი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_member_view_form
 msgid "assigned)"
-msgstr ""
+msgstr "მინიჭებული)"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "at"
-msgstr ""
+msgstr "-"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 #: model_terms:ir.ui.view,arch_db:crm.quick_create_opportunity_form
 msgid "e.g. \"Monthly\""
-msgstr ""
+msgstr "მაგ. „ყოველთვიური“"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. (555) 555-0199"
-msgstr ""
+msgstr "მაგ. (555) 555-0199"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. Product Pricing"
-msgstr ""
+msgstr "მაგ. პროდუქტის ფასწარმოქმნა"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_stage_form
 msgid "e.g. Qualification"
-msgstr ""
+msgstr "მაგ. კვალიფიკაცია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lost_reason_view_form
 msgid "e.g. Too expensive"
-msgstr ""
+msgstr "მაგ. ძალიან ძვირია"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. https://www.odoo.com"
-msgstr ""
+msgstr "მაგ. https://www.odoo.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "e.g. john.doe@email.com"
-msgstr ""
+msgstr "მაგ. john.doe@email.com"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.sales_team_form_view_in_crm
 msgid "e.g. mycompany.com"
-msgstr ""
+msgstr "მაგ. mycompany.com"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "email address"
-msgstr ""
+msgstr "ელფოსტის მისამართი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid "for the leads created as of the"
-msgstr ""
+msgstr "ლიდებისთვის, რომლებიც შექმნილია თარიღიდან"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "generate opportunities in your pipeline?<br>"
-msgstr ""
+msgstr "შესაძლებლობების გენერირება თქვენს ვორონკაში?<br>"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "has value"
-msgstr ""
+msgstr "აქვს მნიშვნელობა"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "incoming email"
-msgstr ""
+msgstr "შემომავალი წერილი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lost_reason.py:0
 msgid "lost_reason_id"
-msgstr ""
+msgstr "lost_reason_id"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/forecast_kanban/forecast_kanban_column_quick_create.js:0
 msgid "next %s"
-msgstr ""
+msgstr "შემდეგი %s"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "phone number"
-msgstr ""
+msgstr "ტელეფონის ნომერი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "sample data"
-msgstr ""
+msgstr "სადემონსტრაციო მონაცემები"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "stage"
-msgstr ""
+msgstr "ეტაპი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "team"
-msgstr ""
+msgstr "გუნდი"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_stage__team_count
 msgid "team_count"
-msgstr ""
+msgstr "team_count"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "this lead"
-msgstr ""
+msgstr "ეს ლიდი"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_action_helper
 msgid "to test the email gateway."
-msgstr ""
+msgstr "ელფოსტის შლუზის შესამოწმებლად."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
 msgid "to your CRM. This email address is configurable by sales team members."
 msgstr ""
+"თქვენს CRM-ში. ამ ელფოსტის მისამართის კონფიგურირება გაყიდვების გუნდის "
+"წევრებს შეუძლიათ."
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "type"
-msgstr ""
+msgstr "ტიპი"
 
 #. module: crm
 #. odoo-python
 #: code:addons/crm/models/crm_lead.py:0
 msgid "unknown"
-msgstr ""
+msgstr "უცნობი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid email address"
-msgstr ""
+msgstr "სწორი ელფოსტის მისამართი"
 
 #. module: crm
 #. odoo-javascript
 #: code:addons/crm/static/src/views/crm_form/crm_pls_tooltip_button.xml:0
 msgid "valid phone number"
-msgstr ""
+msgstr "სწორი ტელეფონის ნომერი"
