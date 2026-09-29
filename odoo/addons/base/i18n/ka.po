@@ -114,8 +114,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/res_currency.py:0
 msgid ""
-"%(integral_amount)s %(currency_unit)s and %(fractional_amount)s %"
-"(currency_subunit)s"
+"%(integral_amount)s %(currency_unit)s and %(fractional_amount)s "
+"%(currency_subunit)s"
 msgstr ""
 
 #. module: base
@@ -137,8 +137,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
-"%(xmlid)s is of type %(xmlid_model)s, expected a subclass of "
-"ir.actions.actions"
+"%(xmlid)s is of type %(xmlid_model)s, expected a subclass of ir.actions."
+"actions"
 msgstr ""
 
 #. module: base
@@ -168,24 +168,25 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
-"'%(value)s' does not seem to be a valid Property value for field '%%"
-"(field)s'. Each property need at least 'name', 'type' and 'string' attribute."
+"'%(value)s' does not seem to be a valid Property value for field '%"
+"%(field)s'. Each property need at least 'name', 'type' and 'string' "
+"attribute."
 msgstr ""
 
 #. module: base
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
-"'%(value)s' does not seem to be a valid Selection value for '%"
-"(label_property)s' (subfield of '%%(field)s' field)."
+"'%(value)s' does not seem to be a valid Selection value for "
+"'%(label_property)s' (subfield of '%%(field)s' field)."
 msgstr ""
 
 #. module: base
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
-"'%(value)s' does not seem to be a valid Tag value for '%(label_property)s' "
-"(subfield of '%%(field)s' field)."
+"'%(value)s' does not seem to be a valid Tag value for "
+"'%(label_property)s' (subfield of '%%(field)s' field)."
 msgstr ""
 
 #. module: base
@@ -288,8 +289,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"- Only a root company can be set on “%(record)s”. Currently set to “%"
-"(company)s”"
+"- Only a root company can be set on “%(record)s”. Currently set to "
+"“%(company)s”"
 msgstr ""
 
 #. module: base
@@ -357,8 +358,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"- “%(record)s” belongs to company “%(company)s” while “%(field)s” (%"
-"(fname)s: %(values)s) belongs to another company."
+"- “%(record)s” belongs to company “%(company)s” while "
+"“%(field)s” (%(fname)s: %(values)s) belongs to another company."
 msgstr ""
 
 #. module: base
@@ -847,10 +848,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
 msgid ""
 "<span colspan=\"2\">Day of the Year: %(doy)s</span>\n"
-"                                <span colspan=\"2\">Week of the Year: %"
-"(woy)s</span>\n"
-"                                <span colspan=\"2\">Day of the Week "
-"(0:Monday): %(weekday)s</span>"
+"                                <span colspan=\"2\">Week of the Year: "
+"%(woy)s</span>\n"
+"                                <span colspan=\"2\">Day of the Week (0:"
+"Monday): %(weekday)s</span>"
 msgstr ""
 
 #. module: base
@@ -869,8 +870,8 @@ msgid ""
 "<span colspan=\"2\">ISO 8601 Week Year with Century: %(isoyear)s</span>\n"
 "                                <span colspan=\"2\">ISO 8601 Week Year "
 "without Century: %(isoy)s</span>\n"
-"                                <span colspan=\"2\">ISO 8601 Week Number: %"
-"(isoweek)s</span>"
+"                                <span colspan=\"2\">ISO 8601 Week Number: "
+"%(isoweek)s</span>"
 msgstr ""
 
 #. module: base
@@ -5570,8 +5571,8 @@ msgstr "კომპანია"
 #. odoo-python
 #: code:addons/base/models/res_users.py:0
 msgid ""
-"Company %(company_name)s is not in the allowed companies for user %"
-"(user_name)s (%(company_allowed)s)."
+"Company %(company_name)s is not in the allowed companies for user "
+"%(user_name)s (%(company_allowed)s)."
 msgstr ""
 
 #. module: base
@@ -6487,8 +6488,8 @@ msgstr ""
 #: code:addons/base/models/ir_cron.py:0
 msgid ""
 "Cron job %(name)s (%(id)s) is failing and will be deactivated if you don't "
-"take action. More information can be found in the server logs around %"
-"(time)s."
+"take action. More information can be found in the server logs around "
+"%(time)s."
 msgstr ""
 
 #. module: base
@@ -7547,8 +7548,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
-"Domain on non-relational field \"%(name)s\" makes no sense (domain:%"
-"(domain)s)"
+"Domain on non-relational field \"%(name)s\" makes no sense (domain:"
+"%(domain)s)"
 msgstr ""
 
 #. module: base
@@ -9186,8 +9187,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_actions.py:0
 msgid ""
-"Following child actions should have the same groups (%(groups)s): %"
-"(children)s"
+"Following child actions should have the same groups (%(groups)s): "
+"%(children)s"
 msgstr ""
 
 #. module: base
@@ -9217,12 +9218,12 @@ msgstr ""
 #: model:ir.model.fields,help:base.field_ir_cron__value
 msgid ""
 "For Python expressions, this field may hold a Python expression that can use "
-"the same values as for the code field on the server action,e.g. "
-"`env.user.name` to set the current user's name as the value or `record.id` "
-"to set the ID of the record on which the action is run.\n"
+"the same values as for the code field on the server action,e.g. `env.user."
+"name` to set the current user's name as the value or `record.id` to set the "
+"ID of the record on which the action is run.\n"
 "\n"
-"For Static values, the value will be used directly without evaluation, "
-"e.g.`42` or `My custom name` or the selected record."
+"For Static values, the value will be used directly without evaluation, e.g."
+"`42` or `My custom name` or the selected record."
 msgstr ""
 
 #. module: base
@@ -9331,8 +9332,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
-"Found multiple matches for value \"%(value)s\" in field \"%%(field)s\" (%"
-"(match_count)s matches)"
+"Found multiple matches for value \"%(value)s\" in field \"%"
+"%(field)s\" (%(match_count)s matches)"
 msgstr ""
 
 #. module: base
@@ -10988,8 +10989,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/assetsbundle.py:0
 msgid ""
-"Invalid inherit mode. Module \"%(module)s\" and template name \"%"
-"(template_name)s\""
+"Invalid inherit mode. Module \"%(module)s\" and template name "
+"\"%(template_name)s\""
 msgstr ""
 
 #. module: base
@@ -11091,8 +11092,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_default.py:0
 msgid ""
-"Invalid value in Default Value field. Expected type '%(field_type)s' for '%"
-"(model_name)s.%(field_name)s'."
+"Invalid value in Default Value field. Expected type '%(field_type)s' for "
+"'%(model_name)s.%(field_name)s'."
 msgstr ""
 
 #. module: base
@@ -13340,8 +13341,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_fields.py:0
 msgid ""
-"No matching record found for %(field_type)s '%(value)s' in field '%%"
-"(field)s' and the following error was encountered when we attempted to "
+"No matching record found for %(field_type)s '%(value)s' in field '%"
+"%(field)s' and the following error was encountered when we attempted to "
 "create one: %(error_message)s"
 msgstr ""
 
@@ -13396,8 +13397,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_model.py:0
 msgid ""
-"Non-relational field name \"%(field_name)s\" in related field \"%"
-"(related_field)s\""
+"Non-relational field name \"%(field_name)s\" in related field "
+"\"%(related_field)s\""
 msgstr ""
 
 #. module: base
@@ -17010,8 +17011,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"Skipping a company check for model %(model_name)s. Its fields %"
-"(field_names)s are set as company-dependent, but the model doesn't have a "
+"Skipping a company check for model %(model_name)s. Its fields "
+"%(field_names)s are set as company-dependent, but the model doesn't have a "
 "`company_id` or `company_ids` field!"
 msgstr ""
 
@@ -17803,8 +17804,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/res_partner.py:0
 msgid ""
-"The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid. %"
-"(expected_note)s"
+"The %(vat_label)s number [%(wrong_vat)s] does not seem to be valid. "
+"%(expected_note)s"
 msgstr ""
 
 #. module: base
@@ -18073,8 +18074,8 @@ msgid ""
 "<code>name, size</code>. You can also refer to\n"
 "                                                fields accessible through "
 "other relational fields, for instance\n"
-"                                                <code>partner_id.company_id.name</"
-"code>."
+"                                                <code>partner_id.company_id."
+"name</code>."
 msgstr ""
 
 #. module: base
@@ -18415,8 +18416,8 @@ msgid ""
 "part before the '.' in the external id. Because the prefix refers to an "
 "existing module, the record would be deleted when the module is upgraded. "
 "Use either no prefix and no dot or a prefix that isn't an existing module. "
-"For example, __import__, resulting in the external id __import__.%"
-"(record_id)s."
+"For example, __import__, resulting in the external id __import__."
+"%(record_id)s."
 msgstr ""
 
 #. module: base
@@ -18429,8 +18430,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_ui_view.py:0
 msgid ""
-"The root node of a %(view_type)s view should be a <%(view_type)s>, not a <%"
-"(tag)s>"
+"The root node of a %(view_type)s view should be a <%(view_type)s>, not a "
+"<%(tag)s>"
 msgstr ""
 
 #. module: base
@@ -19038,16 +19039,16 @@ msgstr ""
 #. odoo-python
 #: code:addons/translate.py:0
 msgid ""
-"Translations %(translations)s for field %(field)s has invalid language '%"
-"(language)s'"
+"Translations %(translations)s for field %(field)s has invalid language "
+"'%(language)s'"
 msgstr ""
 
 #. module: base
 #. odoo-python
 #: code:addons/translate.py:0
 msgid ""
-"Translations %(translations)s for field %(field)s has technical language %"
-"(technical_language)s but not corresponding language '%(language)s'"
+"Translations %(translations)s for field %(field)s has technical language "
+"%(technical_language)s but not corresponding language '%(language)s'"
 msgstr ""
 
 #. module: base
@@ -19288,8 +19289,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"Unable to delete %(record)s because it is used as the default value of %"
-"(field)s"
+"Unable to delete %(record)s because it is used as the default value of "
+"%(field)s"
 msgstr ""
 
 #. module: base
@@ -20606,8 +20607,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
-"You are trying to install incompatible modules in category \"%(category)s\":%"
-"(module_list)s"
+"You are trying to install incompatible modules in category \"%(category)s\":"
+"%(module_list)s"
 msgstr ""
 
 #. module: base
@@ -20765,8 +20766,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"You cannot delete %(to_delete_record)s, as it is used by %"
-"(on_restrict_record)s"
+"You cannot delete %(to_delete_record)s, as it is used by "
+"%(on_restrict_record)s"
 msgstr ""
 
 #. module: base
@@ -20868,8 +20869,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/models.py:0
 msgid ""
-"You do not have enough rights to access the field \"%(field)s\" on %"
-"(document_kind)s (%(document_model)s). Please contact your system "
+"You do not have enough rights to access the field \"%(field)s\" on "
+"%(document_kind)s (%(document_model)s). Please contact your system "
 "administrator.\n"
 "\n"
 "Operation: %(operation)s"
@@ -20915,8 +20916,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
-"You try to install module \"%(module)s\" that depends on module \"%"
-"(dependency)s\".\n"
+"You try to install module \"%(module)s\" that depends on module "
+"\"%(dependency)s\".\n"
 "But the latter module is not available in your system."
 msgstr ""
 
@@ -20924,8 +20925,8 @@ msgstr ""
 #. odoo-python
 #: code:addons/base/models/ir_module.py:0
 msgid ""
-"You try to upgrade the module %(module)s that depends on the module: %"
-"(dependency)s.\n"
+"You try to upgrade the module %(module)s that depends on the module: "
+"%(dependency)s.\n"
 "But this module is not available in your system."
 msgstr ""
 
