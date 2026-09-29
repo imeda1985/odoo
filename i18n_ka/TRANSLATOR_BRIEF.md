@@ -44,3 +44,9 @@ Run:
 Fix every reported problem, including "missing", and re-run until each file reports `0 problems`.
 Do not edit any other file.
 Report only one line per chunk with its final counts. Put no translations in your report.
+
+## Helper scripts
+Put any helper scripts in your OWN folder: `/home/im/odoo/work/tmp/<your first chunk name>/`. Other agents run in parallel, and a shared scratch folder gets overwritten.
+
+## Accounting modules
+For `account_*` and `l10n_ge_*` chunks, the ACCOUNTING section of the glossary is mandatory. Use standard Georgian accounting (IFRS) terminology.
