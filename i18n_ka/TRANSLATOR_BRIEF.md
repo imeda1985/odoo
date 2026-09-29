@@ -53,3 +53,6 @@ For `account_*` and `l10n_ge_*` chunks, the ACCOUNTING section of the glossary i
 
 ## Sales modules
 For sale*, product, uom, portal, payment, account_payment, utm and sales_team chunks, the SALES / PRODUCTS section of the glossary is mandatory. html_editor strings are text-editor UI: toolbar and command names such as Bold, Heading 1, Table and Link. Translate them as short, standard editor labels.
+
+## CRM, Employees, Attendance and Calendar modules
+For crm*, hr*, calendar* and iap* chunks, the CRM, EMPLOYEES, ATTENDANCE and CALENDAR sections of the glossary are mandatory.
