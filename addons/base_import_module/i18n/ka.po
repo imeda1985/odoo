@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-28 17:41+0000\n"
+"POT-Creation-Date: 2026-09-11 17:42+0000\n"
 "PO-Revision-Date: 2017-10-24 09:00+0000\n"
 "Last-Translator: Martin Trigaux <mat@odoo.com>, 2017\n"
 "Language-Team: Georgian (https://www.transifex.com/odoo/teams/41243/ka/)\n"
@@ -29,6 +29,13 @@ msgid ""
 "files and static assests)\n"
 "for customization purpose.\n"
 msgstr ""
+"\n"
+"მორგებული მონაცემთა მოდულის იმპორტი\n"
+"===========================\n"
+"\n"
+"ეს მოდული უფლებამოსილ მომხმარებლებს საშუალებას აძლევს, მორგების მიზნით\n"
+"დააიმპორტონ მორგებული მონაცემთა მოდული (.xml ფაილები და სტატიკური "
+"რესურსები).\n"
 
 #. module: base_import_module
 #. odoo-python
@@ -40,29 +47,34 @@ msgid ""
 "If you need Website themes, it can be downloaded from https://github.com/"
 "odoo/design-themes.\n"
 msgstr ""
+"\n"
+"მონაცემთა მოდულის დასაყენებლად შესაძლოა Enterprise ვერსია დაგჭირდეთ. "
+"დამატებითი ინფორმაციისთვის ეწვიეთ https://www.odoo.com/pricing-plan.\n"
+"ვებგვერდის თემების ჩამოტვირთვა შეგიძლიათ მისამართიდან https://github.com/"
+"odoo/design-themes.\n"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
 msgid "Activate"
-msgstr ""
+msgstr "გააქტიურება"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_module_filter_apps_inherit
 msgid "Apps"
-msgstr ""
+msgstr "აპლიკაციები"
 
 #. module: base_import_module
 #: model:ir.module.module,shortdesc:base.module_base_import_module
 msgid "Base import module"
-msgstr ""
+msgstr "საბაზო მოდულის იმპორტი"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Close"
-msgstr ""
+msgstr "დახურვა"
 
 #. module: base_import_module
 #. odoo-python
@@ -70,18 +82,22 @@ msgstr ""
 msgid ""
 "Connection to %(url)s failed, the module %(module)s cannot be downloaded."
 msgstr ""
+"%(url)s-თან დაკავშირება ვერ მოხერხდა, მოდულის %(module)s ჩამოტვირთვა "
+"შეუძლებელია."
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Connection to %s failed The list of industry modules cannot be fetched"
 msgstr ""
+"%s-თან დაკავშირება ვერ მოხერხდა. ინდუსტრიული მოდულების სიის მიღება "
+"შეუძლებელია"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Could not select database '%s'"
-msgstr ""
+msgstr "მონაცემთა ბაზის „%s“ არჩევა ვერ მოხერხდა"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_uid
@@ -95,7 +111,6 @@ msgstr "შექმნის თარიღი"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__display_name
-#: model:ir.model.fields,field_description:base_import_module.field_base_module_uninstall__display_name
 #: model:ir.model.fields,field_description:base_import_module.field_ir_http__display_name
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__display_name
 #: model:ir.model.fields,field_description:base_import_module.field_ir_ui_view__display_name
@@ -111,36 +126,41 @@ msgid ""
 " %(error_message)s \n"
 "\n"
 msgstr ""
+"შეცდომა მოდულის „%(module)s“ იმპორტისას.\n"
+"\n"
+" %(error_message)s \n"
+"\n"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__total_lines_of_code
 msgid "Extra lines of Code"
-msgstr ""
+msgstr "კოდის დამატებითი სტრიქონები"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "File '%s' exceed maximum allowed file size"
-msgstr ""
+msgstr "ფაილი „%s“ აღემატება დაშვებულ მაქსიმალურ ზომას"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__force
 msgid "Force init"
-msgstr ""
+msgstr "იძულებითი ინიციალიზაცია"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_base_import_module__force
 msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
 msgstr ""
+"ინიციალიზაციის რეჟიმის იძულებით გაშვება, მაშინაც კი, თუ მოდული დაყენებულია. "
+"(განახლდება `noupdate='1'` ჩანაწერები)"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_http
 msgid "HTTP Routing"
-msgstr ""
+msgstr "HTTP მარშრუტიზაცია"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__id
-#: model:ir.model.fields,field_description:base_import_module.field_base_module_uninstall__id
 #: model:ir.model.fields,field_description:base_import_module.field_ir_http__id
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__id
 #: model:ir.model.fields,field_description:base_import_module.field_ir_ui_view__id
@@ -150,45 +170,45 @@ msgstr "იდენტიფიკატორი"
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__import_message
 msgid "Import Message"
-msgstr ""
+msgstr "იმპორტის შეტყობინება"
 
 #. module: base_import_module
 #: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
 #: model:ir.model,name:base_import_module.model_base_import_module
 #: model:ir.ui.menu,name:base_import_module.menu_view_base_module_import
 msgid "Import Module"
-msgstr ""
+msgstr "მოდულის იმპორტი"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__with_demo
 msgid "Import demo data of module"
-msgstr ""
+msgstr "მოდულის სადემონსტრაციო მონაცემების იმპორტი"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__imported
 msgid "Imported Module"
-msgstr ""
+msgstr "დაიმპორტებული მოდული"
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__industries
 msgid "Industries"
-msgstr ""
+msgstr "ინდუსტრიები"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install"
-msgstr ""
+msgstr "დაყენება"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Install an Industry"
-msgstr ""
+msgstr "ინდუსტრიის დაყენება"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Install the application"
-msgstr ""
+msgstr "აპლიკაციის დაყენება"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_uid
@@ -203,7 +223,7 @@ msgstr "ბოლოს განახლებულია"
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Load demo data"
-msgstr ""
+msgstr "სადემონსტრაციო მონაცემების ჩატვირთვა"
 
 #. module: base_import_module
 #. odoo-python
@@ -212,48 +232,47 @@ msgid ""
 "Load demo data to test the industry's features with sample records. Do not "
 "load them if this is your production database."
 msgstr ""
+"ჩატვირთეთ სადემონსტრაციო მონაცემები, რათა ინდუსტრიის ფუნქციები სანიმუშო "
+"ჩანაწერებით შეამოწმოთ. არ ჩატვირთოთ ისინი, თუ ეს თქვენი სამუშაო მონაცემთა "
+"ბაზაა."
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
 msgid "Module"
-msgstr ""
+msgstr "მოდული"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__module_file
 msgid "Module .ZIP file"
-msgstr ""
+msgstr "მოდულის .ZIP ფაილი"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_ir_module_module__module_type
 msgid "Module Type"
-msgstr ""
-
-#. module: base_import_module
-#: model:ir.model,name:base_import_module.model_base_module_uninstall
-msgid "Module Uninstall"
-msgstr ""
+msgstr "მოდულის ტიპი"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Module file (.zip)"
-msgstr ""
+msgstr "მოდულის ფაილი (.zip)"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__modules_dependencies
 msgid "Modules Dependencies"
-msgstr ""
+msgstr "მოდულების დამოკიდებულებები"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No file sent."
-msgstr ""
+msgstr "ფაილი არ გაიგზავნა."
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "No manifest found in '%(modules)s'. Can't import the zip file."
 msgstr ""
+"„%(modules)s“-ში მანიფესტი ვერ მოიძებნა. zip ფაილის იმპორტი შეუძლებელია."
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -261,37 +280,42 @@ msgid ""
 "Note: you can only import data modules (.xml files, i18n files and static "
 "assets)"
 msgstr ""
+"შენიშვნა: შესაძლებელია მხოლოდ მონაცემთა მოდულების იმპორტი (.xml ფაილები, "
+"i18n ფაილები და სტატიკური რესურსები)"
 
 #. module: base_import_module
 #: model:ir.model.fields,help:base_import_module.field_ir_module_module__total_lines_of_code
 msgid ""
 "Number of lines of code that may be billed under an Enterprise subscription. "
-"For exact pricing details, please contact your account manager or visit "
-"odoo.com/pricing."
+"For exact pricing details, please contact your account manager or visit odoo."
+"com/pricing."
 msgstr ""
+"კოდის სტრიქონების რაოდენობა, რომელიც შეიძლება დაექვემდებაროს ანგარიშსწორებას "
+"Enterprise გამოწერის ფარგლებში. ზუსტი ფასების შესახებ დაუკავშირდით თქვენს "
+"ანგარიშის მენეჯერს ან ეწვიეთ odoo.com/pricing."
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__ir_module_module__module_type__official
 msgid "Official Apps"
-msgstr ""
+msgstr "ოფიციალური აპლიკაციები"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only administrators can install data modules."
-msgstr ""
+msgstr "მონაცემთა მოდულების დაყენება მხოლოდ ადმინისტრატორებს შეუძლიათ."
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/controllers/main.py:0
 msgid "Only administrators can upload a module"
-msgstr ""
+msgstr "მოდულის ატვირთვა მხოლოდ ადმინისტრატორებს შეუძლიათ"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Only zip files are supported."
-msgstr ""
+msgstr "მხარდაჭერილია მხოლოდ zip ფაილები."
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__state
@@ -302,7 +326,7 @@ msgstr "სტატუსი"
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Studio customizations require the Odoo Studio app."
-msgstr ""
+msgstr "Studio-ს მორგებებისთვის საჭიროა Odoo Studio აპლიკაცია."
 
 #. module: base_import_module
 #. odoo-python
@@ -311,6 +335,8 @@ msgid ""
 "The assets path in the manifest of imported module '%(module_name)s' cannot "
 "contain glob wildcards (e.g., *, **)."
 msgstr ""
+"დაიმპორტებული მოდულის „%(module_name)s“ მანიფესტში რესურსების გზა არ "
+"შეიძლება შეიცავდეს glob სიმბოლოებს (მაგ. *, **)."
 
 #. module: base_import_module
 #. odoo-python
@@ -319,6 +345,8 @@ msgid ""
 "The installation of the data module would fail as the following dependencies "
 "can't be found in the addons-path:\n"
 msgstr ""
+"მონაცემთა მოდულის დაყენება ვერ მოხერხდება, რადგან შემდეგი დამოკიდებულებები "
+"addons-path-ში ვერ მოიძებნა:\n"
 
 #. module: base_import_module
 #. odoo-python
@@ -326,36 +354,37 @@ msgstr ""
 msgid ""
 "The list of industry applications cannot be fetched. Please try again later"
 msgstr ""
+"ინდუსტრიული აპლიკაციების სიის მიღება ვერ მოხერხდა. გთხოვთ, სცადოთ მოგვიანებით"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "The module %s cannot be downloaded"
-msgstr ""
+msgstr "მოდულის %s ჩამოტვირთვა შეუძლებელია"
 
 #. module: base_import_module
 #. odoo-python
 #: code:addons/base_import_module/models/ir_module.py:0
 msgid "Unknown module dependencies:"
-msgstr ""
+msgstr "მოდულის უცნობი დამოკიდებულებები:"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_form_apps_inherit
 #: model_terms:ir.ui.view,arch_db:base_import_module.module_view_kanban_apps_inherit
 msgid "Upgrade"
-msgstr ""
+msgstr "განახლება"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view
 msgid "View"
-msgstr ""
+msgstr "ხედი"
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__done
 msgid "done"
-msgstr ""
+msgstr "დასრულებული"
 
 #. module: base_import_module
 #: model:ir.model.fields.selection,name:base_import_module.selection__base_import_module__state__init
 msgid "init"
-msgstr ""
+msgstr "ინიციალიზაცია"
