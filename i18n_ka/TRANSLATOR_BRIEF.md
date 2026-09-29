@@ -56,3 +56,9 @@ For sale*, product, uom, portal, payment, account_payment, utm and sales_team ch
 
 ## CRM, Employees, Attendance and Calendar modules
 For crm*, hr*, calendar* and iap* chunks, the CRM, EMPLOYEES, ATTENDANCE and CALENDAR sections of the glossary are mandatory.
+
+## Spreadsheet module (spreadsheet_* chunks)
+- Keep spreadsheet function names exactly as written (SUM, VLOOKUP, T.TEST, PIVOT.VALUE…), and keep argument identifiers (array_x, range, criterion, value1, [[FUNCTION_NAME]]…). They are code.
+- Translate the human-readable descriptions around them in concise, mathematically correct Georgian (e.g. "Hyperbolic secant of any real number." → "ნებისმიერი ნამდვილი რიცხვის ჰიპერბოლური სეკანსი.").
+- Chart and number-format names are short UI labels.
+- Use the SPREADSHEET section of the glossary.
