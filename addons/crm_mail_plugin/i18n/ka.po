@@ -1,0 +1,104 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_mail_plugin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.5a1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-08-28 17:41+0000\n"
+"PO-Revision-Date: 2026-08-28 17:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: Georgian\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: crm_mail_plugin
+#. odoo-python
+#: code:addons/crm_mail_plugin/controllers/mail_plugin.py:0
+msgid ""
+"%(expected_revenue)s + %(recurring_revenue)s %(recurring_plan)s at "
+"%(probability)s%%"
+msgstr ""
+"%(expected_revenue)s + %(recurring_revenue)s %(recurring_plan)s, ალბათობა "
+"%(probability)s%%"
+
+#. module: crm_mail_plugin
+#. odoo-python
+#: code:addons/crm_mail_plugin/controllers/mail_plugin.py:0
+msgid "%(expected_revenue)s at %(probability)s%%"
+msgstr "%(expected_revenue)s, ალბათობა %(probability)s%%"
+
+#. module: crm_mail_plugin
+#: model:ir.module.module,shortdesc:base.module_crm_mail_plugin
+msgid "CRM Mail Plugin"
+msgstr "CRM ელფოსტის პლაგინი"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Could not create the opportunity"
+msgstr "შესაძლებლობის შექმნა ვერ მოხერხდა"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Email already logged on the opportunity"
+msgstr "წერილი უკვე ჩაწერილია შესაძლებლობაში"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Log the email on the opportunity"
+msgstr "წერილის ჩაწერა შესაძლებლობაში"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "New"
+msgstr "ახალი"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Opportunities"
+msgstr "შესაძლებლობები"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Opportunities (%s)"
+msgstr "შესაძლებლობები (%s)"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Search Opportunities"
+msgstr "შესაძლებლობების ძიება"
+
+#. module: crm_mail_plugin
+#. odoo-javascript
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_gmail.xml:0
+#: code:addons/crm_mail_plugin/static/src/to_translate/translations_outlook.xml:0
+msgid "Show all"
+msgstr "ყველას ჩვენება"
+
+#. module: crm_mail_plugin
+#: model:ir.module.module,description:base.module_crm_mail_plugin
+#: model:ir.module.module,summary:base.module_crm_mail_plugin
+msgid ""
+"Turn emails received in your mailbox into leads and log their content as "
+"internal notes."
+msgstr ""
+"გარდაქმენით თქვენს საფოსტო ყუთში მიღებული წერილები ლიდებად და ჩაწერეთ მათი "
+"შინაარსი შიდა შენიშვნებად."
